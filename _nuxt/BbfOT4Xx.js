@@ -1,0 +1,1 @@
+import{_ as s,n as a,p as n,q as r}from"./Vzir-G6h.js";const t={};function o(e,c){return n(),a("thead",null,[r(e.$slots,"default")])}const l=Object.assign(s(t,[["render",o]]),{__name:"ProseThead"});export{l as default};
