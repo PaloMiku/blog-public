@@ -1,0 +1,1 @@
+import{d as c,R as s,v as a,p as e,j as t,O as _,_ as p}from"./B9GrzC8n.js";const r=c({__name:"Icon",setup(u){const n=s();return(f,i)=>{const o=_;return e(),a(o,{alt:"",class:"icon",src:t(n).favicon},null,8,["src"])}}}),l=Object.assign(p(r,[["__scopeId","data-v-6580d69d"]]),{__name:"ZhiluIcon"});export{l as default};
