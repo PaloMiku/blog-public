@@ -1,1 +1,0 @@
-import{_ as n,n as o,p as s,q as r}from"./Vzir-G6h.js";const t={};function a(e,c){return s(),o("code",null,[r(e.$slots,"default",{},void 0,!0)])}const _=Object.assign(n(t,[["render",a],["__scopeId","data-v-6a445e19"]]),{__name:"ProseCodeInline"});export{_ as default};
