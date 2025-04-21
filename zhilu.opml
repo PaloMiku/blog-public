@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Mikuの极光星的友链订阅</title>
+    <dateCreated>2022-09-01T00:00:00.000Z</dateCreated>
+    <dateModified>2025-04-21T10:34:32.611Z</dateModified>
+    <ownerName>Mikuの鬆</ownerName>
+    <ownerEmail>admin@sotkg.com</ownerEmail>
+    <ownerId>https://blog.sotkg.com/</ownerId>
+    <docs>https://opml.org/spec2.opml</docs>
+  </head>
+  <body>
+    <outline text="Mikuの极光星" type="rss" xmlUrl="https://blog.sotkg.com/atom.xml" created="2022-09-01T00:00:00.000Z" description="心有多宽，世界就有多远" htmlUrl="https://blog.sotkg.com/"></outline>
+    <outline text="风记星辰" type="rss" xmlUrl="https://www.thyuu.com/feed" created="2024-02-01T00:00:00.000Z" description="热爱你来过的每度温暖" htmlUrl="https://thyuu.com/"></outline>
+    <outline text="静かな森" type="rss" xmlUrl="https://innei.in/feed" created="2024-02-13T00:00:00.000Z" description="致虚极，守静笃。" htmlUrl="https://innei.in/"></outline>
+    <outline text="Randwind&apos;s Blog" type="rss" xmlUrl="https://randwind.com/feed.xml" created="2024-02-03T00:00:00.000Z" description="你可以期待太阳从东方升起，而风却随心所欲地从四面八方吹来。" htmlUrl="https://www.randwind.com/"></outline>
+    <outline text="Myth&apos;s Blog | Myth 的小站" type="rss" xmlUrl="https://myth.cx/index.xml" created="2024-04-11T00:00:00.000Z" description="荒唐无聊正经有趣的大学生 | 业余 Minecraft 腐竹 | PTer" htmlUrl="https://myth.cx/"></outline>
+    <outline text="Dejavu&apos;s Blog" type="rss" xmlUrl="https://blog.dejavu.moe/index.xml" created="2024-04-29T00:00:00.000Z" htmlUrl="https://blog.dejavu.moe/"></outline>
+    <outline text="甜鱼/Ayu" type="rss" xmlUrl="https://ayu.land/rss.zh.xml" created="2024-10-26T00:00:00.000Z" description="三脚猫多面手，努力学习世界的一切。" htmlUrl="https://ayu.land/"></outline>
+    <outline text="Anthony Fu" type="rss" xmlUrl="https://antfu.me/feed.xml" created="2024-10-26T00:00:00.000Z" description="Hey, I am Anthony Fu, a fanatical open sourceror." htmlUrl="https://antfu.me/"></outline>
+    <outline text="XAOXUU" type="rss" xmlUrl="https://xaoxuu.com/atom.xml" created="2024-10-26T00:00:00.000Z" description="风暴前夕" htmlUrl="https://xaoxuu.com/"></outline>
+    <outline text="無名小栈" type="rss" xmlUrl="https://blog.imsyy.top/rss.xml" created="2024-10-26T00:00:00.000Z" description="分享技术与科技生活" htmlUrl="https://blog.imsyy.top/"></outline>
+    <outline text="Ice Year の位面" type="rss" xmlUrl="https://blog.iceyear.eu.org/index.xml" created="2023-08-15T00:00:00.000Z" description="Il n&apos;y a pas de hasard, il n&apos;y a que des rendez - vous" htmlUrl="https://blog.iceyear.eu.org/"></outline>
+    <outline text="辰灿汐的小站" type="rss" xmlUrl="https://aurorainic.top/feed" created="2022-09-20T00:00:00.000Z" description="以自己的一切面对世间" htmlUrl="https://aurorainic.top/"></outline>
+    <outline text="糖の小站" type="rss" xmlUrl="https://waterapple09.com//feed" created="2023-06-20T00:00:00.000Z" description="世界，您好！" htmlUrl="https://waterapple09.com/"></outline>
+    <outline text="南栀Space" type="rss" xmlUrl="https://blog.yoruzzz.cn//feed" created="2023-07-12T00:00:00.000Z" description="葡萄何时才熟透，你要静候再静候。" htmlUrl="https://blog.yoruzzz.cn//"></outline>
+    <outline text="木创社" type="rss" xmlUrl="https://takagi3.top/atom.xml" created="2023-07-12T00:00:00.000Z" description="木创社Github组织官方博客" htmlUrl="https://takagi3.top"></outline>
+    <outline text="RavelloH Blog" type="rss" xmlUrl="https://ravelloh.top/feed.xml" created="2024-02-25T00:00:00.000Z" description="广袤互联网中的一隅静处。" htmlUrl="https://ravelloh.top"></outline>
+    <outline text="晓空blog" type="rss" xmlUrl="https://blog.moeworld.tech/feed/" created="2024-02-25T00:00:00.000Z" description="探索更大的世界" htmlUrl="https://blog.moeworld.tech/"></outline>
+    <outline text="虹墨空间站" type="rss" xmlUrl="https://www.imaegoo.com/atom.xml" created="2024-08-19T00:00:00.000Z" description="虹墨空间站" htmlUrl="https://www.imaegoo.com/"></outline>
+    <outline text="Kurococ Liu" type="rss" xmlUrl="https://blog.lkurococ.top/feed" created="2024-08-20T00:00:00.000Z" description="被子外面很危险！" htmlUrl="https://blog.lkurococ.top/"></outline>
+    <outline text="AkiDay" type="rss" xmlUrl="https://blog.akiday.com/feed/" created="2024-08-20T00:00:00.000Z" description="永恒秋日之星" htmlUrl="https://blog.akiday.com/"></outline>
+    <outline text="星辰角落" type="rss" xmlUrl="https://ihello.cc/rss.xml" created="2024-09-01T00:00:00.000Z" description="热爱记录生活" htmlUrl="https://ihello.cc"></outline>
+    <outline text="御坂秋生の小窝" type="rss" xmlUrl="https://www.akio.top/feed/" created="2024-09-18T00:00:00.000Z" description="不努力就只能听到别人的好消息" htmlUrl="https://www.akio.top/"></outline>
+    <outline text="洛雨の小站" type="rss" xmlUrl="https://luotianyi.eu/feed/" created="2024-10-02T00:00:00.000Z" description="历史终将证明一切" htmlUrl="https://luotianyi.eu/"></outline>
+    <outline text="风月琉璃" type="rss" xmlUrl="https://miui.ink/feed/" created="2024-10-18T00:00:00.000Z" description="我在等风，也在等你。" htmlUrl="https://miui.ink"></outline>
+    <outline text="别碰我的镜头盖" type="rss" xmlUrl="https://blog.bornforthis.cn/atom.xml" created="2024-10-22T00:00:00.000Z" description="世界那么大，我想去看看" htmlUrl="https://blog.bornforthis.cn/"></outline>
+    <outline text="南蛮子懋和" type="rss" xmlUrl="https://www.dao.js.cn/feed/" created="2024-08-19T00:00:00.000Z" description="南蛮子懋和" htmlUrl="https://www.dao.js.cn"></outline>
+  </body>
+</opml>
