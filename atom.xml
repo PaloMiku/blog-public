@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-08T23:05:12.873Z</updated>
+  <updated>2025-05-09T00:21:24.957Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -87,20 +87,6 @@
     <summary>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</summary>
     <category term="技术探索"></category>
     <published>2025-01-24T10:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2025/04/arch-cachyos-mirrorlist</id>
-    <title>为Arch Linux更换CachyOS软件源获得性能提升</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp" />  <a href="https://blog.sotkg.com/2025/04/arch-cachyos-mirrorlist">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/04/arch-cachyos-mirrorlist"></link>
-    <summary></summary>
-    <category term="技术探索"></category>
-    <published>2025-04-29T03:45:14.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
