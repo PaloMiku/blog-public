@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-18T17:41:08.498Z</updated>
+  <updated>2025-05-18T17:59:05.831Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -18,6 +18,34 @@
   <logo>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</logo>
   <rights>© 2025 Mikuの鬆</rights>
   <subtitle>心有多宽，世界就有多远</subtitle>
+  <entry>
+    <id>https://blog.sotkg.com/2025/01/arch-aur-kazumi</id>
+    <title>为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp" /> <p>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</p> <a href="https://blog.sotkg.com/2025/01/arch-aur-kazumi">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/01/arch-aur-kazumi"></link>
+    <summary>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</summary>
+    <category term="技术探索"></category>
+    <published>2025-01-24T10:24:26.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/05/gal-up</id>
+    <title>旮沓给木太好玩辣——2025年上半Gal历程个人总结</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp" /> <p>注意！本文包含以下要素： Ciallo～(∠・ω< )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</p> <a href="https://blog.sotkg.com/2025/05/gal-up">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/05/gal-up"></link>
+    <summary>注意！本文包含以下要素： Ciallo～(∠・ω&lt; )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</summary>
+    <category term="旮瘩给木"></category>
+    <published>2025-05-18T16:30:00.000Z</published>
+  </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
     <title>GitHub Action构建Shiroi Docker镜像</title>
@@ -73,34 +101,6 @@
     <summary/>
     <category term="技术探索"></category>
     <published>2024-12-07T10:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2025/01/arch-aur-kazumi</id>
-    <title>为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp" /> <p>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</p> <a href="https://blog.sotkg.com/2025/01/arch-aur-kazumi">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/01/arch-aur-kazumi"></link>
-    <summary>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</summary>
-    <category term="技术探索"></category>
-    <published>2025-01-24T10:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2025/05/gal-up</id>
-    <title>旮沓给木太好玩辣——2025年上半Gal历程个人总结</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp" /> <p>注意！本文包含以下要素： Ciallo～(∠・ω< )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</p> <a href="https://blog.sotkg.com/2025/05/gal-up">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/05/gal-up"></link>
-    <summary>注意！本文包含以下要素： Ciallo～(∠・ω&lt; )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</summary>
-    <category term="旮瘩给木"></category>
-    <published>2025-05-18T16:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
