@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-19T09:33:27.807Z</updated>
+  <updated>2025-05-19T11:47:13.511Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -101,6 +101,20 @@
     <summary>注意！本文包含以下要素： Ciallo～(∠・ω&lt; )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</summary>
     <category term="旮瘩给木"></category>
     <published>2025-05-18T16:30:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/05/maitetsu-video-fix</id>
+    <title>《爱上火车》在 Linux 下的视频播放修复</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" /> <p>本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复</p> <a href="https://blog.sotkg.com/2025/05/maitetsu-video-fix">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/05/maitetsu-video-fix"></link>
+    <summary>本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复</summary>
+    <category term="旮瘩给木"></category>
+    <published>2025-05-19T10:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
