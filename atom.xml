@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-22T10:53:21.312Z</updated>
+  <updated>2025-05-22T10:55:03.540Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -146,7 +146,7 @@
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/shr-misskey</id>
-    <title>我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足。</title>
+    <title>我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足</title>
     <author>
       <name>Mikuの鬆</name>
     </author>
