@@ -6,9 +6,6 @@
             <image:loc>https://cravatar.com/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyHome.png</image:loc>
-        </image:image>
-        <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
         </image:image>
         <image:image>
@@ -32,9 +29,6 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/archive</loc>
-        <image:image>
-            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyHome.png</image:loc>
-        </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
         </image:image>
@@ -68,6 +62,9 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/games</loc>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/backgrounds/2b8b5c190c2176b1bc7732f957ce8af8.avif</image:loc>
         </image:image>
@@ -189,9 +186,6 @@
             <image:loc>https://cravatar.com/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyHome.png</image:loc>
-        </image:image>
-        <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
         </image:image>
         <image:image>
@@ -222,7 +216,16 @@
             <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/backgrounds/Lce.webp</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP1.webp</image:loc>
         </image:image>
     </url>
     <url>
@@ -480,9 +483,6 @@
     <url>
         <loc>https://blog.sotkg.com/2025/05/shr-misskey</loc>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyHome.png</image:loc>
-        </image:image>
-        <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/SharkeyUse.webp</image:loc>
         </image:image>
         <image:image>
@@ -490,9 +490,27 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.sotkg.com/games/galgames/lec</loc>
+        <loc>https://blog.sotkg.com/games/galgames/aokana</loc>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x47_60632891-b735-4f45-8228-c353c7134a62.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-1600x1048_v-fms_webp_bf2b3bfd-0efc-4755-be26-5ad8b22d5ace_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://blog.sotkg.com/games/galgames/koichoco</loc>
         <image:image>
             <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x78_2d083142-dc83-4332-8b01-5bd808bec069.svg</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
@@ -516,6 +534,9 @@
             <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
         </image:image>
         <image:image>
+            <image:loc>https://key.visualarts.gr.jp/summer/common/image/top_logo2.png</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Home.webp</image:loc>
         </image:image>
         <image:image>
@@ -526,4 +547,4 @@
         </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.2.10 at 2025-05-23T00:58:39.126Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.2.10 at 2025-05-23T13:28:16.630Z -->
