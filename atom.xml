@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-25T12:17:05.580Z</updated>
+  <updated>2025-05-26T11:02:26.550Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -87,6 +87,20 @@
     <summary>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</summary>
     <category term="技术探索"></category>
     <published>2025-01-24T10:24:26.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/05/clannad-zh-linux</id>
+    <title>《Clannad》HD 官方中文版和 Full Voice 汉化版 Linux 运行</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/324160/ss_820eb3b554040d3829bbf3b511988480ca2ca521.600x338.jpg?t=1711546691" /> <p>记录个人游玩《Clannad》两个版本在 Linux 下的工作情况和兼容层选择。</p> <a href="https://blog.sotkg.com/2025/05/clannad-zh-linux">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/05/clannad-zh-linux"></link>
+    <summary>记录个人游玩《Clannad》两个版本在 Linux 下的工作情况和兼容层选择。</summary>
+    <category term="旮瘩给木"></category>
+    <published>2025-05-26T09:00:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/fediverse</id>
