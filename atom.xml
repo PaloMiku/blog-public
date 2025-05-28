@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-05-28T11:09:10.213Z</updated>
+  <updated>2025-05-28T11:29:08.567Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -143,6 +143,20 @@
     <summary>记录个人游玩《恋爱与选举与巧克力》携带版的试玩体验，此版本添加各女主角的新事件以及 30 张的新 CG，且 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。</summary>
     <category term="旮瘩给木"></category>
     <published>2025-05-24T00:20:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</id>
+    <title>更换网站字体为霞鹜文楷屏幕阅读版（LXGW WenKai Screen）</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Web/WenKai-Demo.webp" /> <p>本文介绍了如何更换全局网站字体为霞鹭文楷（LXGW WenKai）及其屏幕阅读版（LXGW WenKai Screen）</p> <a href="https://blog.sotkg.com/2025/05/lxgw-wenkai-web">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/05/lxgw-wenkai-web"></link>
+    <summary>本文介绍了如何更换全局网站字体为霞鹭文楷（LXGW WenKai）及其屏幕阅读版（LXGW WenKai Screen）</summary>
+    <category term="技术探索"></category>
+    <published>2025-05-28T10:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/maitetsu-video-fix</id>
