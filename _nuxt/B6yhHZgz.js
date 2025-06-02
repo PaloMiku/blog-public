@@ -1,0 +1,1 @@
+import{_ as s,f as t,o as r,r as a}from"./DpF-v1mT.js";const c={},o={class:"card-list"};function d(e,n){return r(),t("div",o,[a(e.$slots,"default",{},void 0,!0)])}const f=s(c,[["render",d],["__scopeId","data-v-fc10fadb"]]);export{f as default};
