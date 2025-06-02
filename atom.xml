@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-06-02T14:43:36.338Z</updated>
+  <updated>2025-06-02T15:04:15.011Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -18,20 +18,6 @@
   <logo>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</logo>
   <rights>© 2025 Mikuの鬆</rights>
   <subtitle>心有多宽，世界就有多远</subtitle>
-  <entry>
-    <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
-    <title>GitHub Action构建Shiroi Docker镜像</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>Mix-Space，它属于前后端分离博客系统，你可以把前端和后端分离部署在不同的地方，在之前你可以把前端部署在Vercel云函数上，达到缓解服务器压力和提升访问速度的效果。</p> <a href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment"></link>
-    <summary>Mix-Space，它属于前后端分离博客系统，你可以把前端和后端分离部署在不同的地方，在之前你可以把前端部署在Vercel云函数上，达到缓解服务器压力和提升访问速度的效果。</summary>
-    <category term="技术探索"></category>
-    <published>2024-10-21T11:24:26.000Z</published>
-  </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/10/write-1panel-app</id>
     <title>编写1Panel应用商店第三方程序</title>
@@ -201,6 +187,21 @@
     <published>2025-05-22T03:30:00.000Z</published>
   </entry>
   <entry>
+    <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
+    <title>GitHub Action 构建 Shiroi Docker 镜像</title>
+    <updated>2025-06-02T14:00:00.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://mx-space.js.org/assets/images/preview/shiro.png" /> <p>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</p> <a href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment"></link>
+    <summary>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</summary>
+    <category term="技术探索"></category>
+    <published>2024-10-21T11:24:26.000Z</published>
+  </entry>
+  <entry>
     <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
     <title>记一次被1Panel官方应用商店拒绝合并</title>
     <updated>2024-09-07T15:30:53.000Z</updated>
@@ -231,16 +232,16 @@
     <published>2024-08-07T11:24:26.000Z</published>
   </entry>
   <entry>
-    <id>https://blog.sotkg.com/takagi</id>
+    <id>https://blog.sotkg.com/2024/03/takagi</id>
     <title>君と光：我与高木圈的故事</title>
     <updated>2024-03-08T15:30:53.000Z</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[ <p>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</p> <a href="https://blog.sotkg.com/takagi">点击查看全文</a>]]>
+      <![CDATA[ <p>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</p> <a href="https://blog.sotkg.com/2024/03/takagi">点击查看全文</a>]]>
     </content>
-    <link href="https://blog.sotkg.com/takagi"></link>
+    <link href="https://blog.sotkg.com/2024/03/takagi"></link>
     <summary>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</summary>
     <category term="动漫番剧"></category>
     <published>2024-03-07T11:24:26.000Z</published>
