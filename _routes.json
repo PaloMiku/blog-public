@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/_nuxt/*",
+    "/200",
+    "/404",
+    "/atom.xml",
+    "/robots.txt",
+    "/sitemap.xml",
+    "/zhilu.opml",
+    "/__sitemap__/style.xsl",
+    "/api/stats",
+    "/assets/atom.css",
+    "/assets/atom.xsl",
+    "/fonts/LXGWWenKai-Medium.woff2",
+    "/api/_content/cache.1749219858058.json",
+    "/api/_content/search-1749219858058"
+  ]
+}
