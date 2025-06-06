@@ -32,17 +32,11 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/about</loc>
         <image:image>
             <image:loc>https://pic.imgdb.cn/item/672059a6d29ded1a8cd554b5.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -74,9 +68,6 @@
         <image:image>
             <image:loc>https://mx-space.js.org/assets/images/preview/shiro.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/drive</loc>
@@ -95,9 +86,6 @@
         <image:image>
             <image:loc>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games</loc>
@@ -106,9 +94,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/backgrounds/2b8b5c190c2176b1bc7732f957ce8af8.avif</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -227,9 +212,6 @@
         <image:image>
             <image:loc>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/page</loc>
@@ -262,9 +244,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -305,29 +284,17 @@
         <image:image>
             <image:loc>https://key.visualarts.gr.jp/summer/common/image/main_bg2.jpg</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/03/takagi</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/08/docker-deploy-outline</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/09/1panel-appstore-refused</loc>
         <image:image>
             <image:loc>https://r2-file.101045700.xyz/2024/image_editor_output_image2047887735-17266569364718465991064078587678.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -335,17 +302,11 @@
         <image:image>
             <image:loc>https://mx-space.js.org/assets/images/preview/shiro.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/10/write-1panel-app</loc>
         <image:image>
             <image:loc>https://user-images.githubusercontent.com/31820853/226111412-9c7b25a1-83f2-4621-8789-7ef85a2695dd.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -356,9 +317,6 @@
         <image:image>
             <image:loc>https://file.101045700.xyz/2024/12/7529e5bea4285b3d5a3fc3bf0f90fb49.webp</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/12/oyiso-tianligpt</loc>
@@ -367,9 +325,6 @@
         </image:image>
         <image:image>
             <image:loc>https://file.101045700.xyz/2024/12/6a03b5d58939f9f070c358bc812c7070.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -382,9 +337,6 @@
         </image:image>
         <image:image>
             <image:loc>https://file.101045700.xyz/2025/01/cfc871e26ce25d6ed2c5ecb43ba05109.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -403,9 +355,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Galgame/Clannad-Proton-9.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -427,9 +376,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/FediDBHome.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -512,9 +458,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP1.webp</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/koichoco-psp</loc>
@@ -548,17 +491,11 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A5.webp</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Web/WenKai-Demo.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -595,9 +532,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/MaitetsuGames.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -665,9 +599,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/ai.webp</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/shr-misskey</loc>
@@ -676,9 +607,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyUse.webp</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -695,9 +623,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/aokana-ex1</loc>
@@ -713,9 +638,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad</loc>
@@ -727,9 +649,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -752,9 +671,6 @@
         <image:image>
             <image:loc>https://ppcimg.csd02.cn/up/2015-6/201568164521.jpg</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/maitetsu</loc>
@@ -770,9 +686,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/nukitashi</loc>
@@ -785,9 +698,6 @@
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/riddle-joker</loc>
@@ -799,9 +709,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -817,9 +724,6 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -839,39 +743,21 @@
         <image:image>
             <image:loc>https://media.st.dl.eccdnx.com/steamcommunity/public/images/apps/897220/240cbdb0e135abb95c58f49d1eede3566627d081.jpg</image:loc>
         </image:image>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/64hits</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/misae</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/name</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/sunoharaface</loc>
-        <image:image>
-            <image:loc>https://blog.sotkg.com/assets/upyun_logo.png</image:loc>
-        </image:image>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.2.10 at 2025-06-06T22:08:45.224Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.2.10 at 2025-06-06T22:13:02.075Z -->
