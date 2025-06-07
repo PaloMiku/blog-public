@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-06-07T20:16:55.439Z</updated>
+  <updated>2025-06-07T22:01:45.981Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -185,6 +185,20 @@
     <summary>本文介绍了个人在重新使用一段时间 Misskey 后，得出与 Sharkey 相比存在一些区别和不足的结论。</summary>
     <category term="联邦宇宙"></category>
     <published>2025-05-22T03:30:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/06/decky-loader</id>
+    <title>Decky Loader——Linux下 Steamdeck 和大屏幕模式的最佳伴侣</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://imgheybox1.max-c.com/web/bbs/2025/06/07/ce8c92b3c8eb1c750f02a1ef2aaa418e.png?imageMogr2/auto-orient/ignore-error/1/format/jpg/thumbnail/1125x600%3E" /> <p>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</p> <a href="https://blog.sotkg.com/2025/06/decky-loader">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/06/decky-loader"></link>
+    <summary>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</summary>
+    <category term="技术探索"></category>
+    <published>2025-06-07T21:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
