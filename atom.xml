@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-06-07T22:01:45.981Z</updated>
+  <updated>2025-06-09T13:14:24.855Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -199,6 +199,20 @@
     <summary>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</summary>
     <category term="技术探索"></category>
     <published>2025-06-07T21:30:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/06/self-fediverse-prepare</id>
+    <title>自建一个 Fediverse 实例，我们需要准备什么？</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg" /> <p>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</p> <a href="https://blog.sotkg.com/2025/06/self-fediverse-prepare">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/06/self-fediverse-prepare"></link>
+    <summary>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</summary>
+    <category term="联邦宇宙"></category>
+    <published>2025-06-09T10:44:09.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
