@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-07-21T08:13:46.897Z</updated>
+  <updated>2025-08-11T12:01:09.155Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -13,11 +13,86 @@
   <link href="https://blog.sotkg.com/atom.xml" rel="self"></link>
   <link href="https://blog.sotkg.com/" rel="alternate"></link>
   <language>zh</language>
-  <generator uri="https://github.com/L33Z22L11/blog-v3" version="3.2.1">Zhilu Blog</generator>
+  <generator uri="https://github.com/L33Z22L11/blog-v3" version="3.3.2">Zhilu Blog</generator>
   <icon>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</icon>
   <logo>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</logo>
   <rights>© 2025 Mikuの鬆</rights>
   <subtitle>心有多宽，世界就有多远</subtitle>
+  <entry>
+    <id>https://blog.sotkg.com/2025/06/self-fediverse-prepare</id>
+    <title>自建一个 Fediverse 实例，我们需要准备什么？</title>
+    <updated>2025-06-09T21:00:00.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg" /> <p>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</p> <a class="view-full" href="https://blog.sotkg.com/2025/06/self-fediverse-prepare" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/06/self-fediverse-prepare"></link>
+    <summary>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</summary>
+    <category term="联邦宇宙"></category>
+    <published>2025-06-09T18:44:09.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
+    <title>GitHub Action 构建 Shiroi Docker 镜像</title>
+    <updated>2025-06-02T22:00:00.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://mx-space.js.org/assets/images/preview/shiro.png" /> <p>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</p> <a class="view-full" href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment"></link>
+    <summary>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</summary>
+    <category term="技术探索"></category>
+    <published>2024-10-21T19:24:26.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
+    <title>记一次被1Panel官方应用商店拒绝合并</title>
+    <updated>2025-04-11T18:00:00.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[ <p>记录一次1Panel官方应用商店仓库提交应用被拒绝合并的情况</p> <a class="view-full" href="https://blog.sotkg.com/2024/09/1panel-appstore-refused" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2024/09/1panel-appstore-refused"></link>
+    <summary>记录一次1Panel官方应用商店仓库提交应用被拒绝合并的情况</summary>
+    <category term="技术探索"></category>
+    <published>2024-09-07T19:24:26.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2024/08/docker-deploy-outline</id>
+    <title>Docker部署Outline并使用Github作为OAuth服务</title>
+    <updated>2024-08-07T23:30:53.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[ <p>手把手教你用Docker Compose搭建企业级知识库系统！从零开始部署Outline核心服务，搭配PostgreSQL和Redis黄金组合，通过Minio打造私有云存储。深度整合GitHub登录体系，揭秘生产级环境变量配置技巧，附带Nginx反向代理实战指南，让协作知识库安全落地。</p> <a class="view-full" href="https://blog.sotkg.com/2024/08/docker-deploy-outline" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2024/08/docker-deploy-outline"></link>
+    <summary>手把手教你用Docker Compose搭建企业级知识库系统！从零开始部署Outline核心服务，搭配PostgreSQL和Redis黄金组合，通过Minio打造私有云存储。深度整合GitHub登录体系，揭秘生产级环境变量配置技巧，附带Nginx反向代理实战指南，让协作知识库安全落地。</summary>
+    <category term="技术探索"></category>
+    <published>2024-08-07T19:24:26.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2024/03/takagi</id>
+    <title>君と光：我与高木圈的故事</title>
+    <updated>2024-03-08T23:30:53.000Z</updated>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[ <p>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</p> <a class="view-full" href="https://blog.sotkg.com/2024/03/takagi" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2024/03/takagi"></link>
+    <summary>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</summary>
+    <category term="动漫番剧"></category>
+    <published>2024-03-07T19:24:26.000Z</published>
+  </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/10/write-1panel-app</id>
     <title>编写1Panel应用商店第三方程序</title>
@@ -25,12 +100,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[ <p>1Panel 是我目前在使用的一个服务器管理面板，它的社区版开源且免费，整体面板设计简洁快速，不需要登录，在基本体验上似乎是比隔壁宝塔要强一些。</p> <a href="https://blog.sotkg.com/2024/10/write-1panel-app">点击查看全文</a>]]>
+      <![CDATA[ <p>1Panel 是我目前在使用的一个服务器管理面板，它的社区版开源且免费，整体面板设计简洁快速，不需要登录，在基本体验上似乎是比隔壁宝塔要强一些。</p> <a class="view-full" href="https://blog.sotkg.com/2024/10/write-1panel-app" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2024/10/write-1panel-app"></link>
     <summary>1Panel 是我目前在使用的一个服务器管理面板，它的社区版开源且免费，整体面板设计简洁快速，不需要登录，在基本体验上似乎是比隔壁宝塔要强一些。</summary>
     <category term="技术探索"></category>
-    <published>2024-10-17T11:24:26.000Z</published>
+    <published>2024-10-17T19:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/12/break-change-2024</id>
@@ -39,12 +114,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[  <a href="https://blog.sotkg.com/2024/12/break-change-2024">点击查看全文</a>]]>
+      <![CDATA[  <a class="view-full" href="https://blog.sotkg.com/2024/12/break-change-2024" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2024/12/break-change-2024"></link>
     <summary/>
     <category term="日志记录"></category>
-    <published>2024-12-07T10:24:26.000Z</published>
+    <published>2024-12-07T18:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/12/oyiso-tianligpt</id>
@@ -53,12 +128,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[  <a href="https://blog.sotkg.com/2024/12/oyiso-tianligpt">点击查看全文</a>]]>
+      <![CDATA[  <a class="view-full" href="https://blog.sotkg.com/2024/12/oyiso-tianligpt" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2024/12/oyiso-tianligpt"></link>
     <summary/>
     <category term="技术探索"></category>
-    <published>2024-12-07T10:24:26.000Z</published>
+    <published>2024-12-07T18:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/01/arch-aur-kazumi</id>
@@ -67,12 +142,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp" /> <p>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</p> <a href="https://blog.sotkg.com/2025/01/arch-aur-kazumi">点击查看全文</a>]]>
+      <![CDATA[<img src="https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp" /> <p>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</p> <a class="view-full" href="https://blog.sotkg.com/2025/01/arch-aur-kazumi" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/01/arch-aur-kazumi"></link>
     <summary>最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。</summary>
     <category term="技术探索"></category>
-    <published>2025-01-24T10:24:26.000Z</published>
+    <published>2025-01-24T18:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/clannad-zh-linux</id>
@@ -81,12 +156,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/324160/ss_820eb3b554040d3829bbf3b511988480ca2ca521.600x338.jpg?t=1711546691" /> <p>记录个人游玩《Clannad》两个版本在 Linux 下的工作情况和兼容层选择。</p> <a href="https://blog.sotkg.com/2025/05/clannad-zh-linux">点击查看全文</a>]]>
+      <![CDATA[<img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/324160/ss_820eb3b554040d3829bbf3b511988480ca2ca521.600x338.jpg?t=1711546691" /> <p>记录个人游玩《Clannad》两个版本在 Linux 下的工作情况和兼容层选择。</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/clannad-zh-linux" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/clannad-zh-linux"></link>
     <summary>记录个人游玩《Clannad》两个版本在 Linux 下的工作情况和兼容层选择。</summary>
     <category term="旮瘩给木"></category>
-    <published>2025-05-26T09:00:00.000Z</published>
+    <published>2025-05-26T17:00:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/fediverse</id>
@@ -95,12 +170,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/Fediverse/fediverse-lila.webp" /> <p>在 2025 年 5 月，浅谈 Fediverse（联邦宇宙）个人历史，以及讨论下现有情况。</p> <a href="https://blog.sotkg.com/2025/05/fediverse">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Fediverse/fediverse-lila.webp" /> <p>在 2025 年 5 月，浅谈 Fediverse（联邦宇宙）个人历史，以及讨论下现有情况。</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/fediverse" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/fediverse"></link>
     <summary>在 2025 年 5 月，浅谈 Fediverse（联邦宇宙）个人历史，以及讨论下现有情况。</summary>
     <category term="联邦宇宙"></category>
-    <published>2025-05-20T00:30:00.000Z</published>
+    <published>2025-05-20T08:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/gal-up</id>
@@ -109,12 +184,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp" /> <p>注意！本文包含以下要素： Ciallo～(∠・ω< )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</p> <a href="https://blog.sotkg.com/2025/05/gal-up">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp" /> <p>注意！本文包含以下要素： Ciallo～(∠・ω< )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/gal-up" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/gal-up"></link>
     <summary>注意！本文包含以下要素： Ciallo～(∠・ω&lt; )⌒★ ,炒冷饭大师雪碧社😡 ,Key 社你真的...😭</summary>
     <category term="旮瘩给木"></category>
-    <published>2025-05-18T16:30:00.000Z</published>
+    <published>2025-05-19T00:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/koichoco-psp</id>
@@ -123,12 +198,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp" /> <p>记录个人游玩《恋爱与选举与巧克力》携带版的试玩体验，此版本添加各女主角的新事件以及 30 张的新 CG，且 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。</p> <a href="https://blog.sotkg.com/2025/05/koichoco-psp">点击查看全文</a>]]>
+      <![CDATA[<img src="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp" /> <p>记录个人游玩《恋爱与选举与巧克力》携带版的试玩体验，此版本添加各女主角的新事件以及 30 张的新 CG，且 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/koichoco-psp" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/koichoco-psp"></link>
     <summary>记录个人游玩《恋爱与选举与巧克力》携带版的试玩体验，此版本添加各女主角的新事件以及 30 张的新 CG，且 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。</summary>
     <category term="旮瘩给木"></category>
-    <published>2025-05-24T00:20:00.000Z</published>
+    <published>2025-05-24T08:20:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</id>
@@ -137,12 +212,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/Web/WenKai-Demo.webp" /> <p>本文介绍了如何更换全局网站字体为霞鹭文楷（LXGW WenKai）及其屏幕阅读版（LXGW WenKai Screen）</p> <a href="https://blog.sotkg.com/2025/05/lxgw-wenkai-web">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Web/WenKai-Demo.webp" /> <p>本文介绍了如何更换全局网站字体为霞鹭文楷（LXGW WenKai）及其屏幕阅读版（LXGW WenKai Screen）</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/lxgw-wenkai-web" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/lxgw-wenkai-web"></link>
     <summary>本文介绍了如何更换全局网站字体为霞鹭文楷（LXGW WenKai）及其屏幕阅读版（LXGW WenKai Screen）</summary>
     <category term="技术探索"></category>
-    <published>2025-05-28T10:24:26.000Z</published>
+    <published>2025-05-28T18:24:26.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/maitetsu-video-fix</id>
@@ -151,12 +226,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" /> <p>本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复</p> <a href="https://blog.sotkg.com/2025/05/maitetsu-video-fix">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" /> <p>本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/maitetsu-video-fix" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/maitetsu-video-fix"></link>
     <summary>本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复</summary>
     <category term="旮瘩给木"></category>
-    <published>2025-05-19T10:30:00.000Z</published>
+    <published>2025-05-19T18:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/misskey-sidebar</id>
@@ -165,12 +240,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp" /> <p>本文介绍了 Misskey/Sharkey 的侧边栏小工具组件功能和相关组件配置介绍。</p> <a href="https://blog.sotkg.com/2025/05/misskey-sidebar">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp" /> <p>本文介绍了 Misskey/Sharkey 的侧边栏小工具组件功能和相关组件配置介绍。</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/misskey-sidebar" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/misskey-sidebar"></link>
     <summary>本文介绍了 Misskey/Sharkey 的侧边栏小工具组件功能和相关组件配置介绍。</summary>
     <category term="联邦宇宙"></category>
-    <published>2025-05-20T03:30:00.000Z</published>
+    <published>2025-05-20T11:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/05/shr-misskey</id>
@@ -179,12 +254,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[ <p>本文介绍了个人在重新使用一段时间 Misskey 后，得出与 Sharkey 相比存在一些区别和不足的结论。</p> <a href="https://blog.sotkg.com/2025/05/shr-misskey">点击查看全文</a>]]>
+      <![CDATA[ <p>本文介绍了个人在重新使用一段时间 Misskey 后，得出与 Sharkey 相比存在一些区别和不足的结论。</p> <a class="view-full" href="https://blog.sotkg.com/2025/05/shr-misskey" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/05/shr-misskey"></link>
     <summary>本文介绍了个人在重新使用一段时间 Misskey 后，得出与 Sharkey 相比存在一些区别和不足的结论。</summary>
     <category term="联邦宇宙"></category>
-    <published>2025-05-22T03:30:00.000Z</published>
+    <published>2025-05-22T11:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/06/decky-loader</id>
@@ -193,12 +268,12 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://imgheybox1.max-c.com/web/bbs/2025/06/07/ce8c92b3c8eb1c750f02a1ef2aaa418e.png?imageMogr2/auto-orient/ignore-error/1/format/jpg/thumbnail/1125x600%3E" /> <p>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</p> <a href="https://blog.sotkg.com/2025/06/decky-loader">点击查看全文</a>]]>
+      <![CDATA[<img src="https://imgheybox1.max-c.com/web/bbs/2025/06/07/ce8c92b3c8eb1c750f02a1ef2aaa418e.png?imageMogr2/auto-orient/ignore-error/1/format/jpg/thumbnail/1125x600%3E" /> <p>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</p> <a class="view-full" href="https://blog.sotkg.com/2025/06/decky-loader" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/06/decky-loader"></link>
     <summary>本文介绍了如何在 Linux 下安装 Deckyloader 插件加载器增强大屏幕模式使用体验，也介绍了 Steamdeck 的安装方式。</summary>
     <category term="技术探索"></category>
-    <published>2025-06-07T21:30:00.000Z</published>
+    <published>2025-06-08T05:30:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/06/sickly-days-linux-run</id>
@@ -207,86 +282,11 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg" /> <p>本文列举了 Galgame 《痴情哥哥与病弱妹妹的乡间生活》的 Steam 版在 Linux 或 Steamdeck（SteamOS等）下遇到的运行问题和其修复方式</p> <a href="https://blog.sotkg.com/2025/06/sickly-days-linux-run">点击查看全文</a>]]>
+      <![CDATA[<img src="https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg" /> <p>本文列举了 Galgame 《痴情哥哥与病弱妹妹的乡间生活》的 Steam 版在 Linux 或 Steamdeck（SteamOS等）下遇到的运行问题和其修复方式</p> <a class="view-full" href="https://blog.sotkg.com/2025/06/sickly-days-linux-run" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/06/sickly-days-linux-run"></link>
     <summary>本文列举了 Galgame 《痴情哥哥与病弱妹妹的乡间生活》的 Steam 版在 Linux 或 Steamdeck（SteamOS等）下遇到的运行问题和其修复方式</summary>
     <category term="旮瘩给木"></category>
-    <published>2025-06-21T21:30:00.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2025/06/self-fediverse-prepare</id>
-    <title>自建一个 Fediverse 实例，我们需要准备什么？</title>
-    <updated>2025-06-09T13:00:00.000Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg" /> <p>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</p> <a href="https://blog.sotkg.com/2025/06/self-fediverse-prepare">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/06/self-fediverse-prepare"></link>
-    <summary>本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。</summary>
-    <category term="联邦宇宙"></category>
-    <published>2025-06-09T10:44:09.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</id>
-    <title>GitHub Action 构建 Shiroi Docker 镜像</title>
-    <updated>2025-06-02T14:00:00.000Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://mx-space.js.org/assets/images/preview/shiro.png" /> <p>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</p> <a href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/10/shiroi-docker-deployment"></link>
-    <summary>在本文了解如何通过 Github Action 构建 Shiroi Docker 私有镜像并在服务器上使用它。</summary>
-    <category term="技术探索"></category>
-    <published>2024-10-21T11:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2024/09/1panel-appstore-refused</id>
-    <title>记一次被1Panel官方应用商店拒绝合并</title>
-    <updated>2025-04-11T10:00:00.000Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>记录一次1Panel官方应用商店仓库提交应用被拒绝合并的情况</p> <a href="https://blog.sotkg.com/2024/09/1panel-appstore-refused">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/09/1panel-appstore-refused"></link>
-    <summary>记录一次1Panel官方应用商店仓库提交应用被拒绝合并的情况</summary>
-    <category term="技术探索"></category>
-    <published>2024-09-07T11:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2024/08/docker-deploy-outline</id>
-    <title>Docker部署Outline并使用Github作为OAuth服务</title>
-    <updated>2024-08-07T15:30:53.000Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>手把手教你用Docker Compose搭建企业级知识库系统！从零开始部署Outline核心服务，搭配PostgreSQL和Redis黄金组合，通过Minio打造私有云存储。深度整合GitHub登录体系，揭秘生产级环境变量配置技巧，附带Nginx反向代理实战指南，让协作知识库安全落地。</p> <a href="https://blog.sotkg.com/2024/08/docker-deploy-outline">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/08/docker-deploy-outline"></link>
-    <summary>手把手教你用Docker Compose搭建企业级知识库系统！从零开始部署Outline核心服务，搭配PostgreSQL和Redis黄金组合，通过Minio打造私有云存储。深度整合GitHub登录体系，揭秘生产级环境变量配置技巧，附带Nginx反向代理实战指南，让协作知识库安全落地。</summary>
-    <category term="技术探索"></category>
-    <published>2024-08-07T11:24:26.000Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2024/03/takagi</id>
-    <title>君と光：我与高木圈的故事</title>
-    <updated>2024-03-08T15:30:53.000Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</p> <a href="https://blog.sotkg.com/2024/03/takagi">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/03/takagi"></link>
-    <summary>一切要始于一次好奇的探寻…. 我算是搭上了高木圈的末班车…</summary>
-    <category term="动漫番剧"></category>
-    <published>2024-03-07T11:24:26.000Z</published>
+    <published>2025-06-22T05:30:00.000Z</published>
   </entry>
 </feed>
