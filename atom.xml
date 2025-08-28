@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-08-28T03:55:25.251Z</updated>
+  <updated>2025-08-28T07:16:12.924Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -288,5 +288,19 @@
     <summary>本文列举了 Galgame 《痴情哥哥与病弱妹妹的乡间生活》的 Steam 版在 Linux 或 Steamdeck（SteamOS等）下遇到的运行问题和其修复方式</summary>
     <category term="旮瘩给木"></category>
     <published>2025-06-22T05:30:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/08/kde-customization</id>
+    <title>我的 KDE Plasma 6 美化方案分享</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp" /> <p>本文列举了个人在使用 KDE Plasma 6 时的美化方案和插件选择</p> <a class="view-full" href="https://blog.sotkg.com/2025/08/kde-customization" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/08/kde-customization"></link>
+    <summary>本文列举了个人在使用 KDE Plasma 6 时的美化方案和插件选择</summary>
+    <category term="技术探索"></category>
+    <published>2025-08-28T05:30:00.000Z</published>
   </entry>
 </feed>
