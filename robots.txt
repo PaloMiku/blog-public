@@ -2,7 +2,6 @@
 User-agent: *
 Disallow: /preview
 Disallow: /previews/*
-Disallow: /takagi/*
 
 Sitemap: https://blog.sotkg.com/sitemap.xml
 # END nuxt-robots
