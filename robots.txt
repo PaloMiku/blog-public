@@ -3,5 +3,5 @@ User-agent: *
 Disallow: /preview
 Disallow: /previews/*
 
-Sitemap: https://blog.sotkg.com/sitemap.xml
+Sitemap: https://blog.zhilu.site/sitemap.xml
 # END nuxt-robots
