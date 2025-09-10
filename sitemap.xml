@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://blog.zhilu.site/</loc>
+        <loc>https://blog.sotkg.com/</loc>
         <image:image>
             <image:loc>https://cravatar.com/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
@@ -46,13 +46,13 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/about</loc>
+        <loc>https://blog.sotkg.com/about</loc>
         <image:image>
             <image:loc>https://pic.imgdb.cn/item/672059a6d29ded1a8cd554b5.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/archive</loc>
+        <loc>https://blog.sotkg.com/archive</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp</image:loc>
         </image:image>
@@ -94,7 +94,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/drive</loc>
+        <loc>https://blog.sotkg.com/drive</loc>
         <image:image>
             <image:loc>https://minio-api.tkg3.top/sharkey-assets/sitelogo_178x178.png</image:loc>
         </image:image>
@@ -112,7 +112,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games</loc>
+        <loc>https://blog.sotkg.com/games</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
         </image:image>
@@ -121,7 +121,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/link</loc>
+        <loc>https://blog.sotkg.com/link</loc>
         <image:image>
             <image:loc>https://cravatar.com/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
@@ -199,10 +199,10 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/takagi</loc>
+        <loc>https://blog.sotkg.com/takagi</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames</loc>
+        <loc>https://blog.sotkg.com/games/galgames</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/backgrounds/2b8b5c190c2176b1bc7732f957ce8af8.avif</image:loc>
         </image:image>
@@ -241,31 +241,31 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/03/takagi</loc>
+        <loc>https://blog.sotkg.com/2024/03/takagi</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/08/docker-deploy-outline</loc>
+        <loc>https://blog.sotkg.com/2024/08/docker-deploy-outline</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/09/1panel-appstore-refused</loc>
+        <loc>https://blog.sotkg.com/2024/09/1panel-appstore-refused</loc>
         <image:image>
             <image:loc>https://r2-file.101045700.xyz/2024/image_editor_output_image2047887735-17266569364718465991064078587678.webp</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/10/shiroi-docker-deployment</loc>
+        <loc>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</loc>
         <image:image>
             <image:loc>https://mx-space.js.org/assets/images/preview/shiro.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/10/write-1panel-app</loc>
+        <loc>https://blog.sotkg.com/2024/10/write-1panel-app</loc>
         <image:image>
             <image:loc>https://user-images.githubusercontent.com/31820853/226111412-9c7b25a1-83f2-4621-8789-7ef85a2695dd.png</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/12/break-change-2024</loc>
+        <loc>https://blog.sotkg.com/2024/12/break-change-2024</loc>
         <image:image>
             <image:loc>https://file.101045700.xyz/2024/12/06458ae7237f9879b28bd19ba42984c8.webp</image:loc>
         </image:image>
@@ -274,7 +274,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2024/12/oyiso-tianligpt</loc>
+        <loc>https://blog.sotkg.com/2024/12/oyiso-tianligpt</loc>
         <image:image>
             <image:loc>https://file.101045700.xyz/2024/12/84bce8cfe0ab8276ba0f78f1b3db4e86.webp</image:loc>
         </image:image>
@@ -283,7 +283,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/01/arch-aur-kazumi</loc>
+        <loc>https://blog.sotkg.com/2025/01/arch-aur-kazumi</loc>
         <image:image>
             <image:loc>https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp</image:loc>
         </image:image>
@@ -295,7 +295,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/clannad-zh-linux</loc>
+        <loc>https://blog.sotkg.com/2025/05/clannad-zh-linux</loc>
         <image:image>
             <image:loc>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/324160/ss_820eb3b554040d3829bbf3b511988480ca2ca521.600x338.jpg?t=1711546691</image:loc>
         </image:image>
@@ -313,7 +313,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/fediverse</loc>
+        <loc>https://blog.sotkg.com/2025/05/fediverse</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/fediverse-lila.webp</image:loc>
         </image:image>
@@ -334,7 +334,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/gal-up</loc>
+        <loc>https://blog.sotkg.com/2025/05/gal-up</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
         </image:image>
@@ -415,7 +415,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/koichoco-psp</loc>
+        <loc>https://blog.sotkg.com/2025/05/koichoco-psp</loc>
         <image:image>
             <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
         </image:image>
@@ -448,13 +448,13 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/lxgw-wenkai-web</loc>
+        <loc>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Web/WenKai-Demo.webp</image:loc>
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/maitetsu-video-fix</loc>
+        <loc>https://blog.sotkg.com/2025/05/maitetsu-video-fix</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
         </image:image>
@@ -490,7 +490,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/misskey-sidebar</loc>
+        <loc>https://blog.sotkg.com/2025/05/misskey-sidebar</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
         </image:image>
@@ -556,7 +556,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/05/shr-misskey</loc>
+        <loc>https://blog.sotkg.com/2025/05/shr-misskey</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/Fediverse/SharkeyUse.webp</image:loc>
         </image:image>
@@ -565,7 +565,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/06/decky-loader</loc>
+        <loc>https://blog.sotkg.com/2025/06/decky-loader</loc>
         <image:image>
             <image:loc>https://imgheybox1.max-c.com/web/bbs/2025/06/07/ce8c92b3c8eb1c750f02a1ef2aaa418e.png?imageMogr2/auto-orient/ignore-error/1/format/jpg/thumbnail/1125x600%3E</image:loc>
         </image:image>
@@ -598,7 +598,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/06/self-fediverse-prepare</loc>
+        <loc>https://blog.sotkg.com/2025/06/self-fediverse-prepare</loc>
         <image:image>
             <image:loc>https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg</image:loc>
         </image:image>
@@ -607,7 +607,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/06/sickly-days-linux-run</loc>
+        <loc>https://blog.sotkg.com/2025/06/sickly-days-linux-run</loc>
         <image:image>
             <image:loc>https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg</image:loc>
         </image:image>
@@ -622,7 +622,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/2025/08/kde-customization</loc>
+        <loc>https://blog.sotkg.com/2025/08/kde-customization</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp</image:loc>
         </image:image>
@@ -631,7 +631,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/aokana</loc>
+        <loc>https://blog.sotkg.com/games/galgames/aokana</loc>
         <image:image>
             <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp</image:loc>
         </image:image>
@@ -646,7 +646,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/aokana-ex1</loc>
+        <loc>https://blog.sotkg.com/games/galgames/aokana-ex1</loc>
         <image:image>
             <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_f7a6ebc0-a7a9-407a-9556-809f99f66bb4_regular.webp</image:loc>
         </image:image>
@@ -661,7 +661,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/backgrounds/Clannad.webp</image:loc>
         </image:image>
@@ -673,7 +673,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/koichoco</loc>
+        <loc>https://blog.sotkg.com/games/galgames/koichoco</loc>
         <image:image>
             <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
         </image:image>
@@ -694,7 +694,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/maitetsu</loc>
+        <loc>https://blog.sotkg.com/games/galgames/maitetsu</loc>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
         </image:image>
@@ -709,7 +709,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/nukitashi</loc>
+        <loc>https://blog.sotkg.com/games/galgames/nukitashi</loc>
         <image:image>
             <image:loc>https://shiravune.com/wp-content/uploads/2023/04/%E6%8A%9C%E3%81%8D%E3%81%9F%E3%81%971-SVHP%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-3.jpg</image:loc>
         </image:image>
@@ -721,7 +721,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/riddle-joker</loc>
+        <loc>https://blog.sotkg.com/games/galgames/riddle-joker</loc>
         <image:image>
             <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1277930/header.jpg?t=1747875621</image:loc>
         </image:image>
@@ -733,7 +733,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/sothewitch</loc>
+        <loc>https://blog.sotkg.com/games/galgames/sothewitch</loc>
         <image:image>
             <image:loc>https://hikarifield.co.jp/sothewitch/images/top/slider_pic08.jpg</image:loc>
         </image:image>
@@ -748,7 +748,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/sprb</loc>
+        <loc>https://blog.sotkg.com/games/galgames/sprb</loc>
         <image:image>
             <image:loc>https://key.visualarts.gr.jp/summer/common/image/main_bg2.jpg</image:loc>
         </image:image>
@@ -766,22 +766,22 @@
         </image:image>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret/64hits</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret/64hits</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret/misae</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret/misae</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret/name</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret/name</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret/sunoharaface</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret/sunoharaface</loc>
     </url>
     <url>
-        <loc>https://blog.zhilu.site/games/galgames/clannad/secret/yukine</loc>
+        <loc>https://blog.sotkg.com/games/galgames/clannad/secret/yukine</loc>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.3 at 2025-09-10T01:38:08.303Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.3 at 2025-09-10T02:08:08.818Z -->
