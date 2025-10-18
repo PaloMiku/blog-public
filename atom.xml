@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-18T12:47:21.744Z</updated>
+  <updated>2025-10-18T12:48:05.828Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -18,21 +18,6 @@
   <logo>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a.png</logo>
   <rights>© 2025 Mikuの鬆</rights>
   <subtitle>心有多宽，世界就有多远</subtitle>
-  <entry>
-    <id>https://blog.sotkg.com/2025/unpopular-blog-tech</id>
-    <title>谈谈不受欢迎的博客技术特征</title>
-    <updated>2025-10-07T23:53:40Z</updated>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。</p> <a class="view-full" href="https://blog.sotkg.com/2025/unpopular-blog-tech" target="_blank">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/unpopular-blog-tech"></link>
-    <summary>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。</summary>
-    <category term="杂谈"></category>
-    <published>2025-10-07T16:06:46Z</published>
-  </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/06/self-fediverse-prepare</id>
     <title>自建一个 Fediverse 实例，我们需要准备什么？</title>

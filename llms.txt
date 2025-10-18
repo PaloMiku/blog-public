@@ -44,6 +44,5 @@
 - [自建一个 Fediverse 实例，我们需要准备什么？](https://blog.sotkg.com/2025/06/self-fediverse-prepare): 本文列举了对于建立 Fediverse 实例需要准备的资源，包括域名，服务器等的选购个人建议等。
 - [《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复](https://blog.sotkg.com/2025/06/sickly-days-linux-run): 本文列举了 Galgame 《痴情哥哥与病弱妹妹的乡间生活》的 Steam 版在 Linux 或 Steamdeck（SteamOS等）下遇到的运行问题和其修复方式
 - [我的 KDE Plasma 6 美化方案分享](https://blog.sotkg.com/2025/08/kde-customization): 本文列举了个人在使用 KDE Plasma 6 时的美化方案和插件选择
-- [谈谈不受欢迎的博客技术特征](https://blog.sotkg.com/2025/unpopular-blog-tech): 从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [高木资源引导页（测试）](https://blog.sotkg.com/takagi)
