@@ -1,0 +1,1 @@
+const a={offline:"离线",online:"在线",away:"离开",snooze:"打盹",busy:"忙碌",trading:"交易中",playing:"游戏中"},n={offline:"#90a0a6",online:"#4fc951",away:"#ffc72c",snooze:"#ffc72c",busy:"#ff6554",trading:"#6495ed",playing:"#26d07c"};export{a,n as s};
