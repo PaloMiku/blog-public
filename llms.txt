@@ -46,5 +46,6 @@
 修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
 
 - [我的 KDE Plasma 6 美化方案分享](https://blog.sotkg.com/2025/08/kde-customization): 文章分享了作者在 KDE Plasma 6 上的轻量级美化方案：选用 Fedora 42 系统，采用“图标任务管理器”做底部 Dock、顶部空面板配全局菜单的上下布局；主题以 Fedora 全局主题＋Moe 配色＋Breeze 样式为主，图标用 Colloid，光标用 Hoshino Swimsuit；桌面时钟和音乐播放分别使用 Redmi Clock 与 PlasMusic Toolbar 插件，所有资源均可在 KDE 商店下载。
+- [为 Clarity 主题增加 ResourceList 资源列表组件](https://blog.sotkg.com/2025/10/clarity-resource-list): 本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [高木资源引导页（测试）](https://blog.sotkg.com/takagi)

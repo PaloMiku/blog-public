@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-20T14:10:44.885Z</updated>
+  <updated>2025-10-20T14:52:17.485Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -306,5 +306,19 @@
     <summary>文章分享了作者在 KDE Plasma 6 上的轻量级美化方案：选用 Fedora 42 系统，采用“图标任务管理器”做底部 Dock、顶部空面板配全局菜单的上下布局；主题以 Fedora 全局主题＋Moe 配色＋Breeze 样式为主，图标用 Colloid，光标用 Hoshino Swimsuit；桌面时钟和音乐播放分别使用 Redmi Clock 与 PlasMusic Toolbar 插件，所有资源均可在 KDE 商店下载。</summary>
     <category term="技术探索"></category>
     <published>2025-08-28T05:30:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/10/clarity-resource-list</id>
+    <title>为 Clarity 主题增加 ResourceList 资源列表组件</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/10/ResourceList.webp" /> <p>本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/clarity-resource-list" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/10/clarity-resource-list"></link>
+    <summary>本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。</summary>
+    <category term="站点魔改"></category>
+    <published>2025-10-20T22:00:00Z</published>
   </entry>
 </feed>
