@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-20T22:11:05.442Z</updated>
+  <updated>2025-10-20T22:30:18.090Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -328,10 +328,10 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_01.webp" /> <p>本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供SEO友好的实操参考。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/fnos_vps_started" target="_blank">点击查看全文</a>]]>
+      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_01.webp" /> <p>本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/fnos_vps_started" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/10/fnos_vps_started"></link>
-    <summary>本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供SEO友好的实操参考。</summary>
+    <summary>本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。</summary>
     <category term="技术探索"></category>
     <published>2025-10-21T05:00:00Z</published>
   </entry>
