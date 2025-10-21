@@ -3,14 +3,14 @@
   <head>
     <title>Mikuの极光星的友链订阅</title>
     <dateCreated>2022-09-01T00:00:00.000Z</dateCreated>
-    <dateModified>2025-10-21T17:04:40.410Z</dateModified>
+    <dateModified>2025-10-21T17:58:17.714Z</dateModified>
     <ownerName>Mikuの鬆</ownerName>
     <ownerEmail>admin@sotkg.com</ownerEmail>
-    <ownerId>https://blog.sotkg.com/</ownerId>
+    <ownerId>/</ownerId>
     <docs>https://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="Mikuの极光星" type="rss" xmlUrl="https://blog.sotkg.com/atom.xml" description="心有多宽，世界就有多远" htmlUrl="https://blog.sotkg.com/"></outline>
+    <outline text="Mikuの极光星" type="rss" xmlUrl="https://blog.sotkg.com/atom.xml" description="心有多宽，世界就有多远" htmlUrl="/"></outline>
     <outline text="Ice Year の位面" type="rss" xmlUrl="https://blog.iceyear.eu.org/index.xml" description="Il n&apos;y a pas de hasard, il n&apos;y a que des rendez - vous" htmlUrl="https://blog.iceyear.eu.org/"></outline>
     <outline text="辰灿汐的小站" type="rss" xmlUrl="https://aurorainic.top/feed" description="以自己的一切面对世间" htmlUrl="https://aurorainic.top/"></outline>
     <outline text="糖の小站" type="rss" xmlUrl="https://waterapple09.com//feed" description="世界，您好！" htmlUrl="https://waterapple09.com/"></outline>
