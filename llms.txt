@@ -46,6 +46,7 @@
 修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
 
 - [我的 KDE Plasma 6 美化方案分享](https://blog.sotkg.com/2025/08/kde-customization): 文章分享了作者在 KDE Plasma 6 上的轻量级美化方案：选用 Fedora 42 系统，采用“图标任务管理器”做底部 Dock、顶部空面板配全局菜单的上下布局；主题以 Fedora 全局主题＋Moe 配色＋Breeze 样式为主，图标用 Colloid，光标用 Hoshino Swimsuit；桌面时钟和音乐播放分别使用 Redmi Clock 与 PlasMusic Toolbar 插件，所有资源均可在 KDE 商店下载。
+- [Affine 部署：自托管类 Notion 知识库系统](https://blog.sotkg.com/2025/10/affine-deploy): 本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。
 - [为 Clarity 主题增加 ResourceList 资源列表组件](https://blog.sotkg.com/2025/10/clarity-resource-list): 本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。
 - [大盘鸡做 NAS？FnOS 个人 VPS 部署体验](https://blog.sotkg.com/2025/10/fnos-vps-started): 本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。
 - [Lemmy 部署：Rust Fediverse 社区系统](https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy): 本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。

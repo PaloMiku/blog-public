@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-22T15:59:05.302Z</updated>
+  <updated>2025-10-23T09:25:03.128Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -306,6 +306,20 @@
     <summary>文章分享了作者在 KDE Plasma 6 上的轻量级美化方案：选用 Fedora 42 系统，采用“图标任务管理器”做底部 Dock、顶部空面板配全局菜单的上下布局；主题以 Fedora 全局主题＋Moe 配色＋Breeze 样式为主，图标用 Colloid，光标用 Hoshino Swimsuit；桌面时钟和音乐播放分别使用 Redmi Clock 与 PlasMusic Toolbar 插件，所有资源均可在 KDE 商店下载。</summary>
     <category term="技术探索"></category>
     <published>2025-08-28T05:30:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/10/affine-deploy</id>
+    <title>Affine 部署：自托管类 Notion 知识库系统</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://affine.pro/overview/Plan.jpg" /> <p>本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/affine-deploy" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/10/affine-deploy"></link>
+    <summary>本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。</summary>
+    <category term="技术探索"></category>
+    <published>2025-10-23T05:00:00Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/10/clarity-resource-list</id>
