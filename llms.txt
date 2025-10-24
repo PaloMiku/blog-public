@@ -51,7 +51,7 @@
 - [大盘鸡做 NAS？FnOS 个人 VPS 部署体验](https://blog.sotkg.com/2025/10/fnos-vps-started): 本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。
 - [Lemmy 部署：Rust Fediverse 社区系统](https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy): 本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。
 - [Misskey 部署：新一代联邦星际微博平台](https://blog.sotkg.com/2025/10/misskey-fediverse-deploy): 本文介绍了如何在单台服务器上全量部署联邦宇宙社交平台 Misskey 及其配套组件。文章从准备阶段开始，建议使用至少 2 核 4G 的服务器，并强调部署后不可更换域名。接着详细说明了安装 Docker、Caddy 反向代理的步骤，包括自动 HTTPS 证书的申请与配置。然后逐步指导获取 Misskey 源码、配置数据库（PostgreSQL 与 Redis）、设置全文搜索（使用 sqlPgroonga）以及调整 Docker Compose 文件。最后，通过构建镜像、初始化数据库并启动容器，完成 Misskey 的部署，用户可通过域名访问初始化页面。
-- [迟来的个人对《拔作岛》第一部游戏动漫杂谈](https://blog.sotkg.com/2025/10/nukitashi-gv-end)
+- [迟来的个人对《拔作岛》第一部游戏动漫杂谈](https://blog.sotkg.com/2025/10/nukitashi-gv-end): 本文介绍了作者通关《拔作岛》第一部的完整体验与对比感受。作品以“童贞保卫战”为表，热血反权为里，四条女主线风格迥异：奈奈濑线甜虐交织却平淡收束；雏见线母子感拉满，结局圆满；美岬线脑洞炸裂，被戏称“离神最近”；文乃真女主线通宵燃爆。动画化出圈后大幅魔改，奈奈濑逆袭成最大赢家，游戏党先被“骗杀”后获慰藉，作者感叹 Qruppo 编剧精神状态成谜，并提醒云观众慎入。
 - [OtterWiki 部署：基于 Python 的轻量知识库系统](https://blog.sotkg.com/2025/10/otterwiki-deploy): 本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [高木资源引导页（测试）](https://blog.sotkg.com/takagi)
