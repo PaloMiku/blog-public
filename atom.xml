@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-24T14:27:04.988Z</updated>
+  <updated>2025-10-24T18:27:15.163Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -376,6 +376,20 @@
     <summary>本文介绍了如何在单台服务器上全量部署联邦宇宙社交平台 Misskey 及其配套组件。文章从准备阶段开始，建议使用至少 2 核 4G 的服务器，并强调部署后不可更换域名。接着详细说明了安装 Docker、Caddy 反向代理的步骤，包括自动 HTTPS 证书的申请与配置。然后逐步指导获取 Misskey 源码、配置数据库（PostgreSQL 与 Redis）、设置全文搜索（使用 sqlPgroonga）以及调整 Docker Compose 文件。最后，通过构建镜像、初始化数据库并启动容器，完成 Misskey 的部署，用户可通过域名访问初始化页面。</summary>
     <category term="联邦宇宙"></category>
     <published>2025-10-24T05:00:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/10/nukitashi-gv-end</id>
+    <title>迟来的个人对《拔作岛》第一部游戏动漫杂谈</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://shiravune.com/wp-content/uploads/2023/04/%E6%8A%9C%E3%81%8D%E3%81%9F%E3%81%971-SVHP%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-3.jpg" />  <a class="view-full" href="https://blog.sotkg.com/2025/10/nukitashi-gv-end" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/10/nukitashi-gv-end"></link>
+    <summary/>
+    <category term="旮瘩给木"></category>
+    <published>2025-10-25T02:00:00Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/10/otterwiki-deploy</id>
