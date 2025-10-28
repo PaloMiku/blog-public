@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-27T23:51:34.466Z</updated>
+  <updated>2025-10-28T00:09:29.656Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -421,7 +421,7 @@
   </entry>
   <entry>
     <id>https://blog.sotkg.com/gal/clannad/misae-sagara</id>
-    <title>Clannad 游戏路线攻略：相乐美佐枝</title>
+    <title>Clannad 游戏人物路线攻略：相乐美佐枝</title>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -432,5 +432,19 @@
     <summary>相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。</summary>
     <category term="游戏攻略"></category>
     <published>2025-10-28T07:00:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/gal/clannad/toshio-koumura</id>
+    <title>Clannad 游戏人物路线攻略：幸村俊夫</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://images.steamusercontent.com/ugc/832451442664324766/56495B349AB6206EEBDB1B9D66F1D90ED81D29F2/" />  <a class="view-full" href="https://blog.sotkg.com/gal/clannad/toshio-koumura" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/gal/clannad/toshio-koumura"></link>
+    <summary/>
+    <category term="游戏攻略"></category>
+    <published>2025-10-28T08:00:00Z</published>
   </entry>
 </feed>
