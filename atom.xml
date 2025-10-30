@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-10-30T22:27:09.475Z</updated>
+  <updated>2025-10-30T23:10:12.398Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -418,19 +418,5 @@
     <summary>本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。</summary>
     <category term="技术探索"></category>
     <published>2025-10-25T03:00:00Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/gal/clannad/misae-sagara</id>
-    <title>Clannad 游戏人物路线攻略：相乐美佐枝</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://images.steamusercontent.com/ugc/1496838371449188646/859EBEBD0935795BC6067C0C05AA028A0A078229/" /> <p>相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。</p> <a class="view-full" href="https://blog.sotkg.com/gal/clannad/misae-sagara" target="_blank">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/gal/clannad/misae-sagara"></link>
-    <summary>相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。</summary>
-    <category term="游戏攻略"></category>
-    <published>2025-10-28T07:00:00Z</published>
   </entry>
 </feed>
