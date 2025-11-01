@@ -1,0 +1,1 @@
+import{b4 as s,Q as a,aN as t,aS as c}from"./BxKQXmcp.js";const r={},n={class:"card-list"};function o(e,d){return t(),a("div",n,[c(e.$slots,"default",{},void 0,!0)])}const i=Object.assign(s(r,[["render",o],["__scopeId","data-v-2bca6610"]]),{__name:"CardList"});export{i as default};
