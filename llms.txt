@@ -48,7 +48,7 @@
 - [《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复](https://blog.sotkg.com/2025/06/sickly-days-linux-run): 文章记录了《痴情哥哥与病弱妹妹的乡间生活》Steam版在Linux/SteamDeck因Krkr2引擎兼容失败而无法启动的问题。
 修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
 
-- [我的 KDE Plasma 6 美化方案分享](https://blog.sotkg.com/2025/08/kde-customization): 文章分享了作者在 KDE Plasma 6 上的轻量级美化方案：选用 Fedora 42 系统，采用“图标任务管理器”做底部 Dock、顶部空面板配全局菜单的上下布局；主题以 Fedora 全局主题＋Moe 配色＋Breeze 样式为主，图标用 Colloid，光标用 Hoshino Swimsuit；桌面时钟和音乐播放分别使用 Redmi Clock 与 PlasMusic Toolbar 插件，所有资源均可在 KDE 商店下载。
+- [我的 KDE Plasma 6 美化方案分享](https://blog.sotkg.com/2025/08/kde-customization): 本文分享了作者将主力系统换至Fedora 43 KDE后的桌面美化方案：采用上下双面板布局，上方空面板配应用启动器、全局菜单等，下方图标任务管理器作Dock；引入Panel-colorizer插件，为上下面板分别设置ChromeOS透明与Translucent预设；主题选Fedora全局主题+Moe配色+Colloid图标，时钟用Redmi Clock插件，全套均可在KDE商店获取。
 - [Affine 部署：自托管类 Notion 知识库系统](https://blog.sotkg.com/2025/10/affine-deploy): 本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。
 - [为 Clarity 主题增加 ResourceList 资源列表组件](https://blog.sotkg.com/2025/10/clarity-resource-list): 本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。
 - [大盘鸡做 NAS？FnOS 个人 VPS 部署体验](https://blog.sotkg.com/2025/10/fnos-vps-started): 本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。
@@ -57,6 +57,7 @@
 - [迟来的个人对《拔作岛》第一部游戏动漫杂谈](https://blog.sotkg.com/2025/10/nukitashi-gv-end): 本文介绍了作者通关《拔作岛》第一部的完整体验与对比感受。作品以“童贞保卫战”为表，热血反权为里，四条女主线风格迥异：奈奈濑线甜虐交织却平淡收束；雏见线母子感拉满，结局圆满；美岬线脑洞炸裂，被戏称“离神最近”；文乃真女主线通宵燃爆。动画化出圈后大幅魔改，奈奈濑逆袭成最大赢家，游戏党先被“骗杀”后获慰藉，作者感叹 Qruppo 编剧精神状态成谜，并提醒云观众慎入。
 - [OtterWiki 部署：基于 Python 的轻量知识库系统](https://blog.sotkg.com/2025/10/otterwiki-deploy): 本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。
 - [Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？](https://blog.sotkg.com/2025/10/rust-waline-deploy): 本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。
+- [博客～真周年随笔（大概是一周年）](https://blog.sotkg.com/2025/11/blog-1th-note): 2022 至今，作者 10 余次更换博客系统与域名，从 WordPress、Hexo、Mix Space 到最终定格 Nuxt 4 静态，并借备案、Galgame 与 Fediverse 长文实现稳定产出。文章梳理技术得失，自省“不忘初心”，立志继续以前端与运维学习为驱动力记录成长。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
 - [Clannad 游戏人物路线攻略：相乐美佐枝](https://blog.sotkg.com/previews/misae-sagara): 相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。

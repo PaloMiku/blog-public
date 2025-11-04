@@ -21,7 +21,7 @@
             <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg</image:loc>
@@ -57,6 +57,9 @@
             <image:loc>https://blog-files.101045700.xyz/Web/WenKai-Demo.webp</image:loc>
         </image:image>
         <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/zeabur-used.webp</image:loc>
         </image:image>
         <image:image>
@@ -71,6 +74,9 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/archive</loc>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+        </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/zeabur-used.webp</image:loc>
         </image:image>
@@ -96,7 +102,7 @@
             <image:loc>https://blog-files.101045700.xyz/2025/10/ResourceList.webp</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg</image:loc>
@@ -189,16 +195,31 @@
             <image:loc>https://ravelloh.top/avatar.jpg</image:loc>
         </image:image>
         <image:image>
+            <image:loc>https://www.imaegoo.com/images/avatar.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.imaegoo.com/favicon.ico</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://logo.nekopara.uk/logo.jpg</image:loc>
+        </image:image>
+        <image:image>
             <image:loc>https://blog.moeworld.tech/wp-content/themes/kratos-pjax-master/static/images/photo.jpg</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://blog.moeworld.tech/wp-content/uploads/2024/08/cropped-favicon-32x32.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.imaegoo.com/images/avatar.jpg</image:loc>
+            <image:loc>https://www.zhilu.site/api/avatar.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://www.imaegoo.com/favicon.ico</image:loc>
+            <image:loc>https://bu.dusays.com/2023/12/23/65867c3357bb6.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.wikimoe.com/upload/siteImg/siteFavicon.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://refact.cc/avatar.png</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://blog.lkurococ.top/_next/image?url=https%3A%2F%2Fcdn.lkurococ.top%2F2024%2F10%2F600292e5a454abe3b6e653801834fb60.jpg&amp;amp;w=384&amp;amp;q=75</image:loc>
@@ -231,9 +252,6 @@
             <image:loc>https://cravatar.com/avatar/f9c8534573959f75b8b00ffa37f39687?&amp;amp;d=mm&amp;amp;s=200</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://logo.nekopara.uk/logo.jpg</image:loc>
-        </image:image>
-        <image:image>
             <image:loc>https://i.p-i.vip/43/20240913-66e403f2331ec.webp</image:loc>
         </image:image>
         <image:image>
@@ -247,6 +265,9 @@
         </image:image>
         <image:image>
             <image:loc>https://blog.linux-qitong.top/img/avatar.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://assets.moedev.cn/blog/photo/user/head.jpg!webp</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://pic.imgdb.cn/item/64a7c06e1ddac507ccdfe43f.jpg</image:loc>
@@ -687,10 +708,10 @@
     <url>
         <loc>https://blog.sotkg.com/2025/08/kde-customization</loc>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview01.webp</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/kde-customization-priview02.webp</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/config.webp</image:loc>
         </image:image>
     </url>
     <url>
@@ -817,6 +838,12 @@
         </image:image>
         <image:image>
             <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/waline-ui.webp</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://blog.sotkg.com/2025/11/blog-1th-note</loc>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
         </image:image>
     </url>
     <url>
@@ -988,4 +1015,4 @@
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/yukine</loc>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-11-02T15:51:02.141Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-11-04T16:20:51.435Z -->
