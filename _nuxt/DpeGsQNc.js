@@ -1,1 +1,0 @@
-import{b as t}from"./DIc4ouYK.js";import"./D6ajeznB.js";import"./Died8CQ_.js";import"./BNa4tD8J.js";import"./D-deoX8n.js";import"./CK5gOxmq.js";async function p(){return t("content",{ignoredTags:["pre"]})}export{p as default};
