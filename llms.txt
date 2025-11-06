@@ -61,4 +61,5 @@
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
 - [Clannad 游戏人物路线攻略：相乐美佐枝](https://blog.sotkg.com/previews/misae-sagara): 相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。
+- [这里是心跳☆学园](https://blog.sotkg.com/previews/this-love-school): 这里是心跳☆学园，是一款基于 Galgame 组件制作的视觉小说游戏示例，改编自《CLANNAD》剧情中的春原游戏书部分。面对各种选择和挑战。游戏包含多段文字、剧情分支选项和历史回顾功能。
 - [高木资源引导页（测试）](https://blog.sotkg.com/takagi)

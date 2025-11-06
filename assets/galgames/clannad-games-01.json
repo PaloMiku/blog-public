@@ -1,0 +1,424 @@
+{
+  "title": "这里是心跳☆学园",
+  "description": "来自于 CLANNAD 的示例游戏。",
+  "start": "intro",
+  "paragraphs": [
+    {
+      "id": "intro",
+      "speaker": "旁白",
+      "text": [
+        "游戏书「这里是心跳☆学园」",
+        "☆本书含有暴力场景和可能引起不适的内容。",
+        "游戏文字版本：CLANNAD Steam 官方中文版"
+      ],
+      "choices": [
+        {
+          "text": "开始冒险",
+          "next": "quest_text"
+        }
+      ]
+    },
+    {
+      "id": "quest_text",
+      "speaker": "旁白",
+      "text": [
+        "你将化身为一名高中生，目的是俘获学园偶像雪野同学的心！",
+        "那么，开始心跳之旅吧！"
+      ],
+      "auto": "quest_start"
+    },
+    {
+      "id": "quest_start",
+      "speaker": "主人公",
+      "text": [
+        "正在校门前等待的我，迎来了学园偶像雪野同学。"
+      ],
+      "choices": [
+        {
+          "text": "去告白",
+          "next": "go_confess_01"
+        },
+        {
+          "text": "任由她走开",
+          "next": "let_her_go_01"
+        }
+      ]
+    },
+    {
+      "id": "go_confess_01",
+      "speaker": "主人公",
+      "text": [
+        "「雪野同学，我喜欢你！」",
+        "「我讨厌你！」",
+        "你被甩了，GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "let_her_go_01",
+      "speaker": "旁白",
+      "text": [
+        "到了午休时间，雪野同学正在食堂吃饭。"
+      ],
+      "choices": [
+        {
+          "text": "去告白",
+          "next": "go_confess_02"
+        },
+        {
+          "text": "观察一下",
+          "next": "look_her_go"
+        }
+      ]
+    },
+    {
+      "id": "go_confess_02",
+      "speaker": "主人公",
+      "text": [
+        "「雪野同学，我喜欢你！」",
+        "「你是个无趣的男人！」",
+        "你被甩了，GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "look_her_go",
+      "speaker": "旁白",
+      "text": [
+        "等到了放学。啊，雪野同学要回家了。"
+      ],
+      "choices": [
+        {
+          "text": "去告白",
+          "next": "go_confess_03"
+        },
+        {
+          "text": "任由她走开",
+          "next": "let_her_go_02"
+        }
+      ]
+    },
+    {
+      "id": "let_her_go_02",
+      "speaker": "旁白",
+      "text": [
+        "然后过了十年，你被公司解雇，成了流浪汉。",
+        "偶然看见雪野同学从你面前经过。",
+        "「雪...」刚想这么叫住她却还是放弃了。",
+        "如今的我还能做什么啊。呵呵...你不禁笑了起来。",
+        "雪野...一定要幸福啊...你目送她越走越远。",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "go_confess_03",
+      "speaker": "旁白",
+      "text": [
+        "「雪野同学，我从很久之前就开始喜欢你了！」",
+        "你鼓起勇气进行了告白！",
+        "嘎吱一声。"
+      ],
+      "auto": "go_confess_03_wait"
+    },
+    {
+      "id": "go_confess_03_wait",
+      "speaker": "主人公",
+      "text": [
+        "我：「啊呀——！」",
+        "被雪野同学咬了！"
+      ],
+      "choices": [
+        {
+          "text": "甩开",
+          "next": "go_confess_04"
+        },
+        {
+          "text": "紧紧抱住",
+          "next": "go_confess_03_end"
+        }
+      ]
+    },
+    {
+      "id": "go_confess_03_end",
+      "speaker": "旁白",
+      "text": [
+        "嘎嘣嘎嘣...脆——",
+        "你就这样被吃掉了！",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "go_confess_04",
+      "speaker": "旁白",
+      "text": [
+        "嘿！用力甩开对方。",
+        "雪野同学倒在了地上！",
+        "砰砰砰几声枪响过后！她的身体被子弹开了洞！"
+      ],
+      "auto": "story_continuation_01"
+    },
+    {
+      "id": "story_continuation_01",
+      "speaker": "史蒂夫",
+      "text": [
+        "「好险啊，那家伙是丧尸哎。」",
+        "出现了一个持枪男子。",
+        "「我的名字是史蒂夫。」",
+        "「这个学园已经成了丧尸的巢穴，一起逃离这里吧！」"
+      ],
+      "choices": [
+        {
+          "text": "和史蒂夫一起行动",
+          "next": "steve_conversation"
+        },
+        {
+          "text": "单独行动",
+          "next": "go_away_alone_steve"
+        }
+      ]
+    },
+    {
+      "id": "go_away_alone_steve",
+      "speaker": "旁白",
+      "text": [
+        "你选择了单独行动。",
+        "遇到强大怪物的你被杀掉了！",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "steve_conversation",
+      "speaker": "旁白",
+      "text": [
+        "史蒂夫成为了伙伴！",
+        "两人一起沿着走廊前进。",
+        "呼的一声，窗户玻璃碎了，窜出一只狗来！"
+      ],
+      "choices": [
+        {
+          "text": "交给史蒂夫",
+          "next": "window_dog_steve"
+        },
+        {
+          "text": "自己来应战",
+          "next": "window_dog_alone"
+        }
+      ]
+    },
+    {
+      "id": "window_dog_steve",
+      "speaker": "旁白",
+      "text": [
+        "嘎吱一声！",
+        "啊呀！",
+        "史蒂夫用尽了自己最后的力气...",
+        "之后，遇到强大怪物的你也被杀掉了！",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "window_dog_alone",
+      "speaker": "旁白",
+      "text": [
+        "哈哈，别这样！",
+        "真是条爱舔人的狗！",
+        "和狗嬉戏了一会儿后，我们再次出发。"
+      ],
+      "auto": "room_snake"
+    },
+    {
+      "id": "room_snake",
+      "speaker": "旁白",
+      "text": [
+        "进入房间后，一条蛇突然袭击了过来！",
+        "嘎吱一声。",
+        "「好痛啊。」",
+        "史蒂夫中毒陷入了濒死状态！"
+      ],
+      "auto": "room_snake_wait"
+    },
+    {
+      "id": "room_snake_wait",
+      "speaker": "旁白",
+      "text": [
+        "你出去寻找血清。",
+        "眼前有个巨大的架子。"
+      ],
+      "choices": [
+        {
+          "text": "打开",
+          "next": "room_snake_open"
+        },
+        {
+          "text": "无视",
+          "next": "room_snake_ignore"
+        }
+      ]
+    },
+    {
+      "id": "room_snake_ignore",
+      "speaker": "旁白",
+      "text": [
+        "出现了条三岔路。"
+      ],
+      "choices": [
+        {
+          "text": "走左边",
+          "next": "room_snake_ignore_left"
+        },
+        {
+          "text": "走中间",
+          "next": "room_snake_ignore_middle"
+        },
+        {
+          "text": "走右边",
+          "next": "room_snake_ignore_right"
+        }
+      ]
+    },
+    {
+      "id": "room_snake_ignore_left",
+      "speaker": "旁白",
+      "text": [
+        "前面是个直升机停机坪。",
+        "嗡嗡嗡嗡，你被一架直升机救走了！",
+        "「再见了，珍妮佛。」",
+        "THE END！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "room_snake_ignore_middle",
+      "speaker": "旁白",
+      "text": [
+        "突然出现了个毛茸茸的东西，然后你被干掉了。",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "room_snake_ignore_right",
+      "speaker": "旁白",
+      "text": [
+        "遇到强大怪物，虽然想要反击但你还是被杀掉了！",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "room_snake_open",
+      "speaker": "丧尸",
+      "text": [
+        "里面藏着丧尸！",
+        "「请收下这个吧！」",
+        "给了你血清！"
+      ],
+      "auto": "room_snake_open_wait"
+    },
+    {
+      "id": "room_snake_open_wait",
+      "speaker": "旁白",
+      "text": [
+        "你收下血清，回到了史蒂夫身边。",
+        "史蒂夫活了下来。"
+      ],
+      "auto": "room_snake_open_steve"
+    },
+    {
+      "id": "room_snake_open_steve",
+      "speaker": "史蒂夫",
+      "text": [
+        "「你是我的救命恩人！」",
+        "史蒂夫想拥抱你一下！"
+      ],
+      "choices": [
+        {
+          "text": "紧紧抱住",
+          "next": "room_snake_open_steve_end"
+        },
+        {
+          "text": "甩开",
+          "next": "room_snake_open_steve_nohug"
+        }
+      ]
+    },
+    {
+      "id": "room_snake_open_steve_end",
+      "speaker": "旁白",
+      "text": [
+        "「求你不要再离开我了。」",
+        "「好。」",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "room_snake_open_steve_nohug",
+      "speaker": "旁白",
+      "text": [
+        "嘿！用力甩开对方。",
+        "史蒂夫倒在了地上。砰砰砰几声枪响过后！他的身体被子弹开了洞！",
+        "「好险啊，那家伙是丧尸哎。」",
+        "出现了一个持枪女子。",
+        "「我的名字是萝丝。」"
+      ],
+      "auto": "rose_conversation"
+    },
+    {
+      "id": "rose_conversation",
+      "speaker": "旁白",
+      "text": [
+        "「从现在开始一起行动吧！」"
+      ],
+      "choices": [
+        {
+          "text": "一起行动",
+          "next": "rose_conversation_true"
+        },
+        {
+          "text": "甩开",
+          "next": "rose_conversation_false"
+        }
+      ]
+    },
+    {
+      "id": "rose_conversation_true",
+      "speaker": "萝丝",
+      "text": [
+        "萝丝成为了伙伴！",
+        "「呵。你真是太棒了。」",
+        "然后迎来了一个索然无味的早晨。",
+        "GAME OVER！"
+      ],
+      "isEnding": true
+    },
+    {
+      "id": "rose_conversation_false",
+      "speaker": "旁白",
+      "text": [
+        "嘿！我甩。",
+        "萝丝倒在了地上。砰砰砰几声枪响过后！她的身体被子弹开了洞！",
+        "「好险是也。」",
+        "出现了一个持枪忍者。",
+        "「在下的名字是刃，和你一起行动是也。」",
+        "刃成为了伙伴！"
+      ],
+      "auto": "game_end"
+    },
+    {
+      "id": "game_end",
+      "speaker": "朋也",
+      "text": [
+        "已经够了！",
+        "我合上了书。",
+        "「感谢游玩本示例！」",
+        "游戏来自 CLANNAD 剧情春原游戏书部分！"
+      ],
+      "isEnding": true
+    }
+  ]
+}
