@@ -69,7 +69,7 @@
     <url>
         <loc>https://blog.sotkg.com/about</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://pic.imgdb.cn/item/672059a6d29ded1a8cd554b5.png</image:loc>
         </image:image>
     </url>
     <url>
@@ -144,7 +144,19 @@
     <url>
         <loc>https://blog.sotkg.com/drive</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://circlari-sharky.s3.bitiful.net/sitelogo_128x128.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cn.cravatar.com/avatar/1012bf78fb01d5b964c3a9a0f515911a.png?s=512</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cn.cravatar.com/avatar/67A01DCF31643FA4D9DCC9FD89A3D8D5</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://pic.imgdb.cn/item/66be3143d9c307b7e9dbc86e.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cravatar.cn/avatar/1012bf78fb01d5b964c3a9a0f515911a?s=160</image:loc>
         </image:image>
     </url>
     <url>
@@ -168,7 +180,10 @@
     <url>
         <loc>https://blog.sotkg.com/games</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/backgrounds/2b8b5c190c2176b1bc7732f957ce8af8.avif</image:loc>
         </image:image>
     </url>
     <url>
@@ -287,173 +302,557 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames</loc>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/backgrounds/2b8b5c190c2176b1bc7732f957ce8af8.avif</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://shiravune.com/wp-content/uploads/2023/04/%E6%8A%9C%E3%81%8D%E3%81%9F%E3%81%971-SVHP%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/backgrounds/Clannad.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_f7a6ebc0-a7a9-407a-9556-809f99f66bb4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458530/header.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1277930/header.jpg?t=1747875621</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://key.visualarts.gr.jp/summer/common/image/main_bg2.jpg</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/03/takagi</loc>
-        <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/08/docker-deploy-outline</loc>
-        <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
-        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/09/1panel-appstore-refused</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://r2-file.101045700.xyz/2024/image_editor_output_image2047887735-17266569364718465991064078587678.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/10/shiroi-docker-deployment</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://mx-space.js.org/assets/images/preview/shiro.png</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/10/write-1panel-app</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://user-images.githubusercontent.com/31820853/226111412-9c7b25a1-83f2-4621-8789-7ef85a2695dd.png</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/12/break-change-2024</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://file.101045700.xyz/2024/12/06458ae7237f9879b28bd19ba42984c8.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://file.101045700.xyz/2024/12/7529e5bea4285b3d5a3fc3bf0f90fb49.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2024/12/oyiso-tianligpt</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://file.101045700.xyz/2024/12/84bce8cfe0ab8276ba0f78f1b3db4e86.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://file.101045700.xyz/2024/12/6a03b5d58939f9f070c358bc812c7070.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/01/arch-aur-kazumi</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://file.101045700.xyz/2025/01/76ab1468eba28613d3177cea8f63994d.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://file.101045700.xyz/2025/01/de4c7618811b03e971e5092c703f530f.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://file.101045700.xyz/2025/01/cfc871e26ce25d6ed2c5ecb43ba05109.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/clannad-zh-linux</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/324160/ss_820eb3b554040d3829bbf3b511988480ca2ca521.600x338.jpg?t=1711546691</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/backgrounds/Clannad.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog.iceyear.eu.org/img/avatar_hu_a03d367ff590d53f.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Clannad-Linux.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Clannad-Proton-9.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/fediverse</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/fediverse-lila.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Flojoy.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyHome.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Firefish.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/FediDBHome.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/gal-up</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/86.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/UI1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/UI2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/UI3.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/RussiaFire.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Aokana/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Aokana/CG1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Aokana/Extra1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Aokana/If01.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Aokana/Extra2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SOW/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SOW/0721.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Lce/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Others/Ba1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog.iceyear.eu.org/img/avatar_hu_a03d367ff590d53f.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/X1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/UmiLolik.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Map.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Q1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Dokemon.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/PingPong.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Record.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP1.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/koichoco-psp</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-600x600_v-fs_webp_fcfc82ca-6ca1-4126-b267-1ffca1a8d8fc_small.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A6.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://ppcimg.csd02.cn/up/2015-6/201568164521.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A3.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A4.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A5.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Web/WenKai-Demo.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/maitetsu-video-fix</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Maitetsu/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/ProtonDB.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Fl_Protontricks.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Sh_Protontricks.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Flatseal01.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Flatseal02.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Protontricks-01.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Protontricks-02.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Protontricks-03.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/MaitetsuGames.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/misskey-sidebar</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/2025/Circlari-Set.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/profile.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/instanceInfo.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/memo.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/notifications.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/timeline.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/calendar.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/rss.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/rssTicker.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/hashtags.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/clock.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/activity.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/digitalClock.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/unixClock.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/postForm.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/serverMetric.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/onlineUsers.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/jobQueue.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/button.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/aiscript.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/Sidebar/ai.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/05/shr-misskey</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/SharkeyUse.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Fediverse/MisskeyUse.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/06/decky-loader</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://imgheybox1.max-c.com/web/bbs/2025/06/07/ce8c92b3c8eb1c750f02a1ef2aaa418e.png?imageMogr2/auto-orient/ignore-error/1/format/jpg/thumbnail/1125x600%3E</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/9b599276c487b459f141d6b4b3c33af1.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/ea394e16f536e0c257592ce474db8804.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/31318051c5bfc57f62c96ca3886e2b08.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/42ffc3f837c4b2c9ca3f46e7f4e5b631.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/c32dd1c914646525220dc57ba93f9573.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/b5e549926d2895e4bfaed959380dc83e.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/d199c971268909c67b3d346c6d4fe267.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/85d4a824c4b065d5155ec8caa1c25797.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/web/bbs/2025/06/07/122987e981607f15dd8176817e333ef1.png?imageMogr2/format/webp/quality/50/auto-orient/ignore-error/1</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/06/self-fediverse-prepare</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Web/three-c-p.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/06/sickly-days-linux-run</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://static.hikarifield.co.jp/images/shop/sickly_days/thumb/012.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/06/sickly-days-linux-run/G-Error.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/06/sickly-days-linux-run/Game-Main.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/08/kde-customization</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/08/kde-customization/config.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/affine-deploy</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://affine.pro/overview/Plan.jpg</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/clarity-resource-list</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/ResourceList.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/fnos-vps-started</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_01.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://static2.fnnas.com/official/web/banner.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Desktop.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Settings.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_FnVideo.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Downloader.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Soft01.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_02.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_03.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_04.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_05.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://join-lemmy.org/static/assets/images/main_screen_2.webp</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/misskey-fediverse-deploy</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://misskey-hub.net/img/hero/ss/tl.light.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/nukitashi-gv-end</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://shiravune.com/wp-content/uploads/2023/04/%E6%8A%9C%E3%81%8D%E3%81%9F%E3%81%971-SVHP%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/Others/Ba1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/AP2.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/web/bbs/2025/07/28/a69f560a46801a6e48bc31c74e6867f3.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/bbs/2025/07/28/ce88eac4f38c90ca67cbe2f1853e4d39/thumb.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/web/bbs/2025/09/01/72230842a4b44e7dcb014ee1ed07ba48/thumb.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/06/05/eefb9ed36b9179605b1913fb7686e529/thumb.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/378eda8bf354a30bfc76468080340580.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/web/bbs/2025/09/01/e6286858c308a7413232791f3453aafe/thumb.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/08/05/086c71e43ebd3d33d5239929a02e295a/thumb.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox.max-c.com/bbs/2025/07/28/e742196e4978e8d6577968200b33212d/thumb.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/06/20/3b0fb3750641219ce8fc1eb0b5c42281.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/08/25/7bc66dd098137500977fb62252504d12.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2025/08/18/e2d45dcdd847ec8088843d653b8fc501.jpeg</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/otterwiki-deploy</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/otterwiki.png</image:loc>
         </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/2025/10/rust-waline-deploy</loc>
         <image:image>
-            <image:loc>https://imgheybox1.max-c.com/bbs/2025/09/28/2cf811cadb2502ec968ef966ee3662dc/thumb.jpeg</image:loc>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/zeabur-used.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/zeabur-docker.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/2025/10/r-waline/waline-ui.webp</image:loc>
         </image:image>
     </url>
     <url>
@@ -464,36 +863,147 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/aokana</loc>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x47_60632891-b735-4f45-8228-c353c7134a62.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-1600x1048_v-fms_webp_bf2b3bfd-0efc-4755-be26-5ad8b22d5ace_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/aokana-ex1</loc>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_f7a6ebc0-a7a9-407a-9556-809f99f66bb4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x60_2fd38134-6d20-40f3-a53d-3c190c4729f3.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-800x450_v-fs_webp_f5ec1273-ee37-4c6a-b070-4b693e44c2e8_small.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad</loc>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/backgrounds/Clannad.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Clannad-Logo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/koichoco</loc>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Galgame/Koichoco-A1.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x78_2d083142-dc83-4332-8b01-5bd808bec069.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_middle.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://ppcimg.csd02.cn/up/2015-6/201568164521.jpg</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/maitetsu</loc>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://hikarifield.co.jp/maitetsu_lastrun/image/footer/logo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://hikarifield.co.jp/maitetsu_lastrun/image/mainvisual/00-3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/nukitashi</loc>
+        <image:image>
+            <image:loc>https://shiravune.com/wp-content/uploads/2023/04/%E6%8A%9C%E3%81%8D%E3%81%9F%E3%81%971-SVHP%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB-3.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://qruppo.com/products/nukitashi/img/common/sideA/logo@2x.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/riddle-joker</loc>
+        <image:image>
+            <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1277930/header.jpg?t=1747875621</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://hikarifield.co.jp/riddle/images/top/logo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/sothewitch</loc>
+        <image:image>
+            <image:loc>https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458530/header.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.yuzu-soft.com/new/product/sothewitch/images/common/sow_titlesd.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://hikarifield.co.jp/sothewitch/images/common/logo.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/icons/SteamLogo.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/sprb</loc>
+        <image:image>
+            <image:loc>https://key.visualarts.gr.jp/summer/common/image/main_bg2.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://key.visualarts.gr.jp/summer/common/image/top_logo2.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://blog-files.101045700.xyz/Gal2025Up/SPRB/Home.webp</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://key.visualarts.gr.jp/summer/common/image/top_1202sp.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://media.st.dl.eccdnx.com/steamcommunity/public/images/apps/897220/240cbdb0e135abb95c58f49d1eede3566627d081.jpg</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret</loc>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/64hits</loc>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2023/08/31/ed9c028b3f96b2ea23033fe325d13fe9/thumb.jpeg</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/fuuko-appear</loc>
@@ -512,9 +1022,12 @@
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/sunoharaface</loc>
+        <image:image>
+            <image:loc>https://imgheybox1.max-c.com/bbs/2024/06/02/c3265c63be123b07ffaacefd3cac36ce/thumb.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://blog.sotkg.com/games/galgames/clannad/secret/yukine</loc>
     </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-11-07T14:45:12.047Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.4.7 at 2025-11-07T14:53:25.195Z -->
