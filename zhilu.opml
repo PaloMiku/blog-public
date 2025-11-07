@@ -3,7 +3,7 @@
   <head>
     <title>Mikuの极光星的友链订阅</title>
     <dateCreated>2022-08-31T16:00:00.000Z</dateCreated>
-    <dateModified>2025-11-07T14:52:27.766Z</dateModified>
+    <dateModified>2025-11-07T21:11:09.338Z</dateModified>
     <ownerName>Mikuの鬆</ownerName>
     <ownerEmail>admin@sotkg.com</ownerEmail>
     <ownerId>https://blog.sotkg.com/</ownerId>
@@ -20,10 +20,10 @@
     <outline text="Kurococ Liu" type="rss" xmlUrl="https://blog.lkurococ.top/feed" description="被子外面很危险！" htmlUrl="https://blog.lkurococ.top/"></outline>
     <outline text="AkiDay" type="rss" xmlUrl="https://blog.akiday.com/feed/" description="永恒秋日之星" htmlUrl="https://blog.akiday.com/"></outline>
     <outline text="星辰角落" type="rss" xmlUrl="https://ihello.cc/rss.xml" description="热爱记录生活" htmlUrl="https://ihello.cc"></outline>
-    <outline text="御坂秋生の小窝" type="rss" xmlUrl="https://www.akio.top/feed/" description="不努力就只能听到别人的好消息" htmlUrl="https://www.akio.top/"></outline>
     <outline text="洛雨の小站" type="rss" xmlUrl="https://luotianyi.eu/feed/" description="历史终将证明一切" htmlUrl="https://luotianyi.eu/"></outline>
     <outline text="风月琉璃" type="rss" xmlUrl="https://miui.ink/feed/" description="我在等风，也在等你。" htmlUrl="https://miui.ink"></outline>
     <outline text="别碰我的镜头盖" type="rss" xmlUrl="https://blog.bornforthis.cn/atom.xml" description="世界那么大，我想去看看" htmlUrl="https://blog.bornforthis.cn/"></outline>
+    <outline text="御坂秋生の小窝" type="rss" xmlUrl="https://www.akio.top/feed/" description="不努力就只能听到别人的好消息" htmlUrl="https://www.akio.top/"></outline>
     <outline text="南蛮子懋和" type="rss" xmlUrl="https://www.dao.js.cn/feed/" description="南蛮子懋和" htmlUrl="https://www.dao.js.cn"></outline>
   </body>
 </opml>

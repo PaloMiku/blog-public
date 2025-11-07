@@ -1,1 +1,0 @@
-import{q as o}from"./CuSfN2e5.js";import"./D6ajeznB.js";import"./BpwTRCbI.js";import"./CR3_r6pY.js";import"./D-deoX8n.js";import"./CK5gOxmq.js";async function m(t){return o("content").path(t.value).first()}export{m as default};
