@@ -58,6 +58,7 @@
 - [OtterWiki 部署：基于 Python 的轻量知识库系统](https://blog.sotkg.com/2025/10/otterwiki-deploy): 本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。
 - [Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？](https://blog.sotkg.com/2025/10/rust-waline-deploy): 本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。
 - [博客～真周年随笔（大概是一周年）](https://blog.sotkg.com/2025/11/blog-1th-note): 2022 至今，作者 10 余次更换博客系统与域名，从 WordPress、Hexo、Mix Space 到最终定格 Nuxt 4 静态，并借备案、Galgame 与 Fediverse 长文实现稳定产出。文章梳理技术得失，自省“不忘初心”，立志继续以前端与运维学习为驱动力记录成长。
+- [Fedora Cosmic desktop Beta 一日游](https://blog.sotkg.com/2025/11/fedora-cosmic-beta): Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install "cosmic-desktop" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
 - [Clannad 游戏人物路线攻略：相乐美佐枝](https://blog.sotkg.com/previews/misae-sagara): 相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。
