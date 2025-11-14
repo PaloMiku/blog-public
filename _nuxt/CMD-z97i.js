@@ -1,1 +1,0 @@
-import{b5 as s,Q as a,aO as t,aT as c}from"./C30-xQm5.js";const r={},n={class:"card-list"};function o(e,d){return t(),a("div",n,[c(e.$slots,"default",{},void 0,!0)])}const i=Object.assign(s(r,[["render",o],["__scopeId","data-v-2bca6610"]]),{__name:"CardList"});export{i as default};
