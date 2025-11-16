@@ -70,6 +70,16 @@
 			showMusicTranslation: localStorage.getItem('showMusicTranslation') !== 'false',
 			language: localStorage.getItem('language') || 'simplified',
 		}
+
+		// 3. 恢复字体设置
+		const fontPreference = localStorage.getItem('fontPreference') || 'wenkai'
+		const FONT_VALUES = {
+			wenkai: '"LXGW WenKai Screen", "Inter", "Noto Sans SC-Local", "Noto Sans SC", system-ui, sans-serif',
+			system: 'system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif',
+		}
+		if (fontPreference in FONT_VALUES) {
+			document.documentElement.style.setProperty('--font-basic', FONT_VALUES[fontPreference])
+		}
 	}
 	catch {
 		// 忽略错误
