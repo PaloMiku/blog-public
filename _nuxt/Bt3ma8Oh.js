@@ -1,0 +1,1 @@
+import{q as t}from"./DGI7Qk00.js";import"./DeZJN128.js";import"./oyac_IiO.js";import"./Epf1aKgg.js";import"./D-deoX8n.js";import"./CK5gOxmq.js";async function n(){return t("content").where("stem","LIKE",path).select("categories","date","description","image","path","readingTime","recommend","tags","title","type","updated").all()}export{n as default};
