@@ -1,0 +1,1 @@
+import{y as s,d as a,e as o,au as r,I as n,t as c,_}from"./CAhbUMJX.js";const l={class:"blur"},p=s({__name:"Blur",props:{text:{}},setup(e){return(t,u)=>(o(),a("span",l,[r(t.$slots,"default",{},()=>[n(c(e.text),1)],!0)]))}}),f=Object.assign(_(p,[["__scopeId","data-v-f230e5bb"]]),{__name:"Blur"});export{f as default};
