@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-11-23T17:25:47.560Z</updated>
+  <updated>2025-11-24T13:29:55.009Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -461,5 +461,19 @@
     <summary>Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install &quot;cosmic-desktop&quot; 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。</summary>
     <category term="技术探索"></category>
     <published>2025-11-13T12:00:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/11/riddle-joker</id>
+    <title>Riddle Joker：剧情不足，人设也不足</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://imgheybox1.max-c.com/bbs/2025/11/02/b3966bf1ee027e739f3855cd110676e7.png" /> <p>《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足，特别是相比前作《魔宴》有所退步。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 > 在原七海 > 三司绫濑 > 二条院羽月 > 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。</p> <a class="view-full" href="https://blog.sotkg.com/2025/11/riddle-joker" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/11/riddle-joker"></link>
+    <summary>《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足，特别是相比前作《魔宴》有所退步。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 &gt; 在原七海 &gt; 三司绫濑 &gt; 二条院羽月 &gt; 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。</summary>
+    <category term="旮瘩给木"></category>
+    <published>2025-11-24T13:00:00.000Z</published>
   </entry>
 </feed>
