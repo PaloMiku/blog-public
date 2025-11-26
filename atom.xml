@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-11-26T15:50:37.391Z</updated>
+  <updated>2025-11-26T21:32:57.781Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -461,6 +461,20 @@
     <summary>Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install &quot;cosmic-desktop&quot; 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。</summary>
     <category term="技术探索"></category>
     <published>2025-11-13T12:00:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/11/piece-hy1</id>
+    <title>随笔：逝去的一段时光</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://imgheybox1.max-c.com/bbs/2025/06/09/c6423865c39392f8772d7a744f484e7b.jpeg" /> <p>本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。</p> <a class="view-full" href="https://blog.sotkg.com/2025/11/piece-hy1" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/11/piece-hy1"></link>
+    <summary>本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。</summary>
+    <category term="日常随笔"></category>
+    <published>2025-11-26T21:00:00.000Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/11/riddle-joker</id>

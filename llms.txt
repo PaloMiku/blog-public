@@ -60,6 +60,7 @@
 - [博客～真周年随笔（大概是一周年）](https://blog.sotkg.com/2025/11/blog-1th-note): 2022 至今，作者 10 余次更换博客系统与域名，从 WordPress、Hexo、Mix Space 到最终定格 Nuxt 4 静态，并借备案、Galgame 与 Fediverse 长文实现稳定产出。文章梳理技术得失，自省“不忘初心”，立志继续以前端与运维学习为驱动力记录成长。
 - [在 CachyOS Handheld 下恢复 Steam Input 中文输入](https://blog.sotkg.com/2025/11/cachyos-handheld-chinese-input): 本文介绍了在 CachyOS Handheld 系统上恢复 Steam Input 中文输入的解决方案。主要步骤包括安装 `ibus`、`ibus-pinyin` 和 `ibus-anthy` 输入法组件，修改 `/usr/share/gamescope-session-plus/gamescope-session-plus` 配置文件，并降级 `libxkbcommon` 组件至 1.11.0 版本以解决中文输入显示为数字的问题。
 - [Fedora Cosmic desktop Beta 一日游](https://blog.sotkg.com/2025/11/fedora-cosmic-beta): Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install "cosmic-desktop" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。
+- [随笔：逝去的一段时光](https://blog.sotkg.com/2025/11/piece-hy1): 本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。
 - [Riddle Joker：剧情不足，人设也不足](https://blog.sotkg.com/2025/11/riddle-joker): 《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 > 在原七海 > 三司绫濑 > 二条院羽月 > 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
