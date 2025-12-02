@@ -1,1 +1,0 @@
-import{b0 as s,a as u,r as t}from"./D4rvfVLF.js";const f=s("content",()=>{const r=u(),e=t(),o=t();return r.beforeEach((n,a)=>{n.name!==a.name&&(e.value=void 0,o.value=void 0)}),{toc:e,meta:o}});export{f as u};
