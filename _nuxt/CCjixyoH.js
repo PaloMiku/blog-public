@@ -1,0 +1,1 @@
+import{_ as s,d as t,e as a,ar as r}from"./DkYUvNFe.js";const c={},n={class:"card-list"};function d(e,o){return a(),t("div",n,[r(e.$slots,"default",{},void 0,!0)])}const i=Object.assign(s(c,[["render",d],["__scopeId","data-v-2bca6610"]]),{__name:"CardList"});export{i as default};
