@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-12-04T11:30:20.815Z</updated>
+  <updated>2025-12-04T14:25:16.418Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -489,5 +489,19 @@
     <summary>《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 &gt; 在原七海 &gt; 三司绫濑 &gt; 二条院羽月 &gt; 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。</summary>
     <category term="旮瘩给木"></category>
     <published>2025-11-24T13:00:00.000Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2025/12/oss-prepare-list</id>
+    <title>国内外主流对象存储价格对比</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/12/S3-compatible-object-storage-solutions.webp" alt="国内外主流对象存储价格对比" /> <p>全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。</p> <a class="view-full" href="https://blog.sotkg.com/2025/12/oss-prepare-list" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2025/12/oss-prepare-list"></link>
+    <summary>全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。</summary>
+    <category term="技术探索"></category>
+    <published>2025-12-04T14:00:00.000Z</published>
   </entry>
 </feed>

@@ -62,6 +62,7 @@
 - [Fedora Cosmic desktop Beta 一日游](https://blog.sotkg.com/2025/11/fedora-cosmic-beta): Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install "cosmic-desktop" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。
 - [随笔：逝去的一段时光](https://blog.sotkg.com/2025/11/piece-hy1): 本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。
 - [Riddle Joker：剧情不足，人设也不足](https://blog.sotkg.com/2025/11/riddle-joker): 《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 > 在原七海 > 三司绫濑 > 二条院羽月 > 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。
+- [国内外主流对象存储价格对比](https://blog.sotkg.com/2025/12/oss-prepare-list): 全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
 - [Clannad 游戏人物路线攻略：相乐美佐枝](https://blog.sotkg.com/previews/misae-sagara): 相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。
