@@ -1,1 +1,0 @@
-import{_ as r,d as s,e as o,ar as n}from"./B0af_bak.js";const t={};function a(e,c){return o(),s("ol",null,[n(e.$slots,"default")])}const _=Object.assign(r(t,[["render",a]]),{__name:"ProseOl"});export{_ as default};
