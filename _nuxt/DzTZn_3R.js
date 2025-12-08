@@ -1,1 +1,0 @@
-import{_ as r,d as s,e as n,ar as o}from"./C11rpuVG.js";const t={};function a(e,c){return n(),s("li",null,[o(e.$slots,"default")])}const _=Object.assign(r(t,[["render",a]]),{__name:"ProseLi"});export{_ as default};

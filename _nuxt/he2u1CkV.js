@@ -1,1 +1,0 @@
-import{_ as o,d as t,e as r,ar as s}from"./C11rpuVG.js";const c={};function n(e,a){return r(),t("blockquote",null,[s(e.$slots,"default")])}const _=Object.assign(o(c,[["render",n]]),{__name:"ProseBlockquote"});export{_ as default};
