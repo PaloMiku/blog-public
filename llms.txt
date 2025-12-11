@@ -66,6 +66,7 @@
 
 在技术探讨部分，作者生动地解析了不可变系统的核心优势。不同于传统的 A/B 分区，Silverblue 利用类似 Git 的 ostree 机制实现了版本控制与高效存储。文章指出，不可变系统并非剥夺控制权，而是通过锁定系统核心、解耦应用层，有效剥夺了用户“搞坏系统”的风险。结合 OCI 容器镜像技术，用户甚至可以像写代码一样“定义”自己的操作系统。这种极度稳定且易于维护的形态，极有可能是 Linux 桌面的未来主流。
 
+- [Love Love School Days 在 Linux 下游戏汉化补丁安装使用](https://blog.sotkg.com/2025/12/love-love-school-linux-chinese): 《Love Love School Days》是一款发行于2023年的 Unity 游戏，本文介绍了在 Linux 下安装和使用其汉化补丁的方法。 该补丁基于 BepInEx 和 Reipatcher 制作，适用于使用 Proton 兼容层运行的 Windows 游戏。文章详细说明了通过 Protontricks 配置 DLL 转发以确保补丁正常工作的方法。
 - [国内外主流对象存储价格对比](https://blog.sotkg.com/2025/12/oss-prepare-list): 全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。
 - [组件样式示例](https://blog.sotkg.com/previews/example)
 - [表格合并功能测试](https://blog.sotkg.com/previews/merge-test)
