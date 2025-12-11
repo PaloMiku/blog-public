@@ -73,3 +73,11 @@
 - [Clannad 游戏人物路线攻略：相乐美佐枝](https://blog.sotkg.com/previews/misae-sagara): 相乐美佐枝，光坂宿舍管理员，昔日传奇学生会长。其线短而先攻，埋幻想伏线。关键在 4.21 三连夸，错即 Bad End。完成智代线得“光”。
 - [这里是心跳☆学园](https://blog.sotkg.com/previews/this-love-school): 这里是心跳☆学园，是一款基于 Galgame 组件制作的视觉小说游戏示例，改编自《CLANNAD》剧情中的春原游戏书部分。面对各种选择和挑战。游戏包含多段文字、剧情分支选项和历史回顾功能。
 - [高木资源引导页（测试）](https://blog.sotkg.com/takagi)
+- [卡片和信息组件](https://blog.sotkg.com/themes/card-components): 介绍各种用于展示信息的卡片组件，包括装备卡片、人物卡片、番剧卡片等。
+- [CSS 样式与类名组件](https://blog.sotkg.com/themes/css-styles): 介绍通过 CSS 类名控制样式的各种组件，包括标题、引用、列表、文字样式等。
+- [自定义组件](https://blog.sotkg.com/themes/custom-components): 介绍可以通过 Vue 模板语法、MDC 语法使用的各种自定义组件。
+- [组件文档索引](https://blog.sotkg.com/themes): 博客主题组件文档总览，包含所有可用组件的分类说明和使用指南。
+- [交互式组件](https://blog.sotkg.com/themes/interactive-components): 介绍各种具有交互功能的组件，包括选项卡、折叠、时间线等。
+- [Markdown 语法组件](https://blog.sotkg.com/themes/markdown-components): 介绍可以通过 Markdown 原生语法、HTML 语法和 MDC 语法使用的组件。
+- [媒体和链接组件](https://blog.sotkg.com/themes/media-components): 介绍各种用于展示媒体内容和链接的组件，包括图片、视频、音乐播放器等。
+- [文本和内容展示组件](https://blog.sotkg.com/themes/text-content-components): 介绍各种用于展示文本和内容的组件，包括引用、诗歌、区块引用等。
