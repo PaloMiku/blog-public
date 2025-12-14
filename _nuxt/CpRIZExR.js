@@ -1,1 +1,0 @@
-import{a_ as s}from"./gfVstfgO.js";async function e(r,a){const t=r.playlistUrls.length>0?r.playlistUrls:s.playlistUrls;if(!t.length||!s.enabled)return{musicList:[],error:null};try{return{musicList:await a(t),error:null}}catch(l){return console.error("[GlobalMusicPlayer] Failed to load playlist in SSR:",l),{musicList:[],error:String(l)}}}export{e as default};

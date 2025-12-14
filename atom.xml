@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2025-12-12T12:24:55.213Z</updated>
+  <updated>2025-12-14T15:38:23.078Z</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -111,6 +111,7 @@
   <entry>
     <id>https://blog.sotkg.com/2024/10/write-1panel-app</id>
     <title>编写1Panel应用商店第三方程序</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -125,6 +126,7 @@
   <entry>
     <id>https://blog.sotkg.com/2024/12/break-change-2024</id>
     <title>破坏型迁移：站点反复横跳与稳定工作</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -139,6 +141,7 @@
   <entry>
     <id>https://blog.sotkg.com/2024/12/oyiso-tianligpt</id>
     <title>为Oyiso主题引入TianliGPT摘要</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -153,6 +156,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/01/arch-aur-kazumi</id>
     <title>为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -167,6 +171,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/clannad-zh-linux</id>
     <title>《Clannad》HD 官方中文版和 Full Voice 汉化版 Linux 运行</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -181,6 +186,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/fediverse</id>
     <title>浅谈个人与 Fediverse 的过往历史和现状</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -195,6 +201,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/gal-up</id>
     <title>旮沓给木太好玩辣——2025年上半Gal历程个人总结</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -209,6 +216,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/koichoco-psp</id>
     <title>《恋爱与选举与巧克力》携带版试玩体验</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -223,6 +231,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/lxgw-wenkai-web</id>
     <title>更换网站字体为霞鹜文楷屏幕阅读版（LXGW WenKai Screen）</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -237,6 +246,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/maitetsu-video-fix</id>
     <title>《爱上火车》在 Linux 下的视频播放修复</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -251,6 +261,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/misskey-sidebar</id>
     <title>Misskey/Sharkey 工具栏：强大且精心的小功能</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -265,6 +276,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/05/shr-misskey</id>
     <title>我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -279,6 +291,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/06/decky-loader</id>
     <title>Decky Loader——Linux下 Steamdeck 和大屏幕模式的最佳伴侣</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -293,6 +306,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/06/sickly-days-linux-run</id>
     <title>《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -311,6 +325,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/affine-deploy</id>
     <title>Affine 部署：自托管类 Notion 知识库系统</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -325,6 +340,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/clarity-resource-list</id>
     <title>为 Clarity 主题增加 ResourceList 资源列表组件</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -339,6 +355,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/fnos-vps-started</id>
     <title>大盘鸡做 NAS？FnOS 个人 VPS 部署体验</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -353,6 +370,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy</id>
     <title>Lemmy 部署：Rust Fediverse 社区系统</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -367,6 +385,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/misskey-fediverse-deploy</id>
     <title>Misskey 部署：新一代联邦星际微博平台</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -381,6 +400,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/nukitashi-gv-end</id>
     <title>迟来的个人对《拔作岛》第一部游戏动漫杂谈</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -395,6 +415,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/otterwiki-deploy</id>
     <title>OtterWiki 部署：基于 Python 的轻量知识库系统</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -409,6 +430,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/10/rust-waline-deploy</id>
     <title>Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -423,6 +445,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/11/blog-1th-note</id>
     <title>博客～真周年随笔（大概是一周年）</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -437,6 +460,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/11/cachyos-handheld-chinese-input</id>
     <title>在 CachyOS Handheld 下恢复 Steam Input 中文输入</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -451,6 +475,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/11/fedora-cosmic-beta</id>
     <title>Fedora Cosmic desktop Beta 一日游</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -465,6 +490,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/11/piece-hy1</id>
     <title>随笔：逝去的一段时光</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -479,6 +505,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/11/riddle-joker</id>
     <title>Riddle Joker：剧情不足，人设也不足</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -493,6 +520,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/12/fedora-silverblue-install-and-immutable-future</id>
     <title>Fedora Silverblue 安装记录和不可变 Linux 个人杂谈</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -513,6 +541,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/12/love-love-school-linux-chinese</id>
     <title>Love Love School Days 在 Linux 下游戏汉化补丁安装使用</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
@@ -527,6 +556,7 @@
   <entry>
     <id>https://blog.sotkg.com/2025/12/oss-prepare-list</id>
     <title>国内外主流对象存储价格对比</title>
+    <updated>Invalid Date</updated>
     <author>
       <name>Mikuの鬆</name>
     </author>
