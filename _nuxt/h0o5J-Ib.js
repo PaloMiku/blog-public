@@ -1,0 +1,1 @@
+import{aW as s,a as u,r as t}from"./bp8TqfHi.js";const f=s("content",()=>{const r=u(),e=t(),o=t();return r.beforeEach((a,n)=>{a.name!==n.name&&(e.value=void 0,o.value=void 0)}),{toc:e,meta:o}});export{f as u};
