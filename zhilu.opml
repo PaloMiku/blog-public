@@ -3,7 +3,7 @@
   <head>
     <title>Mikuの极光星的友链订阅</title>
     <dateCreated>2022-08-31T16:00:00.000Z</dateCreated>
-    <dateModified>2025-12-29T09:15:59.528Z</dateModified>
+    <dateModified>2026-01-02T09:23:31.337Z</dateModified>
     <ownerName>Mikuの鬆</ownerName>
     <ownerEmail>admin@sotkg.com</ownerEmail>
     <ownerId>https://blog.sotkg.com/</ownerId>
@@ -24,6 +24,6 @@
     <outline text="风月琉璃" type="rss" xmlUrl="https://miui.ink/feed/" description="我在等风，也在等你。" htmlUrl="https://miui.ink"></outline>
     <outline text="别碰我的镜头盖" type="rss" xmlUrl="https://blog.bornforthis.cn/atom.xml" description="世界那么大，我想去看看" htmlUrl="https://blog.bornforthis.cn/"></outline>
     <outline text="御坂秋生の小窝" type="rss" xmlUrl="https://www.akio.top/feed/" description="不努力就只能听到别人的好消息" htmlUrl="https://www.akio.top/"></outline>
-    <outline text="南蛮子懋和" type="rss" xmlUrl="https://www.dao.js.cn/feed/" description="南蛮子懋和" htmlUrl="https://www.dao.js.cn"></outline>
+    <outline text="懋和道人" type="rss" xmlUrl="https://www.dao.js.cn/feed/" description="懋和道人" htmlUrl="https://www.dao.js.cn"></outline>
   </body>
 </opml>
