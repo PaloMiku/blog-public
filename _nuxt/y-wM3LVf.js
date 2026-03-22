@@ -1,1 +1,0 @@
-import{U as s,d as o,e as l,h as n,aI as t,a7 as r,t as d,_ as i}from"./B6IfEyMr.js";const c=s({__name:"Folding",props:{title:{}},setup(a){return(e,_)=>(l(),o("details",null,[n("summary",null,[t(e.$slots,"title",{},()=>[r(d(a.title),1)],!0)]),t(e.$slots,"default",{},void 0,!0)]))}}),u=Object.assign(i(c,[["__scopeId","data-v-aad7bf99"]]),{__name:"Folding"});export{u as default};
