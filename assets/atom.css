@@ -37,8 +37,8 @@ body {
 }
 
 @font-face {
-	font-family: LXGWWenKai-Medium;
-	src: url("/fonts/LXGWWenKai-Medium.woff2");
+	font-family: LXGWWenKai;
+	src: url("/fonts/LXGWWenKai.woff2");
 }
 
 * {
@@ -82,7 +82,7 @@ code, pre {
 }
 
 .title {
-	font-family: LXGWWenKai-Medium, sans-serif;
+	font-family: LXGWWenKai, sans-serif;
 	font-variation-settings: "wght" 600, "BEVL" 100;
 	font-size: 1.2em;
 }
@@ -229,6 +229,7 @@ img {
 }
 
 .entry-content img {
+	height: auto;
 	max-width: 100%;
 	border-radius: 0.2em;
 }
