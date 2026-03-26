@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2026-03-26T10:35:33.63+00:00[UTC]</updated>
+  <updated>2026-03-26T10:44:07.381+00:00[UTC]</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -357,7 +357,7 @@
       <name>Mikuの鬆</name>
     </author>
     <content type="html">
-      <![CDATA[<img src="https://join-lemmy.org/static/assets/images/main_screen_2.webp" alt="Lemmy 部署：Rust Fediverse 社区系统" /> <p>本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy" target="_blank">点击查看全文</a>]]>
+      <![CDATA[ <p>本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy" target="_blank">点击查看全文</a>]]>
     </content>
     <link href="https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy"></link>
     <summary>本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。</summary>
