@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2026-03-26T10:59:43.978+00:00[UTC]</updated>
+  <updated>2026-03-28T07:15:19.12+00:00[UTC]</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -537,5 +537,19 @@
     <summary>全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。</summary>
     <category term="技术探索"></category>
     <published>2025-12-04T14:00:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2026/honorx16-ryzen-linux</id>
+    <title>荣耀 X16 锐龙版（2024）运行 Linux 问题和修复</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://hshop.honorfile.com/pimages/product/6936520840687/800_800_B9550EC85C571CD29A9224B67EACF21431164E8FCA14A640mp.png" alt="荣耀 X16 锐龙版（2024）运行 Linux 问题和修复" /> <p>作者 2024 年大一因专业需求与性价比，入手国补后约 2.8k 的荣耀 X16 锐龙版笔记本，前期使用 Windows 系统表现正常，年底安装 CachyOS Linux 后接连出现问题：一是设备睡眠唤醒极慢甚至无法唤醒，源于电脑 BIOS 阉割 S3 睡眠模式仅支持 S0ix，后通过 UAFB 开启 AMD RAID Mode 得以解决；二是 HDMI 外接显示器颜色失真，Linux 系统内色彩范围设置无效，改用 USB-C 接 Steamdeck 扩展坞以 DP 输出后恢复正常。作者据此不建议 Linux 用户选购新款荣耀电脑，因其 BIOS 阉割严重导致问题难解决，老款荣耀 Magicbook 则无此类问题，同时该电脑在 Windows 系统下优化表现良好。</p> <a class="view-full" href="https://blog.sotkg.com/2026/honorx16-ryzen-linux" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2026/honorx16-ryzen-linux"></link>
+    <summary>作者 2024 年大一因专业需求与性价比，入手国补后约 2.8k 的荣耀 X16 锐龙版笔记本，前期使用 Windows 系统表现正常，年底安装 CachyOS Linux 后接连出现问题：一是设备睡眠唤醒极慢甚至无法唤醒，源于电脑 BIOS 阉割 S3 睡眠模式仅支持 S0ix，后通过 UAFB 开启 AMD RAID Mode 得以解决；二是 HDMI 外接显示器颜色失真，Linux 系统内色彩范围设置无效，改用 USB-C 接 Steamdeck 扩展坞以 DP 输出后恢复正常。作者据此不建议 Linux 用户选购新款荣耀电脑，因其 BIOS 阉割严重导致问题难解决，老款荣耀 Magicbook 则无此类问题，同时该电脑在 Windows 系统下优化表现良好。</summary>
+    <category term="技术探索"></category>
+    <published>2026-03-28T06:00:00Z</published>
   </entry>
 </feed>
