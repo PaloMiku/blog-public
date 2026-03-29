@@ -1,1 +1,0 @@
-import{d as s,o,c as l,a as n,r as t,W as r,t as d,_ as i}from"./CA2FMSn_.js";const c=s({__name:"Folding",props:{title:{}},setup(a){return(e,_)=>(o(),l("details",null,[n("summary",null,[t(e.$slots,"title",{},()=>[r(d(a.title),1)],!0)]),t(e.$slots,"default",{},void 0,!0)]))}}),u=Object.assign(i(c,[["__scopeId","data-v-aad7bf99"]]),{__name:"Folding"});export{u as default};
