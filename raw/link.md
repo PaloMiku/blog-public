@@ -6,7 +6,7 @@
 
   - 能够**长期更新维护**，并输出**有价值的原创内容**
   - 可以参考 [加入开往](https://www.travellings.cn/docs/join.html) 页面的规则
-- 申请方式：在评论区留言或发送邮件到 <tip :copy="true" text="hi@zhilu.cyou">
+- 申请方式：在评论区留言或发送邮件到 <tip :copy="true" text="admin@sotkg.com">
 
 
 
