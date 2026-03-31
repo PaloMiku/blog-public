@@ -219,11 +219,10 @@ FS
 </info-card>
 
 <quote>
-<template v-slot:icon="">
+
+# icon
 
 ︿(￣︶￣)︿
-
-</template>
 
 在游戏里开始本线路前，请先把大脑找个地方寄存起来。
 
@@ -312,12 +311,11 @@ FS
 
 ## 动画
 
-#::info-card
-#---
-#type: media
-#id: 477825
-#---
-#::
+<info-card :id="477825" type="media">
+
+
+
+</info-card>
 
 严格意义上，拔作岛的动画化是很成功的，它成功的火出了圈子，但火起来的代价是什么？
 
