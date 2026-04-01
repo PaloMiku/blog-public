@@ -20,7 +20,7 @@
 
 喜欢山楂制品，包括山楂，不管生的熟的或者酸的甜的，全部通吃。
 
-<project-group :items="[{"title":"Zen Browser","description":"Workspace Productivity Browser","icon":"simple-icons:zenbrowser","link":"https://zen-browser.app/"},{"title":"Chrome","description":"Google Browser","icon":"devicon:chrome","link":"https://www.google.com/chrome/"}]" title="浏览器">
+<project-group :items="[{"title":"Zen Browser","description":"Workspace Productivity Browser","icon":"simple-icons:zenbrowser","link":"https://zen-browser.app/"}]" title="浏览器">
 
 
 
@@ -32,7 +32,7 @@
 
 </project-group>
 
-<project-group :items="[{"title":"Fedora KDE Plasma","description":"Honor X16 Ryzen 2024","icon":"devicon:fedora","link":"https://www.fedoraproject.org/kde/"},{"title":"Bazzite GNOME","description":"Steam Deck LCD 2T","icon":"devicon:fedora","link":"https://bazzite.gg/"}]" title="开发环境">
+<project-group :items="[{"title":"CachyOS Niri+Noctalia","description":"Honor X16 Ryzen 2024","icon":"https://wiki.cachyos.org/_astro/logo.DVTdAJi6.svg","link":"https://www.fedoraproject.org/kde/"},{"title":"Bazzite GNOME","description":"Steam Deck LCD 2T","icon":"devicon:fedora","link":"https://bazzite.gg/"}]" title="开发环境">
 
 
 
@@ -62,7 +62,7 @@
 
 你也可以通过联邦宇宙（Fediverse Misskey）方式与我取得联系！：
 
-<project-group :items="[{"title":"Circlari Fediverse","description":"主用联邦实例","icon":"https://circlari-sharky.s3.bitiful.net/sitelogo_128x128.png","link":"https://circle.tkg3.top/@PaloMiku"},{"title":"咪社 Misskey","description":"无联邦，活跃发癫","icon":"simple-icons:misskey","link":"https://misskey.site/@NukiMiku"},{"title":"鸟白岛 Torishiro","description":"备用防丢，鸟白岛","icon":"https://sa.torishiro.com/misskey/d888c9f4-6edc-4e07-ae70-e38523edc1bc.png","link":"https://torishiro.com/@PaloMiku"}]" title="联邦宇宙">
+<project-group :items="[{"title":"Circlari Fediverse","description":"主用联邦实例","icon":"https://circlari-sharky.s3.bitiful.net/sitelogo_128x128.png","link":"https://circle.tkg3.top/@PaloMiku"},{"title":"鸟白岛 Torishiro","description":"备用防丢，鸟白岛","icon":"https://sa.torishiro.com/misskey/d888c9f4-6edc-4e07-ae70-e38523edc1bc.png","link":"https://torishiro.com/@PaloMiku"}]" title="联邦宇宙">
 
 
 
