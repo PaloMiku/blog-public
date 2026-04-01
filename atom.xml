@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2026-04-01T04:59:55.323+00:00[UTC]</updated>
+  <updated>2026-04-01T06:29:49.722+00:00[UTC]</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -551,5 +551,19 @@
     <summary>作者 2024 年大一因专业需求与性价比，入手国补后约 2.8k 的荣耀 X16 锐龙版笔记本，前期使用 Windows 系统表现正常，年底安装 CachyOS Linux 后接连出现问题：一是设备睡眠唤醒极慢甚至无法唤醒，源于电脑 BIOS 阉割 S3 睡眠模式仅支持 S0ix，后通过 UAFB 开启 AMD RAID Mode 得以解决；二是 HDMI 外接显示器颜色失真，Linux 系统内色彩范围设置无效，改用 USB-C 接 Steamdeck 扩展坞以 DP 输出后恢复正常。作者据此不建议 Linux 用户选购新款荣耀电脑，因其 BIOS 阉割严重导致问题难解决，老款荣耀 Magicbook 则无此类问题，同时该电脑在 Windows 系统下优化表现良好。</summary>
     <category term="技术探索"></category>
     <published>2026-03-28T06:00:00Z</published>
+  </entry>
+  <entry>
+    <id>https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter</id>
+    <title>用 Codex 写了一个 Noctalia 插件 Process Reporter</title>
+    <author>
+      <name>Mikuの鬆</name>
+    </author>
+    <content type="html">
+      <![CDATA[<img src="https://fastly.jsdelivr.net/gh/PaloMiku/noctalia-plugins@master/process-reporter/screenshot.png" alt="用 Codex 写了一个 Noctalia 插件 Process Reporter" /> <p>本文作者分享了将主力机系统环境从 Fedora+KDE 更换为 Arch+Niri+Noctalia 后的使用体验，重点围绕借助 AI 完成 Noctalia 自定义插件开发的实践展开。作者为验证 GPT 5.3-Codex 的 Agent 能力，落地了一款窗口与媒体状态上报插件，该插件托管于其个人 GitHub 仓库，可通过 Noctalia 插件商店添加自定义源完成安装与更新。插件核心功能为实时抓取用户当前聚焦的窗口信息、监听系统媒体播放状态，将数据按规范格式封装后，经 token 鉴权与限流处理上报至云函数，最终实现博客端个人在线状态的实时展示。作者表示自身并不熟悉 QT（QML）开发，依托 AI 辅助顺利完成了功能完整的插件开发，此次实践拓展了个人技术能力，同时提及了开发所用的 Qt 跨平台应用框架与 Rust 系统编程语言，后续还计划尝试更多类型的 Noctalia 插件开发。</p> <a class="view-full" href="https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter" target="_blank">点击查看全文</a>]]>
+    </content>
+    <link href="https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter"></link>
+    <summary>本文作者分享了将主力机系统环境从 Fedora+KDE 更换为 Arch+Niri+Noctalia 后的使用体验，重点围绕借助 AI 完成 Noctalia 自定义插件开发的实践展开。作者为验证 GPT 5.3-Codex 的 Agent 能力，落地了一款窗口与媒体状态上报插件，该插件托管于其个人 GitHub 仓库，可通过 Noctalia 插件商店添加自定义源完成安装与更新。插件核心功能为实时抓取用户当前聚焦的窗口信息、监听系统媒体播放状态，将数据按规范格式封装后，经 token 鉴权与限流处理上报至云函数，最终实现博客端个人在线状态的实时展示。作者表示自身并不熟悉 QT（QML）开发，依托 AI 辅助顺利完成了功能完整的插件开发，此次实践拓展了个人技术能力，同时提及了开发所用的 Qt 跨平台应用框架与 Rust 系统编程语言，后续还计划尝试更多类型的 Noctalia 插件开发。</summary>
+    <category term="技术探索"></category>
+    <published>2026-04-01T06:00:00Z</published>
   </entry>
 </feed>
