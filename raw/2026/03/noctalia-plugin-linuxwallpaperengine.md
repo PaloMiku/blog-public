@@ -1,3 +1,0 @@
-# Noctalia Plugin Linuxwallpaperengine
-
->

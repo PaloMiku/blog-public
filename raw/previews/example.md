@@ -2030,22 +2030,22 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 ```mdcexpand
 ::folding
-#title
-可以通过标题插槽传值 [超链接](#folding) **粗体** `Inline code`
-#default
-默认插槽的 [超链接](#folding) **粗体** `Inline code`
+  #title
+  可以通过标题插槽传值 [超链接](#folding) **粗体** `Inline code`
+  #default
+  默认插槽的 [超链接](#folding) **粗体** `Inline code`
 
-  ::folding{open title="折叠还可以嵌套"}
-  默认展开的折叠。
+    ::folding{open title="折叠还可以嵌套"}
+    默认展开的折叠。
 
-    ::alert{type="error"}
-    #title
-    在嵌套使用的组件内部使用 MDC 的 `#slotname` 插槽语法
-    #default
-    必须缩进，否则会报错。
+      ::alert{type="error"}
+      #title
+      在嵌套使用的组件内部使用 MDC 的 `#slotname` 插槽语法
+      #default
+      必须缩进，否则会报错。
+      ::
     ::
   ::
-::
 
 ::folding{open}
 ```md
@@ -2181,15 +2181,15 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 ```mdcwrap
 - 纯 Code
 
-:key{code="Escape"} :key{code="F2"} :key{code="Control"} :key{code="A"} :key{code=" "} :key{code="Tab"} :key{code="Enter"}
+  :key{code="Escape"} :key{code="F2"} :key{code="Control"} :key{code="A"} :key{code=" "} :key{code="Tab"} :key{code="Enter"}
 
 - 指定修饰符、图标、文本（macOS 自动使用图标）
 
-:key{code="Control" icon} :key{alt icon} :key{shift icon} :key{code=" " text="空格"} :key{code="Tab" icon} :key{code="Enter" icon}
+  :key{code="Control" icon} :key{alt icon} :key{shift icon} :key{code=" " text="空格"} :key{code="Tab" icon} :key{code="Enter" icon}
 
 - 组合键
 
-:key{code="A" ctrl shift} :key{alt shift} :key{code="Escape" ctrl alt icon}
+  :key{code="A" ctrl shift} :key{alt shift} :key{code="Escape" ctrl alt icon}
 
 ~~热血组合技 :key{code="ArrowUp"} :key{code="ArrowUp"} :key{code="ArrowDown"} :key{code="ArrowDown"} :key{code="ArrowLeft"} :key{code="ArrowRight"} :key{code="ArrowLeft"} :key{code="ArrowRight"} :key{code="B"} :key{code="A"}~~
 ```
