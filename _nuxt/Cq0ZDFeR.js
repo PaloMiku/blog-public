@@ -1,0 +1,1 @@
+import{K as s,A as t,B as c,E as n,G as o}from"./Dklfl3o1.js";const _={},a={class:"secret-container"},r={class:"secret"};function d(e,i){return t(),c("div",a,[n("div",r,[o(e.$slots,"default",{},void 0,!0)])])}const f=Object.assign(s(_,[["render",d],["__scopeId","data-v-6c19740c"]]),{__name:"ZSecret"});export{f as _};
