@@ -1,0 +1,1 @@
+import{K as r,A as n,B as o,G as s}from"./zyCRTl2H.js";const t={};function a(e,c){return n(),o("strong",null,[s(e.$slots,"default")])}const _=Object.assign(r(t,[["render",a]]),{__name:"ProseStrong"});export{_ as default};

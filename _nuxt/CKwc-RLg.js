@@ -1,0 +1,1 @@
+import{K as s,A as a,B as r,G as t}from"./zyCRTl2H.js";const n={};function o(e,c){return a(),r("thead",null,[t(e.$slots,"default")])}const _=Object.assign(s(n,[["render",o]]),{__name:"ProseThead"});export{_ as default};

@@ -1,1 +1,0 @@
-import{K as r,A as s,B as t,G as n}from"./a-lEOgGY.js";const o={};function a(e,c){return s(),t("tr",null,[n(e.$slots,"default")])}const _=Object.assign(r(o,[["render",a]]),{__name:"ProseTr"});export{_ as default};
