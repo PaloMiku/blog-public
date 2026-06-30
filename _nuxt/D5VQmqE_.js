@@ -1,1 +1,0 @@
-import{y as s,A as o,B as l,E as n,G as t,ah as r,H as d,K as i}from"./zyCRTl2H.js";const c=s({__name:"Folding",props:{title:{}},setup(a){return(e,p)=>(o(),l("details",null,[n("summary",null,[t(e.$slots,"title",{},()=>[r(d(a.title),1)],!0)]),t(e.$slots,"default",{},void 0,!0)]))}}),_=Object.assign(i(c,[["__scopeId","data-v-aad7bf99"]]),{__name:"Folding"});export{_ as default};
