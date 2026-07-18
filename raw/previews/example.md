@@ -14,19 +14,19 @@ Nuxt Content 使用 Markdown 语法和约定来提供丰富的文本编辑体验
 
 </link-card>
 
-~~也许要看到 本页源码~~ ~~才能领会到这种语法的特性~~，现在可以在页面内看源代码了， <span className="example-info" style="color: #00bb66" id="just-like-this">
+~~也许要看到 本页源码 才能领会到这种语法的特性~~，现在可以在页面内看源代码了，<span className="example-info" id="just-like-this" style="color: #00bb66">
 
 就像**这样**——
 
 </span>
 
- ，或是主题介绍页面的组件入口卡片那样……确定不对照源码阅读吗？
+，或是主题介绍页面的组件入口卡片那样……确定不对照源码阅读吗？
 
 </template>
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 ::link-card
 ---
 title: MDC 基本语法（必读）
@@ -49,15 +49,17 @@ class: gradient-card active
 <tab :tabs="["组件","语法"]">
 <template v-slot:tab1="">
 
----
-
 - 各级标题
+
   - 在 Front matter 中设置 `type: story` 可以换用不同样式。
   - 跟随 URL Hash（网址锚点）的高亮。
 - > 引用。
 - 无序和有序列表。
 - **粗体**、~~删除线~~。
 - 分割线。
+
+---
+
 - 带有 `icon` 类名的图片，如 ![图片](https://picsum.photos/100/100)。
 - <span className="title-like">
 
@@ -74,13 +76,13 @@ class: gradient-card active
 阴 影 回 声
 
 </span>
-- 滚动，然后悄悄 <span className="text-zoom">
+- 滚动，然后悄悄<span className="text-zoom">
 
 变大变高
 
 </span>
 
- ，惊艳所有人。
+，惊艳所有人。
 
 </template>
 
@@ -125,7 +127,7 @@ class: gradient-card active
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 你可以将 `icon` 属性指定 Iconify 图标名，例如 [a](#链接-prosea){icon="tabler:color-swatch"}。图标可在 [Iconify](https://icon-sets.iconify.design/) 或 [Yesicon](https://yesicon.app/) 搜索。
 ```
 
@@ -139,7 +141,7 @@ class: gradient-card active
 
 ### 代码 `ProseCode`
 
-`行内代码` 和 [在超链接中的](#%E4%BB%A3%E7%A0%81-prosecode) [`行内代码`](#%E4%BB%A3%E7%A0%81-prosecode)。
+`行内代码` 和 [在超链接中的 `行内代码`](#%E4%BB%A3%E7%A0%81-prosecode)。
 
 还可以通过在反引号后加 `{lang="js"}` 等语言实现高亮，例如 `const a = 1` 。
 
@@ -197,7 +199,7 @@ class: gradient-card active
 \
 ```
 
-```md [更多功能]
+```md [更多功能]icon=tabler:files wrap expand
 - 在 Markdown 文件中，可以通过代码块语法的 meta 标记
   - `wrap` 直接启用自动换行功能，以展示特别特别特别特别特别特别特别特别特别特别特别特别特别特别特别特别长的文本而不换行
   - `icon=tabler:files` 自定义代码块图标
@@ -277,31 +279,128 @@ class: gradient-card active
 
 ### 数学公式
 
-> 由 [[]{.katex-mathml}[[[]{.strut style="height:0.8988em;vertical-align:-0.2155em;"}[[K]{.mord.textrm}<span className="mspace" style="margin-right:-0.17em;">
+> 由 <span className="katex">
+> <span className="katex-mathml">
+> <math xmlns="http://www.w3.org/1998/Math/MathML">
+> <semantics>
+> <mrow>
+> <mtext>
+> 
+> KaTeX
+> 
+> </mtext>
+> </mrow>
+> 
+> <annotation encoding="application/x-tex">
+> 
+> \KaTeX
+> 
+> </annotation>
+> </semantics>
+> </math>
+> </span>
+> 
+> <span className="katex-html" ariaHidden="true">
+> <span className="base">
+> <span className="strut" style="height:0.8988em;vertical-align:-0.2155em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[[[[]{.pstrut style="height:2.7em;"}[[A]{.mord.textrm.mtight.sizing.reset-size6.size3}]{.mord}]{style="top:-2.905em;"}]{.vlist style="height:0.6833em;"}]{.vlist-r}]{.vlist-t}<span className="mspace" style="margin-right:-0.15em;">
+> <span className="mord,text">
+> <span className="mord,textrm">
+> 
+> K
+> 
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.17em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[T]{.mord.textrm}<span className="mspace" style="margin-right:-0.1667em;">
+> <span className="vlist-t">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.6833em;">
+> <span style="top:-2.905em;">
+> <span className="pstrut" style="height:2.7em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[[[[]{.pstrut style="height:3em;"}[[E]{.mord.textrm}]{.mord}]{style="top:-2.7845em;"}]{.vlist style="height:0.4678em;"}<span className="vlist-s">
+> <span className="mord">
+> <span className="mord,textrm,mtight,sizing,reset-size6,size3">
+> 
+> A
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.15em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="mord,text">
+> <span className="mord,textrm">
+> 
+> T
+> 
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.1667em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="vlist-t,vlist-t2">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.4678em;">
+> <span style="top:-2.7845em;">
+> <span className="pstrut" style="height:3em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="mord">
+> <span className="mord,textrm">
+> 
+> E
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="vlist-s">
 > 
 > ​
 > 
 > </span>
+> </span>
 > 
-> ]{.vlist-r}[[[]]{.vlist style="height:0.2155em;"}]{.vlist-r}]{.vlist-t.vlist-t2}<span className="mspace" style="margin-right:-0.125em;">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.2155em;">
+> <span>
+> 
+> 
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.125em;">
 > 
 > 
 > 
@@ -312,20 +411,93 @@ class: gradient-card active
 > X
 > 
 > </span>
+> </span>
+> </span>
+> </span>
+> </span>
+> </span>
 > 
-> ]{.mord.text}]{.mord.text}]{.base}]{.katex-html ariaHidden="true"}]{.katex} 驱动，支持 [[]{.katex-mathml}[[[]{.strut style="height:0.8988em;vertical-align:-0.2155em;"}[[T]{.mord.textrm}<span className="mspace" style="margin-right:-0.1667em;">
+>  驱动，支持 <span className="katex">
+> <span className="katex-mathml">
+> <math xmlns="http://www.w3.org/1998/Math/MathML">
+> <semantics>
+> <mrow>
+> <mtext>
+> 
+> TeX
+> 
+> </mtext>
+> </mrow>
+> 
+> <annotation encoding="application/x-tex">
+> 
+> \TeX
+> 
+> </annotation>
+> </semantics>
+> </math>
+> </span>
+> 
+> <span className="katex-html" ariaHidden="true">
+> <span className="base">
+> <span className="strut" style="height:0.8988em;vertical-align:-0.2155em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[[[[]{.pstrut style="height:3em;"}[[E]{.mord.textrm}]{.mord}]{style="top:-2.7845em;"}]{.vlist style="height:0.4678em;"}<span className="vlist-s">
+> <span className="mord,text">
+> <span className="mord,textrm">
+> 
+> T
+> 
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.1667em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="vlist-t,vlist-t2">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.4678em;">
+> <span style="top:-2.7845em;">
+> <span className="pstrut" style="height:3em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="mord">
+> <span className="mord,textrm">
+> 
+> E
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="vlist-s">
 > 
 > ​
 > 
 > </span>
+> </span>
 > 
-> ]{.vlist-r}[[[]]{.vlist style="height:0.2155em;"}]{.vlist-r}]{.vlist-t.vlist-t2}<span className="mspace" style="margin-right:-0.125em;">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.2155em;">
+> <span>
+> 
+> 
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.125em;">
 > 
 > 
 > 
@@ -336,32 +508,133 @@ class: gradient-card active
 > X
 > 
 > </span>
+> </span>
+> </span>
+> </span>
+> </span>
 > 
-> ]{.mord.text}]{.base}]{.katex-html ariaHidden="true"}]{.katex} 和部分 [[]{.katex-mathml}[[[]{.strut style="height:0.8988em;vertical-align:-0.2155em;"}[[L]{.mord.textrm}<span className="mspace" style="margin-right:-0.36em;">
+>  和部分 <span className="katex">
+> <span className="katex-mathml">
+> <math xmlns="http://www.w3.org/1998/Math/MathML">
+> <semantics>
+> <mrow>
+> <mtext>
+> 
+> LaTeX
+> 
+> </mtext>
+> </mrow>
+> 
+> <annotation encoding="application/x-tex">
+> 
+> \LaTeX
+> 
+> </annotation>
+> </semantics>
+> </math>
+> </span>
+> 
+> <span className="katex-html" ariaHidden="true">
+> <span className="base">
+> <span className="strut" style="height:0.8988em;vertical-align:-0.2155em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[[[[]{.pstrut style="height:2.7em;"}[[A]{.mord.textrm.mtight.sizing.reset-size6.size3}]{.mord}]{style="top:-2.905em;"}]{.vlist style="height:0.6833em;"}]{.vlist-r}]{.vlist-t}<span className="mspace" style="margin-right:-0.15em;">
+> <span className="mord,text">
+> <span className="mord,textrm">
+> 
+> L
+> 
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.36em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[T]{.mord.textrm}<span className="mspace" style="margin-right:-0.1667em;">
+> <span className="vlist-t">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.6833em;">
+> <span style="top:-2.905em;">
+> <span className="pstrut" style="height:2.7em;">
 > 
 > 
 > 
 > </span>
 > 
-> [[[[[]{.pstrut style="height:3em;"}[[E]{.mord.textrm}]{.mord}]{style="top:-2.7845em;"}]{.vlist style="height:0.4678em;"}<span className="vlist-s">
+> <span className="mord">
+> <span className="mord,textrm,mtight,sizing,reset-size6,size3">
+> 
+> A
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.15em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="mord,text">
+> <span className="mord,textrm">
+> 
+> T
+> 
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.1667em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="vlist-t,vlist-t2">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.4678em;">
+> <span style="top:-2.7845em;">
+> <span className="pstrut" style="height:3em;">
+> 
+> 
+> 
+> </span>
+> 
+> <span className="mord">
+> <span className="mord,textrm">
+> 
+> E
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="vlist-s">
 > 
 > ​
 > 
 > </span>
+> </span>
 > 
-> ]{.vlist-r}[[[]]{.vlist style="height:0.2155em;"}]{.vlist-r}]{.vlist-t.vlist-t2}<span className="mspace" style="margin-right:-0.125em;">
+> <span className="vlist-r">
+> <span className="vlist" style="height:0.2155em;">
+> <span>
+> 
+> 
+> 
+> </span>
+> </span>
+> </span>
+> </span>
+> 
+> <span className="mspace" style="margin-right:-0.125em;">
 > 
 > 
 > 
@@ -372,21 +645,88 @@ class: gradient-card active
 > X
 > 
 > </span>
-> 
-> ]{.mord.text}]{.mord.text}]{.base}]{.katex-html ariaHidden="true"}]{.katex} 语法。如果 Markdown 正文需要直接使用 <span className="katex-error" title="ParseError: KaTeX parse error: Unexpected character: '\' at position 11:  符号，需要使用 `\̲" style="color:#cc0000">
-> 
-> 符号，需要使用 `\
-> 
+> </span>
+> </span>
+> </span>
+> </span>
 > </span>
 > 
-> ` 转义。
+>  语法。如果 Markdown 正文需要直接使用 $ 符号，需要使用 `\$` 转义。
 > 
 > [支持语法列表](https://katex.org/docs/supported)（[中文版](https://www.luogu.com.cn/paste/hs3jg81l)）
 
 <tab :tabs="["组件","语法"]">
 <template v-slot:tab1="">
+<span className="katex">
+<span className="katex-mathml">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow>
+<mtext>
 
-[[]{.katex-mathml}[[[]{.strut style="height:0.6833em;"}[[课程绩点]{.mord.cjk_fallback}]{.mord.text}<span className="mspace" style="margin-right:0.2778em;">
+课程绩点
+
+</mtext>
+
+<mo>
+
+=
+
+</mo>
+
+<mfrac>
+<mtext>
+
+课程分数(成绩)
+
+</mtext>
+
+<mn>
+
+10
+
+</mn>
+</mfrac>
+
+<mo>
+
+−
+
+</mo>
+
+<mn>
+
+5
+
+</mn>
+</mrow>
+
+<annotation encoding="application/x-tex">
+
+\text{课程绩点} = \frac{\text{课程分数(成绩)}}{10} - 5
+
+</annotation>
+</semantics>
+</math>
+</span>
+
+<span className="katex-html" ariaHidden="true">
+<span className="base">
+<span className="strut" style="height:0.6833em;">
+
+
+
+</span>
+
+<span className="mord,text">
+<span className="mord,cjk_fallback">
+
+课程绩点
+
+</span>
+</span>
+
+<span className="mspace" style="margin-right:0.2778em;">
 
 
 
@@ -403,14 +743,75 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:1.355em;vertical-align:-0.345em;"}[[]{.mopen.nulldelimiter}[[[[[[]{.pstrut style="height:3em;"}[[[10]{.mord.mtight}]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-2.655em;"}[[]{.pstrut style="height:3em;"}<span className="frac-line" style="border-bottom-width:0.04em;">
+<span className="base">
+<span className="strut" style="height:1.355em;vertical-align:-0.345em;">
 
 
 
 </span>
 
-]{style="top:-3.23em;"}[[]{.pstrut style="height:3em;"}[[[[课程分数]{.mord.cjk_fallback.mtight}<span className="mord,mtight">
+<span className="mord">
+<span className="mopen,nulldelimiter">
+
+
+
+</span>
+
+<span className="mfrac">
+<span className="vlist-t,vlist-t2">
+<span className="vlist-r">
+<span className="vlist" style="height:1.01em;">
+<span style="top:-2.655em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mord,mtight">
+
+10
+
+</span>
+</span>
+</span>
+</span>
+
+<span style="top:-3.23em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="frac-line" style="border-bottom-width:0.04em;">
+
+
+
+</span>
+</span>
+
+<span style="top:-3.485em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+课程分数
+
+</span>
+
+<span className="mord,mtight">
 
 (
 
@@ -427,20 +828,39 @@ class: gradient-card active
 )
 
 </span>
+</span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord.text.mtight}]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-3.485em;"}]{.vlist style="height:1.01em;"}<span className="vlist-s">
+<span className="vlist-s">
 
 ​
 
 </span>
+</span>
 
-]{.vlist-r}[[[]]{.vlist style="height:0.345em;"}]{.vlist-r}]{.vlist-t.vlist-t2}]{.mfrac}<span className="mclose,nulldelimiter">
+<span className="vlist-r">
+<span className="vlist" style="height:0.345em;">
+<span>
 
 
 
 </span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord}<span className="mspace" style="margin-right:0.2222em;">
+<span className="mclose,nulldelimiter">
+
+
+
+</span>
+</span>
+
+<span className="mspace" style="margin-right:0.2222em;">
 
 
 
@@ -457,16 +877,88 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:0.6444em;"}<span className="mord">
+<span className="base">
+<span className="strut" style="height:0.6444em;">
+
+
+
+</span>
+
+<span className="mord">
 
 5
 
 </span>
+</span>
+</span>
+</span>
 
-]{.base}]{.katex-html ariaHidden="true"}]{.katex}
 
-[[]{.katex-mathml}[[[]{.strut style="height:0.6833em;"}[[学分绩点]{.mord.cjk_fallback}]{.mord.text}<span className="mspace" style="margin-right:0.2778em;">
+
+<span className="katex">
+<span className="katex-mathml">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow>
+<mtext>
+
+学分绩点
+
+</mtext>
+
+<mo>
+
+=
+
+</mo>
+
+<mtext>
+
+课程学分
+
+</mtext>
+
+<mo>
+
+×
+
+</mo>
+
+<mtext>
+
+课程绩点
+
+</mtext>
+</mrow>
+
+<annotation encoding="application/x-tex">
+
+\text{学分绩点} = \text{课程学分} \times \text{课程绩点}
+
+</annotation>
+</semantics>
+</math>
+</span>
+
+<span className="katex-html" ariaHidden="true">
+<span className="base">
+<span className="strut" style="height:0.6833em;">
+
+
+
+</span>
+
+<span className="mord,text">
+<span className="mord,cjk_fallback">
+
+学分绩点
+
+</span>
+</span>
+
+<span className="mspace" style="margin-right:0.2778em;">
 
 
 
@@ -483,8 +975,24 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:0.7667em;vertical-align:-0.0833em;"}[[课程学分]{.mord.cjk_fallback}]{.mord.text}<span className="mspace" style="margin-right:0.2222em;">
+<span className="base">
+<span className="strut" style="height:0.7667em;vertical-align:-0.0833em;">
+
+
+
+</span>
+
+<span className="mord,text">
+<span className="mord,cjk_fallback">
+
+课程学分
+
+</span>
+</span>
+
+<span className="mspace" style="margin-right:0.2222em;">
 
 
 
@@ -501,16 +1009,152 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:0.6833em;"}[[课程绩点]{.mord.cjk_fallback}]{.mord.text}]{.base}]{.katex-html ariaHidden="true"}]{.katex}
+<span className="base">
+<span className="strut" style="height:0.6833em;">
 
-[[]{.katex-mathml}[[[]{.strut style="height:1em;vertical-align:-0.25em;"}[[平均绩点]{.mord.cjk_fallback}<span className="mord">
+
+
+</span>
+
+<span className="mord,text">
+<span className="mord,cjk_fallback">
+
+课程绩点
+
+</span>
+</span>
+</span>
+</span>
+</span>
+
+
+
+<span className="katex">
+<span className="katex-mathml">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow>
+<mtext>
+
+平均绩点(GPA)
+
+</mtext>
+
+<mo>
+
+=
+
+</mo>
+
+<mfrac>
+<mtext>
+
+学分绩点之和
+
+</mtext>
+
+<mtext>
+
+课程学分之和
+
+</mtext>
+</mfrac>
+
+<mo>
+
+=
+
+</mo>
+
+<mfrac>
+<mrow>
+<mo>
+
+∑
+
+</mo>
+
+<mo stretchy="false">
+
+(
+
+</mo>
+
+<mtext>
+
+课程学分
+
+</mtext>
+
+<mo>
+
+×
+
+</mo>
+
+<mtext>
+
+课程mag绩点
+
+</mtext>
+
+<mo stretchy="false">
+
+)
+
+</mo>
+</mrow>
+
+<mrow>
+<mo>
+
+∑
+
+</mo>
+
+<mtext>
+
+课程mag学分
+
+</mtext>
+</mrow>
+</mfrac>
+</mrow>
+
+<annotation encoding="application/x-tex">
+
+\text{平均绩点(GPA)} =\frac {\text{学分绩点之和}}{\text{课程学分之和}} = \frac{\sum (\text{课程学分} \times \text{课程mag绩点})}{\sum \text{课程mag学分}}
+
+</annotation>
+</semantics>
+</math>
+</span>
+
+<span className="katex-html" ariaHidden="true">
+<span className="base">
+<span className="strut" style="height:1em;vertical-align:-0.25em;">
+
+
+
+</span>
+
+<span className="mord,text">
+<span className="mord,cjk_fallback">
+
+平均绩点
+
+</span>
+
+<span className="mord">
 
 (GPA)
 
 </span>
+</span>
 
-]{.mord.text}<span className="mspace" style="margin-right:0.2778em;">
+<span className="mspace" style="margin-right:0.2778em;">
 
 
 
@@ -527,26 +1171,108 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:1.2173em;vertical-align:-0.345em;"}[[]{.mopen.nulldelimiter}[[[[[[]{.pstrut style="height:3em;"}[[[[课程学分之和]{.mord.cjk_fallback.mtight}]{.mord.text.mtight}]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-2.655em;"}[[]{.pstrut style="height:3em;"}<span className="frac-line" style="border-bottom-width:0.04em;">
+<span className="base">
+<span className="strut" style="height:1.2173em;vertical-align:-0.345em;">
 
 
 
 </span>
 
-]{style="top:-3.23em;"}[[]{.pstrut style="height:3em;"}[[[[学分绩点之和]{.mord.cjk_fallback.mtight}]{.mord.text.mtight}]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-3.394em;"}]{.vlist style="height:0.8723em;"}<span className="vlist-s">
+<span className="mord">
+<span className="mopen,nulldelimiter">
+
+
+
+</span>
+
+<span className="mfrac">
+<span className="vlist-t,vlist-t2">
+<span className="vlist-r">
+<span className="vlist" style="height:0.8723em;">
+<span style="top:-2.655em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+课程学分之和
+
+</span>
+</span>
+</span>
+</span>
+</span>
+
+<span style="top:-3.23em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="frac-line" style="border-bottom-width:0.04em;">
+
+
+
+</span>
+</span>
+
+<span style="top:-3.394em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+学分绩点之和
+
+</span>
+</span>
+</span>
+</span>
+</span>
+</span>
+
+<span className="vlist-s">
 
 ​
 
 </span>
+</span>
 
-]{.vlist-r}[[[]]{.vlist style="height:0.345em;"}]{.vlist-r}]{.vlist-t.vlist-t2}]{.mfrac}<span className="mclose,nulldelimiter">
+<span className="vlist-r">
+<span className="vlist" style="height:0.345em;">
+<span>
 
 
 
 </span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord}<span className="mspace" style="margin-right:0.2778em;">
+<span className="mclose,nulldelimiter">
+
+
+
+</span>
+</span>
+
+<span className="mspace" style="margin-right:0.2778em;">
 
 
 
@@ -563,14 +1289,55 @@ class: gradient-card active
 
 
 </span>
+</span>
 
-]{.base}[[]{.strut style="height:1.53em;vertical-align:-0.52em;"}[[]{.mopen.nulldelimiter}[[[[[[]{.pstrut style="height:3em;"}[[[∑]{.mop.op-symbol.small-op.mtight style="position:relative;top:0em;"}<span className="mspace,mtight" style="margin-right:0.1952em;">
+<span className="base">
+<span className="strut" style="height:1.53em;vertical-align:-0.52em;">
 
 
 
 </span>
 
-[[课程]{.mord.cjk_fallback.mtight}<span className="mord,mtight">
+<span className="mord">
+<span className="mopen,nulldelimiter">
+
+
+
+</span>
+
+<span className="mfrac">
+<span className="vlist-t,vlist-t2">
+<span className="vlist-r">
+<span className="vlist" style="height:1.01em;">
+<span style="top:-2.655em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mop,op-symbol,small-op,mtight" style="position:relative;top:0em;">
+
+∑
+
+</span>
+
+<span className="mspace,mtight" style="margin-right:0.1952em;">
+
+
+
+</span>
+
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+课程
+
+</span>
+
+<span className="mord,mtight">
 
 mag
 
@@ -581,26 +1348,68 @@ mag
 学分
 
 </span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord.text.mtight}]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-2.655em;"}[[]{.pstrut style="height:3em;"}<span className="frac-line" style="border-bottom-width:0.04em;">
+<span style="top:-3.23em;">
+<span className="pstrut" style="height:3em;">
 
 
 
 </span>
 
-]{style="top:-3.23em;"}[[]{.pstrut style="height:3em;"}[[[∑]{.mop.op-symbol.small-op.mtight style="position:relative;top:0em;"}<span className="mopen,mtight">
+<span className="frac-line" style="border-bottom-width:0.04em;">
+
+
+
+</span>
+</span>
+
+<span style="top:-3.485em;">
+<span className="pstrut" style="height:3em;">
+
+
+
+</span>
+
+<span className="sizing,reset-size6,size3,mtight">
+<span className="mord,mtight">
+<span className="mop,op-symbol,small-op,mtight" style="position:relative;top:0em;">
+
+∑
+
+</span>
+
+<span className="mopen,mtight">
 
 (
 
 </span>
 
-[[课程学分]{.mord.cjk_fallback.mtight}]{.mord.text.mtight}<span className="mbin,mtight">
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+课程学分
+
+</span>
+</span>
+
+<span className="mbin,mtight">
 
 ×
 
 </span>
 
-[[课程]{.mord.cjk_fallback.mtight}<span className="mord,mtight">
+<span className="mord,text,mtight">
+<span className="mord,cjk_fallback,mtight">
+
+课程
+
+</span>
+
+<span className="mord,mtight">
 
 mag
 
@@ -611,32 +1420,51 @@ mag
 绩点
 
 </span>
+</span>
 
-]{.mord.text.mtight}<span className="mclose,mtight">
+<span className="mclose,mtight">
 
 )
 
 </span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord.mtight}]{.sizing.reset-size6.size3.mtight}]{style="top:-3.485em;"}]{.vlist style="height:1.01em;"}<span className="vlist-s">
+<span className="vlist-s">
 
 ​
 
 </span>
+</span>
 
-]{.vlist-r}[[[]]{.vlist style="height:0.52em;"}]{.vlist-r}]{.vlist-t.vlist-t2}]{.mfrac}<span className="mclose,nulldelimiter">
+<span className="vlist-r">
+<span className="vlist" style="height:0.52em;">
+<span>
 
 
 
 </span>
+</span>
+</span>
+</span>
+</span>
 
-]{.mord}]{.base}]{.katex-html ariaHidden="true"}]{.katex}
+<span className="mclose,nulldelimiter">
 
+
+
+</span>
+</span>
+</span>
+</span>
+</span>
 </template>
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 $\text{课程绩点} = \frac{\text{课程分数(成绩)}}{10} - 5$
 
 $$ \text{学分绩点} = \text{课程学分} \times \text{课程绩点} $$
@@ -691,7 +1519,7 @@ w: 我 呀 | 我 爱 | 你 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 |
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 ```music-abc
 L:1/8
 Q:1/4=100 "andante moderato"
@@ -750,25 +1578,25 @@ w: 我 呀 | 我 爱 | 你 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 |
 </alert>
 
 <alert type="warning" :card="true">
-
-默认插槽的 [超链接](#alert) **粗体** `Inline code`
-
 <template v-slot:title="">
 
 卡片风格 标题插槽的 [超链接](#alert) **粗体** `Inline code`
 
 </template>
-</alert>
-
-<alert type="error" :flat="true">
 
 默认插槽的 [超链接](#alert) **粗体** `Inline code`
 
+</alert>
+
+<alert type="error" :flat="true">
 <template v-slot:title="">
 
 扁平风格 标题插槽的 [超链接](#alert) **粗体** `Inline code`
 
 </template>
+
+默认插槽的 [超链接](#alert) **粗体** `Inline code`
+
 </alert>
 
 <alert title="仅标题，并且自定义图标和颜色" color="var(--c-accent)" icon="tabler:files">
@@ -780,7 +1608,7 @@ w: 我 呀 | 我 爱 | 你 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 |
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 ::alert
 你好
 ::
@@ -849,45 +1677,30 @@ w: 我 呀 | 我 爱 | 你 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 |
 
 </badge>
 
- ，
+，
 <badge link="https://gug.thisis.host/" :square="true">
 
 古怪杂记本
 
 </badge>
 
- ，
+，
 GitHub链接能自动识别头像 <badge link="https://github.com/KazariEX">
 
 KazariEX
 
 </badge>
 
- ，
+，
 也可指定方形 <badge link="https://github.com/isYangs/GioPic" :square="true">
 
 isYangs/GioPic
 
 </badge>
 
- 。
+。
 
 <alert>
-
-背景色 [可以](#badge)  [使用](#badge)
-
-<badge img="https://picsum.photos/100/100" text="指定圆形" :round="true">
-
-
-
-</badge>
-
-<badge :square="true" img="https://picsum.photos/100/100" text="动态变化">
-
-
-
-</badge>
-
 <template v-slot:title="">
 
 在其他组件中使用 <badge link="#badge" img="https://picsum.photos/100/100" text="带链接">
@@ -896,12 +1709,27 @@ isYangs/GioPic
 
 </badge>
 </template>
+
+<badge img="https://picsum.photos/100/100" text="指定圆形" :round="true">
+
+
+
+</badge>
+
+ 背景色 [可以 <badge :square="true" img="https://picsum.photos/100/100" text="动态变化">
+
+
+
+</badge>
+
+ 使用](#badge)
+
 </alert>
 </template>
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 :badge[普通带链接]{link="#badge"} :badge[纯文本指定圆形]{round} :badge[纯文本指定方形]{square} :badge[带个图]{img="https://picsum.photos/100/100"}
 
 外部域名自动获取站点图标 :badge[纸鹿]{link="https://www.zhilu.site"}，
@@ -940,7 +1768,7 @@ GitHub链接能自动识别头像 :badge[KazariEX]{link="https://github.com/Kaza
 </template>
 </tab>
 
-```sh
+```shwrap
 # iconfont 网页版生成的字体子集在 Chrome 124 的版本无法解析，需要借助 fonttools 工具手动生成子集
 pip install fonttools brotli
 pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
@@ -1020,7 +1848,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 <template v-slot:tab1="">
 <chat>
 
-{:2024-11-09 233930}
+{:2024-11-09 23:39:30}
 
 {.}
 
@@ -1038,7 +1866,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 {用户1}
 
-有趣 <br />
+有趣<br />
 
 
 我学到了。
@@ -1048,7 +1876,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcexpand
 ::chat
 {:2024-11-09 23:39:30}
 
@@ -1092,7 +1920,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 </copy>
 
-<copy code="const customLang = 'js' // 滚动条、边缘羽化会出现，假如它特别特别特别特别特别特别特别特别长" prompt="自定义命令提示符、高亮语言" lang="js">
+<copy code="const customLang = 'js' // 滚动条、边缘羽化会出现，假如它特别特别特别特别特别特别特别特别长" lang="js" prompt="自定义命令提示符、高亮语言">
 
 
 
@@ -1101,7 +1929,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 :copy{code="rm -rf # 修改命令后再复制，也可撤销修改"}
 
 :copy{prompt code="不带提示符的命令，可以是 URL、单行代码"}
@@ -1134,7 +1962,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 </emoji-clock>
 
- (5分钟) <emoji-clock date-time="2024-11-09 23:39:30">
+ (5分钟) <emoji-clock dateTime="2024-11-09 23:39:30">
 
 
 
@@ -1164,6 +1992,11 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 <tab :tabs="["组件","语法"]">
 <template v-slot:tab1="">
 <folding>
+<template v-slot:title="">
+
+可以通过标题插槽传值 [超链接](#folding) **粗体** `Inline code`
+
+</template>
 
 默认插槽的 [超链接](#folding) **粗体** `Inline code`
 
@@ -1172,22 +2005,16 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 默认展开的折叠。
 
 <alert type="error">
-
-必须缩进，否则会报错。
-
 <template v-slot:title="">
 
 在嵌套使用的组件内部使用 MDC 的 `#slotname` 插槽语法
 
 </template>
+
+必须缩进，否则会报错。
+
 </alert>
 </folding>
-
-<template v-slot:title="">
-
-可以通过标题插槽传值 [超链接](#folding) **粗体** `Inline code`
-
-</template>
 </folding>
 
 <folding :open="true">
@@ -1201,7 +2028,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcexpand
 ::folding
   #title
   可以通过标题插槽传值 [超链接](#folding) **粗体** `Inline code`
@@ -1263,7 +2090,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 </key>
 
- <key :code="true">
+ <key code=" ">
 
 
 
@@ -1303,7 +2130,7 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 </key>
 
- <key :code="true" text="空格">
+ <key code=" " text="空格">
 
 
 
@@ -1345,19 +2172,13 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 
 
-~~热血组合技~~ <key code="ArrowUp">
-
-
-
-</key>
-
- ~~~~:key{code="ArrowUp"} ~~~~:key{code="ArrowDown"} ~~~~:key{code="ArrowDown"} ~~~~:key{code="ArrowLeft"} ~~~~:key{code="ArrowRight"} ~~~~:key{code="ArrowLeft"} ~~~~:key{code="ArrowRight"} ~~~~:key{code="B"} ~~~~:key{code="A"}
+~~热血组合技          ~~
 
 </template>
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 - 纯 Code
 
   :key{code="Escape"} :key{code="F2"} :key{code="Control"} :key{code="A"} :key{code=" "} :key{code="Tab"} :key{code="Enter"}
@@ -1515,14 +2336,14 @@ footer: 可选的落款
 </quote>
 
 <quote>
-
-图标插槽也可以是 Emoji 或颜文字，或者英文装饰。
-
 <template v-slot:icon="">
 
 ヾ(•ω•`)o
 
 </template>
+
+图标插槽也可以是 Emoji 或颜文字，或者英文装饰。
+
 </quote>
 </template>
 
@@ -1567,7 +2388,7 @@ footer: 可选的落款
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 ::project-group
 ---
 title: "开发工具"
@@ -1625,7 +2446,7 @@ items:
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 ::series-group
 ---
 title: "苍之彼方的四重奏 系列"
@@ -1649,7 +2470,7 @@ link: "/games/galgames/aokana"
 
 <tab :tabs="["组件","语法"]">
 <template v-slot:tab1="">
-<tab :tabs="["一个简单的","Tab"]">
+<tab :tabs="["一个简单的", "Tab"]">
 <template v-slot:tab1="">
 
 ```md
@@ -1732,7 +2553,7 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap expand
 #### 标签栏样式（默认）
 
 ::tab{:tabs='["一个简单的", "Tab"]'}
@@ -1821,7 +2642,7 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 {然后——}
 
-一件事 <br />
+一件事<br />
 
 
 两件事。
@@ -1833,7 +2654,7 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcexpand
 ::timeline
 {前天}
 
@@ -1881,7 +2702,7 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 </tip>
 
- ， <tip :copy="true">
+， <tip :copy="true">
 
 +v 点击就能复制，太方便了！
 
@@ -1890,7 +2711,7 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 <template v-slot:tab2="">
 
-```mdc
+```mdcwrap
 :tip[我是一条小提示]{tip="提示的内容是提示"}， :tip[我没有图标]{icon tip="或许也可以没有内容"}， :tip[+v 点击就能复制，太方便了！]{copy}
 ```
 
