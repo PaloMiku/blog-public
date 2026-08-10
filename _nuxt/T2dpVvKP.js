@@ -1,0 +1,1 @@
+import{E as s,t as o,A as r,q as t}from"./Ceazrml7.js";const n={};function a(e,c){return t(),o("ol",null,[r(e.$slots,"default")])}const _=Object.assign(s(n,[["render",a]]),{__name:"ProseOl"});export{_ as default};

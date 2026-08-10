@@ -1,0 +1,1 @@
+import{E as o,t,A as s,q as c}from"./Ceazrml7.js";const r={};function n(e,a){return c(),t("blockquote",null,[s(e.$slots,"default")])}const _=Object.assign(o(r,[["render",n]]),{__name:"ProseBlockquote"});export{_ as default};
