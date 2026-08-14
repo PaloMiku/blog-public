@@ -1,0 +1,1 @@
+import{c as o}from"./DNCQfrD7.js";import"./lbGVS97w.js";import"./B5yyXbxC.js";import"./DqNTWxEA.js";async function c(t){const e=t.value;return e?o("content").where("collection","=",e).select("date","path","title","type").order("date","ASC").all():Promise.resolve([])}export{c as default};
