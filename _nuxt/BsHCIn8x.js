@@ -1,0 +1,1 @@
+import{c as t}from"./XqbARQ8b.js";import"./jVwrgNNp.js";import"./B4D2WdLC.js";import"./DqNTWxEA.js";async function a(){return t("content").where("stem","LIKE","previews/%").count()}export{a as default};

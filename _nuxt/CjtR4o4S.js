@@ -1,1 +1,0 @@
-import{E as s,t,A as r,q as n}from"./Ceazrml7.js";const o={};function a(e,c){return n(),t("td",null,[r(e.$slots,"default")])}const _=Object.assign(s(o,[["render",a]]),{__name:"ProseTd"});export{_ as default};

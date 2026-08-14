@@ -1,1 +1,0 @@
-import{E as r,t,A as n,q as o}from"./Ceazrml7.js";const s={};function a(e,c){return o(),t("strong",null,[n(e.$slots,"default")])}const _=Object.assign(r(s,[["render",a]]),{__name:"ProseStrong"});export{_ as default};
