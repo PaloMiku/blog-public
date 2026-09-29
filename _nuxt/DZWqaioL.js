@@ -1,0 +1,1 @@
+import{t as e}from"./BHjTeB1-.js";async function t(t){return e(`content`).path(t).first()}export{t as default};
