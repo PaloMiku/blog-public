@@ -61,3 +61,11 @@ Ice Year
 
 
 </pic>
+
+## 相关条目
+
+<bgm-card :compact="true" :id="13">
+
+
+
+</bgm-card>

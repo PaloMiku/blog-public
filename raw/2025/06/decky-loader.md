@@ -3,7 +3,6 @@
 > 本文介绍了 Decky Loader 在 Linux/SteamDeck 下的两种快速安装法：官方一键脚本（含中文版）与 OhMyDeck 手动方案，并给出启用开发者模式、CEF 调试、设密码、开终端等关键步骤，手柄玩家即刻升级大屏体验。
 
 <alert>
-<alert>
 
 [本文类似版本](https://www.xiaoheihe.cn/app/bbs/link/156323352)个人首发于小黑盒，你在此看到的版本为基于小黑盒发布版本的二次修订版。
 
@@ -173,5 +172,3 @@ STEAM+X
 
 - [Decky Loader：让你的 Steam Deck 更好用](https://sspai.com/post/85809)
 - [SteamDeck 插件商店安装教程（必装）](https://deck.mhhf.com/?p=1290)
-
-</alert>
