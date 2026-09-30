@@ -1,0 +1,1 @@
+import{i as e}from"./9munbutG.js";async function t(){return e(`previews/%`)}export{t as default};

@@ -1,0 +1,1 @@
+import{i as e}from"./KyTaJMDF.js";async function t(){return e(`content`,{ignoredTags:[`pre`]})}export{t as default};

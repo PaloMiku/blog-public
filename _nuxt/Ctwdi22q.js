@@ -1,1 +1,0 @@
-import{i as e}from"./Cbv5zo8b.js";async function t(){return e(`previews/%`)}export{t as default};

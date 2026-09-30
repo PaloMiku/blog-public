@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./wk7M-zn1.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`card-list`};function o(r,i){return t(),n(`div`,a,[e(r.$slots,`default`,{},void 0,!0)])}var s=Object.assign(r(i,[[`render`,o],[`__scopeId`,`data-v-e23f1eff`]]),{__name:`CardList`});export{s as default};

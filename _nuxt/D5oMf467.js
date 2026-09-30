@@ -1,1 +1,0 @@
-import{G as e,V as t,m as n}from"./fa4gGCAu.js";import{t as r}from"./BDNMzG2s.js";var i={};function a(r,i){return t(),n(`ol`,null,[e(r.$slots,`default`)])}var o=Object.assign(r(i,[[`render`,a]]),{__name:`ProseOl`});export{o as default};

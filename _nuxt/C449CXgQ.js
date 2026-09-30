@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./BqVQgoJq.js";function n(n){function r(){if(typeof n==`string`)return n;let e=t(n);return e instanceof HTMLInputElement?e.value:e?.textContent||``}return e({source:r,legacy:!0})}export{n as t};
