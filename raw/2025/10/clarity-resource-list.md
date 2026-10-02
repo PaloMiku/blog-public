@@ -222,8 +222,9 @@ defineProps<{
 
 
 </resource-list>
+</template>
 
-# tab2
+<template v-slot:tab2="">
 
 ```mdcwrap expand
 ::resource-list

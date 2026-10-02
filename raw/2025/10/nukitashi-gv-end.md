@@ -219,10 +219,11 @@ FS
 </info-card>
 
 <quote>
-
-# icon
+<template v-slot:icon="">
 
 ︿(￣︶￣)︿
+
+</template>
 
 在游戏里开始本线路前，请先把大脑找个地方寄存起来。
 

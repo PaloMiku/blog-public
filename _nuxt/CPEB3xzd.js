@@ -1,1 +1,0 @@
-import{t as e}from"./DPZubokm.js";async function t(t){return e(`content`).path(t).first()}export{t as default};

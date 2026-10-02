@@ -1,0 +1,1 @@
+import{i as e}from"./Iccvjzk5.js";async function t(){return e()}export{t as default};

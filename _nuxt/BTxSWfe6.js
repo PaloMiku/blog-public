@@ -1,1 +1,0 @@
-import{i as e}from"./DPZubokm.js";async function t(){return e(`content`,{ignoredTags:[`pre`]})}export{t as default};
