@@ -1,0 +1,1 @@
+import{i as e}from"./Bu2nW46H.js";async function t(){return e(`previews/%`)}export{t as default};

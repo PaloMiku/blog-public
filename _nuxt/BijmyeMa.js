@@ -1,1 +1,0 @@
-import{t as e}from"./KyTaJMDF.js";async function t(){return e(`content`).path(`/link`).first()}export{t as default};

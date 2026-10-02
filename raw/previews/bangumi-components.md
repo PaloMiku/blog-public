@@ -2,104 +2,92 @@
 
 > 
 
-## 说明
+## 功能已移除
 
-本文用于展示 [bangumi-clarity](https://github.com/) 模块提供的全部组件：条目卡片（五种类型 + 矮身形态 + 错误态）、放送日历、收藏列表。数据来自模块自带的 Worker 节点，走真实 Bangumi API。
+原 bangumi-clarity 模块（条目卡片 / 放送日历 / 收藏列表）已于 2026-09-30 从项目中移除，
+组件源码保存在仓库外的 `D:/Projects/Bangumi-Clarity`。
 
-## 条目卡片（`::bgm-card`）
+本文原先逐个演示该模块的全部组件（`::bgm-card` 五种条目类型 + 矮身形态 + 错误态、
+`::bgm-calendar`、`::bgm-collection`）。由于组件已不存在，这些指令在页面上只会显示为
+字面文本，因此已全部移除；本文件保留，作为恢复该功能时的需求说明与位置索引。
 
-按条目类型自动匹配形态：动画 / 书籍 / 音乐 / 游戏 / 三次元。音乐类型带 CD 侧封竖条与艺术家署名。
+## 原组件清单
 
-### 动画
+<table>
+<thead>
+  <tr>
+    <th>
+      指令
+    </th>
+    
+    <th>
+      形态
+    </th>
+    
+    <th>
+      说明
+    </th>
+  </tr>
+</thead>
 
-<bgm-card :id="219200">
+<tbody>
+  <tr>
+    <td>
+      <code code="::bgm-card">
+        ::bgm-card
+      </code>
+    </td>
+    
+    <td>
+      条目卡片
+    </td>
+    
+    <td>
+      按条目类型自动匹配形态：动画 / 书籍 / 音乐 / 游戏 / 三次元；音乐类型带 CD 侧封竖条与艺术家署名。<code code="compact: true">
+        compact: true
+      </code>
+      
+       为矮身形态（完整信息、更低高度，适合文章末尾「相关条目」区）
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code code="::bgm-calendar">
+        ::bgm-calendar
+      </code>
+    </td>
+    
+    <td>
+      放送日历
+    </td>
+    
+    <td>
+      近 7 天放送安排，今天高亮；可切换「全部 / 仅在看」
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <code code="::bgm-collection">
+        ::bgm-collection
+      </code>
+    </td>
+    
+    <td>
+      收藏列表
+    </td>
+    
+    <td>
+      分类 × 状态的收藏网格，带进度 / 评分遮罩与「加载更多」
+    </td>
+  </tr>
+</tbody>
+</table>
 
+数据原本来自模块自带的 Worker 节点，走真实 Bangumi API。
 
+## 已知行为
 
-</bgm-card>
-
-### 书籍
-
-<bgm-card :id="114189">
-
-
-
-</bgm-card>
-
-### 音乐
-
-<bgm-card :id="616">
-
-
-
-</bgm-card>
-
-### 游戏
-
-<bgm-card :id="13">
-
-
-
-</bgm-card>
-
-### 三次元
-
-<bgm-card :id="30619">
-
-
-
-</bgm-card>
-
-## 矮身形态（文章内嵌用 `compact: true`）
-
-完整信息、更低高度，适合文章末尾「相关条目」区。
-
-<bgm-card :id="219200" :compact="true">
-
-
-
-</bgm-card>
-
-<bgm-card :id="616" :compact="true">
-
-
-
-</bgm-card>
-
-## 错误态
-
-Bangumi 对未登录的 R18 条目详情接口返回 404，卡片会展示「未找到该条目」并提供重试按钮（示例：拔作岛 游戏）。
-
-<bgm-card :id="243475">
-
-
-
-</bgm-card>
-
-## 放送日历（`::bgm-calendar`）
-
-近 7 天放送安排，今天高亮；可切换「全部 / 仅在看」。
-
-<bgm-calendar filter="all">
-
-
-
-</bgm-calendar>
-
-## 收藏列表（`::bgm-collection`）
-
-分类 × 状态的收藏网格，带进度 / 评分遮罩与「加载更多」。
-
-<bgm-collection cate="anime" type="watched">
-
-
-
-</bgm-collection>
-
-<bgm-collection cate="music" type="watched">
-
-
-
-</bgm-collection>
-
-以上第二个列表当前为空（「听过」暂无数据），用于展示空态。
+- Bangumi 对未登录的 R18 条目详情接口返回 404，卡片会展示「未找到该条目」并提供重试按钮
+- 收藏列表的「听过」分类可能为空，用于展示空态
