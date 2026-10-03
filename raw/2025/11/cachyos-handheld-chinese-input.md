@@ -12,11 +12,11 @@
 
 ## 安装组件
 
-<alert>
+<Alert>
 
 只恢复了游戏桌面下的游戏内 Steam Input 输入，且需要强制降级部分组件，请注意！
 
-</alert>
+</Alert>
 
 安装`ibus`和`ibus-pinyin`以及`ibus-anthy`
 

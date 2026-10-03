@@ -5,13 +5,17 @@
 ## 准备
 
 - 一台服务器（建议至少1c2g）并安装Docker和Docker Compose
+
 - 一个域名，建议为顶级域名
 
 ## 服务
 
 - Outline（本体）
+
 - PostgreSQL（数据库）
+
 - Redis（缓存数据库）
+
 - Minio（对象存储服务）
 
 ## 部署
@@ -26,13 +30,13 @@
 
 新建一个文件夹放入部署相关文件，比如`/opt/Minio`，使用以下命令新建相关文件夹并前往目录，然后新建相关文件。
 
-```text
+```
 mkdir /opt/Minio &amp;&amp; cd /opt/Minio
 ```
 
 以下为`docker-compose.yml`文件示例
 
-```text
+```
 version: 3
 services:
   minio:
@@ -60,7 +64,7 @@ services:
 
 你还需要在Minio放置Docker Compose文件的目录新建`.env`文件，并填入以下内容，其中相关账密信息建议自行修改提高安全性。
 
-```text
+```
 DOCKER_MINIO_IMAGE_NAME=minio/minio:RELEASE.2024-08-03T04-33-23Z.fips
 DOCKER_MINIO_ROOT_USER=admin
 DOCKER_MINIO_ROOT_PASSWORD=admin
@@ -68,7 +72,7 @@ DOCKER_MINIO_ROOT_PASSWORD=admin
 
 使用 Nginx 反向代理 minio 服务，其中 9502 端口为 minio 服务的 http 端口，9503 端口为 minio 服务的 API 端口。
 
-示例: `localhost:9502`-> `https://minio.example.com` `localhost:9503` -> `https://api-minio.example.com`
+示例: `localhost:9502`\-> `https://minio.example.com` `localhost:9503` -> `https://api-minio.example.com`
 
 部署完成后，请访问`https://minio.example.com`，使用设定的用户名和密码登录。
 
@@ -76,14 +80,16 @@ DOCKER_MINIO_ROOT_PASSWORD=admin
 
 **可选操作**：
 
-在`Bucket`->`outline`->`Access`->`User`中增加一个用户，用于 outline 服务访问 minio 服务。
+在`Bucket`\->`outline`\->`Access`\->`User`中增加一个用户，用于 outline 服务访问 minio 服务。
 
 ### 配置GitHub OAuth
 
 1.访问 `GitHub` 并登录 2.进入`OAuth Apps` 页面（也可以依次点击：右上角头像 - Settings - Developer Settings - OAuth Apps） 3.点击`New OAuth App` 4.填写 `Register a new OAuth application` 表单
 
 - Application name: 可自行填写，例如 outline
+
 - Homepage URL: 填写 Outline 的主页 URL
+
 - Authorization callback URL: 填写 `<Homepage URL>/auth/oidc.callback`，其中 `<Homepage URL>` 需要替换为Outline 的主页 URL
 
 5.点击 `Register application` 按钮，进入应用详情页面 6.点击`Generate a new client secret`按钮 7.记下 Client ID 和 Client secret，后面填写环境变量用（注意 Client secret 仅在创建时显示一次，后续不可再查询；如不慎遗失，可以再次点击按钮重新创建一个）
@@ -92,13 +98,13 @@ DOCKER_MINIO_ROOT_PASSWORD=admin
 
 跟Minio一样，新建一个文件夹放入部署相关文件，比如`/opt/Outline`，使用以下命令新建相关文件夹并前往目录，然后新建相关文件。
 
-```text
+```
 mkdir /opt/Outline &amp;&amp; cd /opt/Outline
 ```
 
 以下为`docker-compose.yml`文件示例
 
-```text
+```
 version: 3.8
 services:
   outline:
@@ -149,7 +155,7 @@ networks:
 
 跟Minio一样，在放置Docker Compose文件的目录新建`.env`文件，并复制填入以下内容：
 
-```text
+```
 # 镜像设置
 DOCKER_OUTLINE_IMAGE_NAME=docker.getoutline.com/outlinewiki/outline:latest
 DOCKER_POSTGRES_IMAGE_NAME=postgres

@@ -30,7 +30,7 @@
 
 应用的文件夹格式大概是长下面这个样子：
 
-```text
+```
 ├──halo // 承载应用的文件夹，这里以halo为例
     ├── logo.png // 应用的 logo
     ├── data.yml // 应用声明文件
@@ -54,7 +54,7 @@
 
 声明你的应用的基本信息，让 1Panel 知道你的应用的一些基本信息，比如叫什么名字，干什么用的等等，是位于应用根目录下的`data.yml`文件，格式差不多如下：
 
-```text
+```
 # 下边这一部分推荐填写，虽然 1Panel 的应用商店官方 Wiki 没有声明它到底有何用
 name: Halo
 tags:
@@ -94,219 +94,15 @@ additionalProperties:  #固定参数
 
 标签列表和其对应的分类如下：
 
-<table>
-<thead>
-  <tr>
-    <th>
-      值
-    </th>
-    
-    <th>
-      所属分类
-    </th>
-    
-    <th>
-      值
-    </th>
-    
-    <th>
-      所属分类
-    </th>
-    
-    <th>
-      值
-    </th>
-    
-    <th>
-      所属分类
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      WebSite
-    </td>
-    
-    <td>
-      建站
-    </td>
-    
-    <td>
-      Storage
-    </td>
-    
-    <td>
-      云存储
-    </td>
-    
-    <td>
-      Email
-    </td>
-    
-    <td>
-      邮件服务
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Server
-    </td>
-    
-    <td>
-      Web 服务器
-    </td>
-    
-    <td>
-      AI
-    </td>
-    
-    <td>
-      AI/大模型
-    </td>
-    
-    <td>
-      Game
-    </td>
-    
-    <td>
-      休闲游戏
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Runtime
-    </td>
-    
-    <td>
-      运行环境
-    </td>
-    
-    <td>
-      BI
-    </td>
-    
-    <td>
-      BI
-    </td>
-    
-    <td>
-      
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Database
-    </td>
-    
-    <td>
-      数据库
-    </td>
-    
-    <td>
-      Security
-    </td>
-    
-    <td>
-      安全
-    </td>
-    
-    <td>
-      
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Tool
-    </td>
-    
-    <td>
-      实用工具
-    </td>
-    
-    <td>
-      DevTool
-    </td>
-    
-    <td>
-      开发工具
-    </td>
-    
-    <td>
-      
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      DevOps
-    </td>
-    
-    <td>
-      DevOps
-    </td>
-    
-    <td>
-      Middleware
-    </td>
-    
-    <td>
-      中间件
-    </td>
-    
-    <td>
-      
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Local
-    </td>
-    
-    <td>
-      本地
-    </td>
-    
-    <td>
-      Media
-    </td>
-    
-    <td>
-      多媒体
-    </td>
-    
-    <td>
-      
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-</tbody>
-</table>
+| 值 | 所属分类 | 值 | 所属分类 | 值 | 所属分类 |
+| --- | --- | --- | --- | --- | --- |
+| WebSite | 建站 | Storage | 云存储 | Email | 邮件服务 |
+| Server | Web 服务器 | AI | AI/大模型 | Game | 休闲游戏 |
+| Runtime | 运行环境 | BI | BI |  |  |
+| Database | 数据库 | Security | 安全 |  |  |
+| Tool | 实用工具 | DevTool | 开发工具 |  |  |
+| DevOps | DevOps | Middleware | 中间件 |  |  |
+| Local | 本地 | Media | 多媒体 |  |  |
 
 ### shortDescZh/En
 
@@ -316,51 +112,11 @@ additionalProperties:  #固定参数
 
 应用的用途分类，这里主要决定了 1Panel 会怎么对待你的应用，比如`website`类型的可以在其网站功能中一键进行反代和分配域名。
 
-<table>
-<thead>
-  <tr>
-    <th>
-      值
-    </th>
-    
-    <th>
-      说明
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      website
-    </td>
-    
-    <td>
-      website 即网站应用程序类型，支持在网站中一键部署和反代，WordPress 和 Halo 都是此 type
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      runtime
-    </td>
-    
-    <td>
-      mysql openresty redis 等类型的应用，倾向于应用的关键运行环境
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      tool
-    </td>
-    
-    <td>
-      phpMyAdmin redis-commander jenkins 等类型的应用，倾向于应用的维护工具等
-    </td>
-  </tr>
-</tbody>
-</table>
+| 值 | 说明 |
+| --- | --- |
+| website | website 即网站应用程序类型，支持在网站中一键部署和反代，WordPress 和 Halo 都是此 type |
+| runtime | mysql openresty redis 等类型的应用，倾向于应用的关键运行环境 |
+| tool | phpMyAdmin redis-commander jenkins 等类型的应用，倾向于应用的维护工具等 |
 
 ### crossVersionUpdate
 
@@ -394,7 +150,7 @@ additionalProperties:  #固定参数
 ![Halo 安装表单示例图（来自 1Panel 官方应用商店仓库）](https://user-images.githubusercontent.com/31820853/226111412-9c7b25a1-83f2-4621-8789-7ef85a2695dd.png)
 如果要生成一个上面这样子的表单，你需要这么填写应用参数配置文件（来自官方 Wiki 示例）：
 
-```text
+```
 additionalProperties:  #固定参数
     formFields:
         - default: ""
@@ -463,8 +219,8 @@ additionalProperties:  #固定参数
 
 是不是看的眼晕了，我们这里拆出来解释下它这个东西：
 
-```text
-- default: ""
+```
+        - default: ""
           envKey: PANEL_DB_HOST  #docker-compose 文件中的参数
           key: mysql  #依赖应用的 key , 例如 mysql
           labelEn: Database Service  #英文的 label
@@ -483,7 +239,7 @@ additionalProperties:  #固定参数
 
 譬如在如下 Halo 例子中的引用：
 
-```text
+```
 services:
   halo:
     image: halohub/halo:2.2.0
@@ -515,8 +271,8 @@ networks:
 
 这个虽然出现在了 1Panel 的官方 Wiki 示例中，但是似乎实际他们已经弃用这样写了，部分应用会依赖其他服务，比如 Halo 会有依赖 MySQL 数据库，这个时候你就在这里填写上它就能去引用它，1Panel 给的这个例子有点旧，我们使用下面的格式来实现引用外部数据库：
 
-```text
-- child:
+```
+        - child:
             default: ""
             envKey: PANEL_DB_HOST
             required: true
@@ -548,115 +304,16 @@ networks:
 
 看着似乎表格很明白但实际写起来还是挺头疼的东西，自己按表格查询吧，我自己也对这个东西非常头疼，差不多它的设定决定了你的应用这个设置变量只能填什么东西。
 
-<table>
-<thead>
-  <tr>
-    <th>
-      值
-    </th>
-    
-    <th>
-      说明
-    </th>
-  </tr>
-</thead>
+| 值 | 说明 |
+| --- | --- |
+| service | `type: service` 如果该应用需要依赖其他组件，如 mysql redis 等，可以通过 `key: mysql` 定义依赖的名称，在创建应用时会要求先创建依赖的应用。 |
+| password | `type: password` 敏感信息，如密码相关的字段会默认不显示明文。 |
+| text | `type: text` 一般内容，比如数据库名称，默认明文显示。 |
+| number | `type: number` 一般用在端口相关的配置上，只允许输入数字。 |
+| select | `type: select` 选项，比如 `true`, `false`，日志等级等。 |
+| 通过官方给的下方的例子对照查询了解： |  |
 
-<tbody>
-  <tr>
-    <td>
-      service
-    </td>
-    
-    <td>
-      <code code="type: service">
-        type: service
-      </code>
-      
-       如果该应用需要依赖其他组件，如 mysql redis 等，可以通过 <code code="key: mysql">
-        key: mysql
-      </code>
-      
-       定义依赖的名称，在创建应用时会要求先创建依赖的应用。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      password
-    </td>
-    
-    <td>
-      <code code="type: password">
-        type: password
-      </code>
-      
-       敏感信息，如密码相关的字段会默认不显示明文。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      text
-    </td>
-    
-    <td>
-      <code code="type: text">
-        type: text
-      </code>
-      
-       一般内容，比如数据库名称，默认明文显示。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      number
-    </td>
-    
-    <td>
-      <code code="type: number">
-        type: number
-      </code>
-      
-       一般用在端口相关的配置上，只允许输入数字。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      select
-    </td>
-    
-    <td>
-      <code code="type: select">
-        type: select
-      </code>
-      
-       选项，比如 <code code="true">
-        true
-      </code>
-      
-      , <code code="false">
-        false
-      </code>
-      
-      ，日志等级等。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      通过官方给的下方的例子对照查询了解：
-    </td>
-    
-    <td>
-      
-    </td>
-  </tr>
-</tbody>
-</table>
-
-```text
+```
 # type: service，定义一个 mysql 的 service 依赖。
 - default: ""
     envKey: DB_HOST
@@ -716,61 +373,12 @@ networks:
 
 在上面的例子中部分登场，主要是校验用户是否书写这个东西的格式是正确的，比如防止某些用户在端口设置这里填写域名的东西，这个`rule`就会强制这个填写栏必须填写什么格式。
 
-<table>
-<thead>
-  <tr>
-    <th>
-      值
-    </th>
-    
-    <th>
-      规则
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      paramPort
-    </td>
-    
-    <td>
-      用于限制端口范围为 1-65535
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      paramExtUrl
-    </td>
-    
-    <td>
-      格式为 http(s)://(域名/ip):(端口)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      paramCommon
-    </td>
-    
-    <td>
-      英文、数字、.-和_，长度 2-30
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      paramComplexity
-    </td>
-    
-    <td>
-      支持英文、数字、.%@$!&~_-,长度 6-30，特殊字符不能在首尾
-    </td>
-  </tr>
-</tbody>
-</table>
+| 值 | 规则 |
+| --- | --- |
+| paramPort | 用于限制端口范围为 1-65535 |
+| paramExtUrl | 格式为 http(s)://(域名/ip):(端口) |
+| paramCommon | 英文、数字、.-和\_，长度 2-30 |
+| paramComplexity | 支持英文、数字、.%@$!&~\_-,长度 6-30，特殊字符不能在首尾 |
 
 ## 应用 Compose 文件
 
@@ -778,7 +386,7 @@ networks:
 
 ### 示例文件
 
-```text
+```
 services:
   ghost:
     container_name: ${CONTAINER_NAME}
@@ -809,12 +417,19 @@ networks:
 ### 要求
 
 - 头部没有`version`的变量，记得把它删去。
+
 - 必须为应用定义`container_name`这个设置，且后面必须是`${CONTAINER_NAME}`，这样 1Panel 才能在安装时对其正确配置。
+
 - 必须配置应用网络为`1panel-network`，这样应用之间才能正常互联，我在部分第三方应用商店库发现它们不是很注重这个，当然这事也可以视情况而论，但是建议是都在 1Panel 官方网络下。
+
 - 端口`ports`这里设置也是必须为其默认定义的`${PANEL_APP_PORT_HTTP}:8090`这样的格式，这样 1Panel 才能正确设置应用的开放端口
+
 - 文件尾部也必须跟示例文件一样，填写了`networks`配置，直接`Ctrl+C`过去就好。
+
 - 应用的`image`镜像标签必须和文件夹表示的版本号一致，比如这个版本号文件夹写的是`5.96.2`，那么其文件内部`image`标签也必须那样写，不然会影响应用检测和安装更新！
+
 - 记得填写上面的`labels`标签，直接`Ctrl+C`过去就行，当然这个也不算必填项，只是一种规范罢了。
+
 - 记得为应用定义重启相关，比如`always`等等，这样保证应用在遇到问题后可以恢复（雾）
 
 ## 脚本
@@ -833,7 +448,7 @@ networks:
 注意：`/opt` 为 1Panel 默认安装目录，请根据自己的实际情况修改
 上传完成后，目录结构如下：
 
-```text
+```
 ├──halo
     ├── logo.png
     ├── data.yml
@@ -853,6 +468,7 @@ networks:
 官方的要求和拒绝率比较高，一般来说提交第三方仓库也挺好的，这里列举目前个人已知仓库：
 
 - [AuroraStarTeam/1panel-app-store](https://github.com/AuroraStarTeam/1panel-app-store)，由我所属个人组织极光星进行维护，理念是干净整洁，但是个人经验可能不够丰富。
+
 - [okxlin/appstore](https://github.com/okxlin/appstore)，流行和最早的第三方商店库，应用很多，但是也很乱。
 
 ## 参考文档：

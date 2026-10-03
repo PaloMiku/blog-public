@@ -2,12 +2,13 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度 & 路线攻略
 
-</template>
+</Fragment>
 
 ## 版本选择
 
@@ -21,10 +22,9 @@ Steam 成就进度 100%（22/22），游戏内鉴赏模式完成度 100 %。
 
 ## 路线攻略
 
-<card-list>
+<CardList>
 
 - **基本选项（随选）**：
-
   - 打招呼
   - 因为我希望仓科同学能够学会飞行
   - 跟真白谈谈如何提高美咲的干劲
@@ -59,7 +59,7 @@ Steam 成就进度 100%（22/22），游戏内鉴赏模式完成度 100 %。
 - **杂项**
   - **FINALE 在彼端的彼端 结局条件：**
   - 完成所有女主 END，会自动进入。
-  - **美咲的第 5 个 Sence：**
+  - **<Tip tip="这才是亲闺女吧">美咲的第 5 个 Sence</Tip>：**
   - 在完成**在彼端的彼端**结局后，可在鉴赏 MEMORIES（回忆纪录）查看美咲的第 5 个 Sence
 - **坏结局（仅供娱乐，成就需求）**
   - 打招呼
@@ -76,37 +76,29 @@ Steam 成就进度 100%（22/22），游戏内鉴赏模式完成度 100 %。
   - 非常抱歉，我做不到
   - 做你想做的吧
 
-</card-list>
-</folding>
+</CardList>
+
+</Folding>
 
 ## 简介
 
 ![](https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x47_60632891-b735-4f45-8228-c353c7134a62.svg)
 
-<video-embed id="BV1Lb411K7Fe" type="bilibili">
+<VideoEmbed type="bilibili" id="BV1Lb411K7Fe" />
 
-
-
-</video-embed>
-
-《苍之彼方的四重奏》（蒼の彼方のフォーリズム，Aokana: Four Rhythm Across the Blue）是由 Sprite（雪碧社）制作的电子游戏，于2014年11月28日发售，并有 <tip tip="烂作，改百合是什么抽象操作">
-
-动画
-
-</tip>
-
-、漫画、小说、Fan Disc、Drama CD等衍生作品。
+《苍之彼方的四重奏》（蒼の彼方のフォーリズム，Aokana: Four Rhythm Across the Blue）是由 Sprite（雪碧社）制作的电子游戏，于2014年11月28日发售，并有 <Tip tip="烂作，改百合是什么抽象操作">动画</Tip>、漫画、小说、Fan Disc、Drama CD等衍生作品。
 
 个人游玩的是2019年9月28日上线的 Steam 国际中文版，基础分辨率提升至2K，由 HIKARI FIELD 发行。
 
 ![](https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-1600x1048_v-fms_webp_bf2b3bfd-0efc-4755-be26-5ad8b22d5ace_middle.webp)
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 这是一个在空中飞翔就像骑自行车一样简单的世界。
 
@@ -130,59 +122,53 @@ Steam 成就进度 100%（22/22），游戏内鉴赏模式完成度 100 %。
 
 这是一部因“飞翔”而相遇的两个人，与伙伴们共同谱写的飞空恋歌。
 
-</folding>
+</Folding>
 
 ## 相关链接
 
-<link-card description="《苍之彼方的四重奏》游戏官网（日文）" icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp" link="https://products.sprite.net/aokana" title="游戏官网（日文）">
+<LinkCard icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1488_v-frms_webp_e78b276f-d9d2-42d8-b97c-035291c271ae_middle.webp" title="游戏官网（日文）" description="《苍之彼方的四重奏》游戏官网（日文）" link="https://products.sprite.net/aokana" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="游戏中文版 Steam 页面" description="《苍之彼方的四重奏》游戏中文 Steam 页面" link="https://store.steampowered.com/app/1044620/__Aokana__Four_Rhythms_Across_the_Blue/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《苍之彼方的四重奏》游戏中文 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/1044620/__Aokana__Four_Rhythms_Across_the_Blue/" title="游戏中文版 Steam 页面">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ### TouchGal
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情：[https://www.touchgal.us/7263c3b3](https://www.touchgal.us/7263c3b3)
-- 10th Anniversary Box：[https://pan.touchgal.net/s/weG1fv](https://pan.touchgal.net/s/weG1fv)
-- PC：[https://pan.touchgal.net/s/VDNGId](https://pan.touchgal.net/s/VDNGId)
-- Android：[https://pan.touchgal.net/s/XwYBsx](https://pan.touchgal.net/s/XwYBsx)
+- 游戏详情：https://www.touchgal.us/7263c3b3
+- 10th Anniversary Box：https://pan.touchgal.net/s/weG1fv
+- PC：https://pan.touchgal.net/s/VDNGId
+- Android：https://pan.touchgal.net/s/XwYBsx
 
 ### NekoGal
 
-- PC（Windows exe）：[https://pan.nekogal.top/s/wNOhq](https://pan.nekogal.top/s/wNOhq)
+- PC（Windows exe）：https://pan.nekogal.top/s/wNOhq
 
 ### 游戏补丁链接
 
-- Nekonyansoft ：[https://patches.nekonyansoft.com/](https://patches.nekonyansoft.com/)
-- SteamGalgame： [https://steamgalgame.com/Aokana_Four_Rhythms_Across_the_Blue.html](https://steamgalgame.com/Aokana_Four_Rhythms_Across_the_Blue.html)
+- Nekonyansoft ：https://patches.nekonyansoft.com/
+- SteamGalgame： https://steamgalgame.com/Aokana_Four_Rhythms_Across_the_Blue.html
 
-</folding>
+</Folding>
 
 ## 额外事项
 

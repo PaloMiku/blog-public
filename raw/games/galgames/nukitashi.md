@@ -12,15 +12,17 @@
 
 续作《拔作岛2》在2019年7月26日开售。改编漫画在2020年12月25日开始连载，由まめおじたん作画，单行本由集英社出版。
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
-<tab :tabs="["表", "里"]">
-<template v-slot:tab1="">
+ <Tab tabs={["表", "里"]}>
+
+ <div slot="tab1">
 
 青蓝岛……这里通称“色情条例”，允许变态性交配的乐园。
 转学到这里的主人公“橘淳之介”，不仅是个骄傲的童贞，同时也是个深入骨髓的处女厨。
@@ -32,17 +34,11 @@
 淳之介能从绝对遵守纪律的学生会和风纪委员会，通称“SS”的恶魔手中逃脱吗……！？
 和伙伴们一起死守童贞吧！淳之介的战斗现在开始！
 
-</template>
+ </div>
 
-<template v-slot:tab2="">
+ <div slot="tab2">
 
-青蓝岛 <blur>
-
-日文读音同"性乱岛"
-
-</blur>
-
-──施行特殊条例的乐园岛屿。
+青蓝岛 <Blur>日文读音同"性乱岛"</Blur>──施行特殊条例的乐园岛屿。
 不过岛上依然存在着不愿遵守“没有发生关系的人会被立即逮捕”条例的人们。
 
 喜欢同性，除了哥哥以外无法接受异性的妹妹。
@@ -51,13 +47,7 @@
 不愿被别人看见身体的少女。
 以及对自己的某个部位抱有强烈自卑感的少年。
 
-重视贞操的主角──橘淳之介 <blur>
-
-"纯真少男"
-
-</blur>
-
-与这样的少女们在暗中集结，
+重视贞操的主角──橘淳之介 <Blur>"纯真少男"</Blur>与这样的少女们在暗中集结，
 组成了反对条例的秘密组织【NLNS】。
 
 提供他们秘密基地，并出钱赞助的【神秘老人】所提出的条件只有一个，
@@ -69,41 +59,37 @@
 然后──摧毁可恶的条例！
 这场保持童贞的战斗，首先要面对的是——被称为“SS”的学生会和纪律委员会。
 
-</template>
-</tab>
-</folding>
+ </div>
+
+ </Tab>
+
+</Folding>
 
 ## 相关链接
 
-<link-card description="《生活在拔作一样的岛上我该怎么办才好？》游戏官网（日文）" icon="https://qruppo.com/products/nukitashi/img/common/sideA/logo@2x.png" link="https://qruppo.com/products/nukitashi" title="游戏官网（日文）">
+<LinkCard icon="https://qruppo.com/products/nukitashi/img/common/sideA/logo@2x.png" title="游戏官网（日文）" description="《生活在拔作一样的岛上我该怎么办才好？》游戏官网（日文）" link="https://qruppo.com/products/nukitashi" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="Steam上的NUKITASHI" description="《生活在拔作一样的岛上我该怎么办才好？》游戏中文 Steam 页面" link="https://store.steampowered.com/app/2399220/NUKITASHI/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《生活在拔作一样的岛上我该怎么办才好？》游戏中文 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/2399220/NUKITASHI/" title="Steam上的NUKITASHI">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ## 第一部
 
@@ -111,9 +97,9 @@
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情：[https://www.touchgal.us/def13d1c](https://www.touchgal.us/def13d1c)
-- PC：[https://pan.touchgal.net/s/V5Xwfd](https://pan.touchgal.net/s/V5Xwfd)
-- Android：[https://pan.touchgal.net/s/DpRdcx](https://pan.touchgal.net/s/DpRdcx)
+- 游戏详情：https://www.touchgal.us/def13d1c
+- PC：https://pan.touchgal.net/s/V5Xwfd
+- Android：https://pan.touchgal.net/s/DpRdcx
 
 ## 第二部
 
@@ -121,26 +107,26 @@
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情（Steam 版）：[https://www.touchgal.us/ddb6d1fd](https://www.touchgal.us/ddb6d1fd)
-- 游戏详情（非 Steam 版）：[https://www.touchgal.us/84a4cc68](https://www.touchgal.us/84a4cc68)
-- PC（非 Steam 版）：[https://pan.touchgal.net/s/26GAfg](https://pan.touchgal.net/s/26GAfg)
-- PC（Steam 版）：[https://pan.touchgal.net/s/BxZ9uw](https://pan.touchgal.net/s/BxZ9uw)
-- Android（Steam 版）：[https://pan.touchgal.net/s/V5aZtd](https://pan.touchgal.net/s/V5aZtd)
+- 游戏详情（Steam 版）：https://www.touchgal.us/ddb6d1fd
+- 游戏详情（非 Steam 版）：https://www.touchgal.us/84a4cc68
+- PC（非 Steam 版）：https://pan.touchgal.net/s/26GAfg
+- PC（Steam 版）：https://pan.touchgal.net/s/BxZ9uw
+- Android（Steam 版）：https://pan.touchgal.net/s/V5aZtd
 
 ### 游戏补丁链接
 
-- Johren：[https://www.johren.games/games/download/nukitashi-dlc-en-zh/](https://www.johren.games/games/download/nukitashi-dlc-en-zh/)
-- SteamGalgame（第一部）： [https://steamgalgame.com/NUKITASHI.html](https://steamgalgame.com/NUKITASHI.html)
+- Johren：https://www.johren.games/games/download/nukitashi-dlc-en-zh/
+- SteamGalgame（第一部）： https://steamgalgame.com/NUKITASHI.html
 
-<alert>
+<Alert>
 
 SteamGalgame 提供的第二部补丁已包含 Steam 版删减的丝丝子线 DLC
 
-</alert>
+</Alert>
 
-- SteamGalgame（第二部）： [https://steamgalgame.com/NUKITASHI_2.html](https://steamgalgame.com/NUKITASHI_2.html)
+- SteamGalgame（第二部）： https://steamgalgame.com/NUKITASHI_2.html
 
-</folding>
+</Folding>
 
 ## 额外事项
 

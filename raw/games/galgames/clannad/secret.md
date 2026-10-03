@@ -2,13 +2,13 @@
 
 > 
 
-<alert>
+<Alert>
 
 本表格攻略基于 [Clannad 天幻网攻略资料](http://clannad.ffsky.cn/secret.htm) 中文版隐藏要素整理而来。
 
 在持续制作中，所以会缺失一部分页面。
 
-</alert>
+</Alert>
 
 - [主角姓名与台词的关系](/games/galgames/clannad/secret/name)
 - [64Hits事件](/games/galgames/clannad/secret/64hits)

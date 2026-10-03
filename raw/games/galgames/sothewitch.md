@@ -2,12 +2,13 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度 & 路线攻略
 
-</template>
+</Fragment>
 
 ## 版本选择
 
@@ -20,13 +21,10 @@ Steam 国际中文版，史低购买游戏本体，已安装补丁。
 Steam 成就进度 100%（50/50），游戏内鉴赏模式完成度 100 %。
 
 ## 路线攻略
-
 整理自官方国际中文版简明攻略，解锁和奏线需要先至少通关其他任意一人路线。
-
-<card-list>
+<CardList>
 
 - **绫地宁宁 Ayaji Nene**：
-
   - 再老实地夸一次
   - 拜托绫地
   - 改变观影时间
@@ -80,7 +78,7 @@ Steam 成就进度 100%（50/50），游戏内鉴赏模式完成度 100 %。
   - 夸她
   - 那当然是……户隐学姐？
   - **户隐憧子 Togakushi Touko END**
-- **假屋和奏 Kariya Wakana：**
+- **<Tip tip="需要先至少通关其他任意一人路线">假屋和奏 Kariya Wakana</Tip>：**
   - 再老实地夸一次
   - 拜托绫地
   - 改变观影时间
@@ -91,37 +89,29 @@ Steam 成就进度 100%（50/50），游戏内鉴赏模式完成度 100 %。
   - 机会难得，找个人请教一下吧
   - **假屋和奏 Kariya Wakana END**
 
-</card-list>
-</folding>
+</CardList>
+
+</Folding>
 
 ## 简介
 
 ![](https://www.yuzu-soft.com/new/product/sothewitch/images/common/sow_titlesd.png)
 
-<video-embed id="BV1yU4y137Jb" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV1yU4y137Jb" />
 
 《魔女的夜宴》（サノバウィッチ）是由柚子社制作发行的恋爱文字冒险游戏，于 2015年2月27日面向 PC 平台发售。
 
 英文版由NekoNyan代理，于2018年10月27日在Steam、NekoNyan的网上商城还有其他平台发售，并发行实体版。
 
-中文版由HIKARI FIELD代理，于 <tip tip="柚子厨特有的0721">
+中文版由HIKARI FIELD代理，于 <Tip tip="柚子厨特有的0721">2023年7月21日</Tip>在Steam发售。
 
-2023年7月21日
+<Folding>
 
-</tip>
-
-在Steam发售。
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 保科柊史拥有着这样一个秘密。
 那就是拥有着“能够感受到他人的感觉、感受和心情”的不可思议的力量。
@@ -146,46 +136,37 @@ Steam 成就进度 100%（50/50），游戏内鉴赏模式完成度 100 %。
 
 “或许从现在起，就将会有什么事情开始了呢”
 
-</folding>
+</Folding>
 
 ## 相关链接
 
-<link-card description="游戏hf官网（中文）" icon="https://hikarifield.co.jp/sothewitch/images/common/logo.png" link="https://hikarifield.co.jp/sothewitch/" title="游戏HF发行官网（中文）">
+<LinkCard icon="https://hikarifield.co.jp/sothewitch/images/common/logo.png" title="游戏HF发行官网（中文）" description="游戏hf官网（中文）" link="https://hikarifield.co.jp/sothewitch/" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="游戏中文版 Steam 页面" description="《魔女的夜宴》游戏中文 Steam 页面" link="https://store.steampowered.com/app/2458530/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《魔女的夜宴》游戏中文 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/2458530/" title="游戏中文版 Steam 页面">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
 
-<resource-list :items="[{"id":1,"title":"PC 版（Windows exe）","subtitle":"来自 Touchgal Drives","tags":["Windows","PC 游戏"],"link":"https://pan.touchgal.net/s/GvNUX"},{"id":2,"title":"KRKR 版","subtitle":"来自 Touchgal Drives","tags":["KRKR"],"link":"https://pan.touchgal.net/s/9nqSb"},{"id":3,"title":"游戏补丁","subtitle":"来自 Steamgalgames","tags":["游戏补丁"],"link":"https://steamgalgame.com/2458530.html"}]">
+  </Alert>
 
+<ResourceList items={[{"id":1,"title":"PC 版（Windows exe）","subtitle":"来自 Touchgal Drives","tags":["Windows","PC 游戏"],"link":"https://pan.touchgal.net/s/GvNUX"},{"id":2,"title":"KRKR 版","subtitle":"来自 Touchgal Drives","tags":["KRKR"],"link":"https://pan.touchgal.net/s/9nqSb"},{"id":3,"title":"游戏补丁","subtitle":"来自 Steamgalgames","tags":["游戏补丁"],"link":"https://steamgalgame.com/2458530.html"}]} />
 
-
-</resource-list>
-</folding>
+</Folding>
 
 ## 额外事项
 

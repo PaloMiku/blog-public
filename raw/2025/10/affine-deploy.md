@@ -32,7 +32,7 @@
 
 ### CPU
 
-> We recommend the CPU of host to have at least 4 cores, for leverage long CPU holding jobs. AFFiNE's response speed depends on the specification of your CPU.
+>We recommend the CPU of host to have at least 4 cores, for leverage long CPU holding jobs. AFFiNE's response speed depends on the specification of your CPU.
 
 Affine 官方文档给出的建议是 CPU 至少有四个核心，以便利用长时间运行的 CPU 密集型任务。AFFiNE 的响应速度取决于您的 CPU 规格。
 
@@ -41,7 +41,7 @@ Affine 官方文档给出的建议是 CPU 至少有四个核心，以便利用�
 ### 内存
 
 > Memory are mostly consumed by Sync system and Doc merging. The larger the largest doc is, the more Memory will be taken to merge it.
-> Memory specifications are various depends on the size of your docs and modification times of each docs.
+   Memory specifications are various depends on the size of your docs and modification times of each docs.
 
 官方文档介绍，使用内存主要被同步系统和文档合并消耗。文档越大，合并它所需的内存就越多。
 
@@ -91,16 +91,17 @@ wget -O .env https://github.com/toeverything/affine/releases/latest/download/def
 
 ### 修改环境变量文件
 
-<alert :card="true" type="warning">
-<template v-slot:title="">
+<Alert type="warning" card={true}>
+
+<Fragment slot="title">
 
 注意！
 
-</template>
+</Fragment>
 
 在初始化并开始使用 Affine 后，请不要随便修改环境变量。
 
-</alert>
+</Alert>
 
 这里的`env`文件可能不是最新的，请优先以官方`env`文件内容为准，有关设置项我已经加注了中文注释在下文，请自行参照修改哦。
 

@@ -8,19 +8,15 @@
 
 对桌面也重新做了整理和美化，个人还是很喜欢 KDE Plasma 的，使用 Linux 也已有一年有余，今天分享下我目前使用的桌面美化方案。
 
-<alert>
+<Alert>
 
 本文内容已于 2025.11.04 更新，删减壁纸和部分内容，新增 Panel-colorizer 插件效果。
 
-</alert>
+</Alert>
 
 一个好的美化方案不仅可以让自己赏心悦目，也可以通过组件位置合理放置提升个人的工作效率，本文使用到的插件和配色方案等均可在 KDE 商店下载到。
 
-<pic caption="桌面效果图" src="https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/08/kde-customization/preview.webp" caption="桌面效果图" />
 
 ## 方案
 
@@ -36,9 +32,9 @@
 
 桌面的上下面板均使用了本插件，设置了不同的透明度和颜色。
 
-Github 地址：[https://github.com/luisbocanegra/plasma-panel-colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+Github 地址：https://github.com/luisbocanegra/plasma-panel-colorizer
 
-KDE 商店链接：[https://store.kde.org/p/2130967](https://store.kde.org/p/2130967)
+KDE 商店链接：https://store.kde.org/p/2130967
 
 若是从 KDE 商店安装本插件，需要先检查系统是否已安装相关依赖包，可在项目 Github README 中查看不同系统需求的依赖包安装方式。
 
@@ -52,11 +48,7 @@ KDE 商店链接：[https://store.kde.org/p/2130967](https://store.kde.org/p/213
 
 首先使用插件内置的 ChromeOS 预设，然后打开外观设置，翻到侧边外观选项卡，下翻找到“Color”然后禁用它的颜色即可（如下图）。
 
-<pic caption="Panel-colorizer 上面板配置" src="https://blog-files.101045700.xyz/2025/08/kde-customization/config.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/08/kde-customization/config.webp" caption="Panel-colorizer 上面板配置" />
 
 #### 下面板
 
@@ -66,104 +58,19 @@ KDE 商店链接：[https://store.kde.org/p/2130967](https://store.kde.org/p/213
 
 前往 系统设置 > 全局主题 设置
 
-<table>
-<thead>
-  <tr>
-    <th>
-      类型
-    </th>
-    
-    <th>
-      名称
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      全局主题
-    </td>
-    
-    <td>
-      Fedora
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      颜色
-    </td>
-    
-    <td>
-      Moe
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      应用程序外观样式
-    </td>
-    
-    <td>
-      Breeze 微风
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Plasma 外观样式
-    </td>
-    
-    <td>
-      Moe
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      窗口装饰元素
-    </td>
-    
-    <td>
-      Breeze 微风
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      图标
-    </td>
-    
-    <td>
-      Colloid
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      光标
-    </td>
-    
-    <td>
-      Hoshino Swimsuit
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      欢迎屏幕
-    </td>
-    
-    <td>
-      Lagtrain
-    </td>
-  </tr>
-</tbody>
-</table>
+|类型|名称|
+|---|---|
+|全局主题|Fedora|
+|颜色|Moe|
+|应用程序外观样式|Breeze 微风|
+|Plasma 外观样式|Moe|
+|窗口装饰元素|Breeze 微风|
+|图标|Colloid|
+|光标|Hoshino Swimsuit|
+|欢迎屏幕|Lagtrain|
 
 ### 桌面时钟
 
 使用 Redmi Clock 插件
 
-插件 KDE 商店链接：[https://store.kde.org/p/2175475](https://store.kde.org/p/2175475)
+插件 KDE 商店链接：https://store.kde.org/p/2175475

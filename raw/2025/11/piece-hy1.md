@@ -4,35 +4,19 @@
 
 最近在看番剧，重新看了下《堀与宫村》和后面的《堀与宫村 piece》，这部番剧动画版制作有些许混乱，也常被人说是“工业糖精”，但我个人觉得不算特别差，在 piece 上的观感也看到了一段好笑的校园日常。
 
-<info-card :id="315069" type="media">
+<InfoCard type="media" id={315069} />
 
-
-
-</info-card>
-
-<info-card :id="425992" type="media">
-
-
-
-</info-card>
+<InfoCard type="media" id={425992} />
 
 然后今晚又一次观看了《擅长捉弄的高木同学 剧场版》，我的二次元史也算是始于高木，自高木以后个人才算是正式踏入了 ACG 圈子。
 
-<info-card :id="347888" type="media">
-
-
-
-</info-card>
+<InfoCard type="media" id={347888} />
 
 提起高木和高木剧场版，有一件与其相关的过去的事情，真怀念呢。
 
 我有一个高中同学，我俩充分熟络起来的契机也是因为高木，很神奇吧？
 
-<music artist="高橋李依" name="明日への扉" url="https://music.163.com/#/song?id=1958727599">
-
-
-
-</music>
+<Music url="https://music.163.com/#/song?id=1958727599" name="明日への扉" artist="高橋李依" />
 
 大概是高一的小假期，我在看高木动画里的大风名场面，并且在 QQ 空间发布了动态，然后我那个高中同学在下面回了一段话：“我去，原来你也是高木粉？”
 

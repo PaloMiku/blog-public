@@ -2,13 +2,13 @@
 
 > 本文介绍了 Decky Loader 在 Linux/SteamDeck 下的两种快速安装法：官方一键脚本（含中文版）与 OhMyDeck 手动方案，并给出启用开发者模式、CEF 调试、设密码、开终端等关键步骤，手柄玩家即刻升级大屏体验。
 
-<alert>
+<Alert>
 
 [本文类似版本](https://www.xiaoheihe.cn/app/bbs/link/156323352)个人首发于小黑盒，你在此看到的版本为基于小黑盒发布版本的二次修订版。
 
 本次修订版本发布于个人博客，目前仅在小黑盒和个人博客发布过本文。
 
-</alert>
+</Alert>
 
 ## 前言
 
@@ -26,14 +26,14 @@
 
 你应当具备以下条件：
 
-<card-list>
+<CardList>
 
 - 首先得是 Linux 用户，这也包括了 Steamdeck 或其他 Win 掌机可用的 SteamOS 和 Bazzite，CachyOS Handheld 等 Linux 掌机系统。
 - 最好是手柄用户，而且喜欢用 Steam 大屏幕模式，没有手柄的 Steam 大屏幕模式其实也不咋好用。
 - 有基本的英语知识，毕竟仍有不少插件是英文界面。如果你没有足够的英文知识，那么配上翻译软件进行翻译阅读就需要你有基本的阅读理解和整合思维了。
 - 有着比较良好的网络环境，下载文件需要连接 Github 等。
 
-</card-list>
+</CardList>
 
 ## 安装
 
@@ -41,19 +41,17 @@ Decky Loader 发展到现在，已经有了很多的安装方式可选。
 
 ### 官方脚本
 
-<card-list>
+<CardList>
 
 - 优点：
-
   - 官方提供的安装方式，维护和更新等问题解决最快。
   - 图形安装引导页面和后期维护工具附带。
   - 对于基础较差的 Linux 用户最为简单的安装方式
   - 支持平台多，非 Steamdeck 定制版 Steam 也能顺利安装。
 - 缺点：
-
   - 相关文件需要从 Github 获取，需要有良好的网络环境。
 
-</card-list>
+</CardList>
 
 #### 使用
 
@@ -67,7 +65,6 @@ ttps://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/use
 bash /tmp/user_install_script.sh; else echo "Something went wrong, please report this if it is a bug"; r
 ead; fi'
 ```
-
 个人也简单汉化了一个中文版安装脚本，可以通过在终端执行以下命令来使用：
 
 ```bash
@@ -154,13 +151,7 @@ curl -L http://dl.ohmydeck.net | sh
 curl -L https://www.mhhf.com/Deck/install.sh | sh
 ```
 
-之后会弹出密码输入提示，这里输入刚才设置的管理员密码（Steamdeck 使用 <key code="steam+x">
-
-STEAM+X
-
-</key>
-
- 键打开虚拟键盘，输入密码时为盲输，不会有任何显示），输入完毕后按虚拟键盘上的回车开始安装，安装速度视网络情况。
+之后会弹出密码输入提示，这里输入刚才设置的管理员密码（Steamdeck 使用 <Key code="steam+x">STEAM+X</Key> 键打开虚拟键盘，输入密码时为盲输，不会有任何显示），输入完毕后按虚拟键盘上的回车开始安装，安装速度视网络情况。
 
 安装完成后进入游戏模式，按 Steamdeck 右边的三个点按钮就可以看见插件商店了。
 

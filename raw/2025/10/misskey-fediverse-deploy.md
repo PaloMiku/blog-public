@@ -12,24 +12,21 @@
 
 你可以参见个人文章《自建一个 Fediverse 实例，我们需要准备什么？》，在此篇文章里个人从域名到服务器准备以及对象存储等全面详解了你应该为联邦宇宙实例做什么准备。
 
-<link-banner :description="null" banner="https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg" link="/2025/06/self-fediverse-prepare" title="自建一个 Fediverse 实例，我们需要准备什么？">
-
-
-
-</link-banner>
+<LinkBanner banner="https://engagemedia.org/wp-content/uploads/2020/07/Fediverse-3D_logojpg.jpg" title="自建一个 Fediverse 实例，我们需要准备什么？" description={null} link="/2025/06/self-fediverse-prepare" />
 
 在有一台合适的服务器和域名后，我们就可以开始安装 Misskey 的第一步了。
 
-<alert :card="true" type="warning">
-<template v-slot:title="">
+<Alert type="warning" card={true}>
+
+<Fragment slot="title">
 
 注意！
 
-</template>
+</Fragment>
 
 域名一定要慎重决定，一旦你启动了实例，在此之后不要更改域名！
 
-</alert>
+</Alert>
 
 注意因为 Misskey 所使用的 ActivityPub 协议的特殊性，部署后不支持更换域名！所以选择域名一定要慎重选择。
 
@@ -91,7 +88,6 @@ Caddy 支持通过配置文件启用 Zstandard和 Gzip 压缩功能，这是主�
 ### 获取 Misskey 和初始化配置文件
 
 使用以下指令从 Github 获取 Misskey 仓库和相关文件，并进入 Misskey 文件夹
-
 ```bash
 git clone -b master https://github.com/misskey-dev/misskey.git
 cd misskey

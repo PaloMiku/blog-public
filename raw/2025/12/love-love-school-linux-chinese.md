@@ -10,12 +10,12 @@
 
 那既然咱要玩这个游戏了，我也不打算啃英文，那肯定要去汉化它才能正常玩。
 
+
 B 站的一位 UP 主制作了汉化补丁，它是基于 BepInEx 和 Reipatcher 的。
 
-B 站专栏链接：[https://www.bilibili.com/opus/760358594853994533](https://www.bilibili.com/opus/760358594853994533)
+B 站专栏链接：https://www.bilibili.com/opus/760358594853994533
 
 ### 个人测试环境
-
 - Fedora Workstation 43，Proton CachyOS Latest（20251115-Fix）
 - Bazzite 43，Proton GE Latest（10-26）
 
@@ -23,9 +23,9 @@ B 站专栏链接：[https://www.bilibili.com/opus/760358594853994533](https://w
 
 于是乎去网上简单查询了下资料，然后看到 BepInEX 官方文档[是这样解释的](https://docs.bepinex.dev/articles/advanced/proton_wine.html)
 
-> If you are playing a Windows game on an Unix system (Linux/Mac/SteamOS/etc.) the game will have to run through a compatibility layer (Proton, or its predecessor Wine) which at the moment will likely prevent BepInEx from starting.
-> 
-> This is because UnityDoorstop relies on dll files inside the game directory being loaded instead of system dlls, but under Proton/Wine this behavior does not happen by default. To make BepInEx work it's necessary to configure this DLL forwarding to work correctly.
+>If you are playing a Windows game on an Unix system (Linux/Mac/SteamOS/etc.) the game will have to run through a compatibility layer (Proton, or its predecessor Wine) which at the moment will likely prevent BepInEx from starting.
+>
+>This is because UnityDoorstop relies on dll files inside the game directory being loaded instead of system dlls, but under Proton/Wine this behavior does not happen by default. To make BepInEx work it's necessary to configure this DLL forwarding to work correctly.
 
 ### 中文翻译
 
@@ -37,19 +37,11 @@ B 站专栏链接：[https://www.bilibili.com/opus/760358594853994533](https://w
 
 解决的办法也很简单，只需要请出我们的老朋友 Protontricks。
 
-<video-embed id="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1305300/extras/9a4ce49e4dc935a0378067ac79c788a5.webm" type="raw">
-
-
-
-</video-embed>
+<VideoEmbed type="raw" id="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1305300/extras/9a4ce49e4dc935a0378067ac79c788a5.webm" />
 
 在个人文章 [《爱上火车》在 Linux 下的视频播放修复](/2025/05/maitetsu-video-fix) 中已经介绍了如何在 Linux 下安装并启动 Protontricks，此处不再赘述。
 
-<link-banner banner="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" link="/2025/05/maitetsu-video-fix" title="《爱上火车》在 Linux 下的视频播放修复">
-
-
-
-</link-banner>
+<LinkBanner banner="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" title="《爱上火车》在 Linux 下的视频播放修复" link="/2025/05/maitetsu-video-fix" />
 
 那么首先我们依然打开 Protontricks，然后选择游戏并点击确定（需要启动过一次游戏才能在列表里找到它）。
 

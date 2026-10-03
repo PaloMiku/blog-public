@@ -18,7 +18,7 @@
 
 在 Fedora 上体验 Cosmic 有两种方式：从存储库安装 cosmic-desktop 或者选择预装的 Fedora Cosmic Spin（或 Atomic），但是 Fedora Cosmic Spin 个人体验预装似乎有些旧了，安装完后桌面环境是 Cosmic Alpha 时期的英文且还有异常卡顿的 Bug,中文用户的体验很显然是不大行的。
 
-当然预装 Cosmic 的系统有很多，可以参见：[https://system76.com/cosmic/download](https://system76.com/cosmic/download)
+当然预装 Cosmic 的系统有很多，可以参见：https://system76.com/cosmic/download
 
 包括 Arch，Nix，openSUSE 在内的流行发行版也有预装提供。或者你也可以选择 Cosmic 官方的 Pop OS Beta，它是基于 Ubuntu 24.04 LTS 的，我个人目前也不用 deb 系发行版，所以还是选择 Fedora。
 

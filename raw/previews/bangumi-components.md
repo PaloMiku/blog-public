@@ -13,77 +13,11 @@
 
 ## 原组件清单
 
-<table>
-<thead>
-  <tr>
-    <th>
-      指令
-    </th>
-    
-    <th>
-      形态
-    </th>
-    
-    <th>
-      说明
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      <code code="::bgm-card">
-        ::bgm-card
-      </code>
-    </td>
-    
-    <td>
-      条目卡片
-    </td>
-    
-    <td>
-      按条目类型自动匹配形态：动画 / 书籍 / 音乐 / 游戏 / 三次元；音乐类型带 CD 侧封竖条与艺术家署名。<code code="compact: true">
-        compact: true
-      </code>
-      
-       为矮身形态（完整信息、更低高度，适合文章末尾「相关条目」区）
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <code code="::bgm-calendar">
-        ::bgm-calendar
-      </code>
-    </td>
-    
-    <td>
-      放送日历
-    </td>
-    
-    <td>
-      近 7 天放送安排，今天高亮；可切换「全部 / 仅在看」
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <code code="::bgm-collection">
-        ::bgm-collection
-      </code>
-    </td>
-    
-    <td>
-      收藏列表
-    </td>
-    
-    <td>
-      分类 × 状态的收藏网格，带进度 / 评分遮罩与「加载更多」
-    </td>
-  </tr>
-</tbody>
-</table>
+| 指令 | 形态 | 说明 |
+| --- | --- | --- |
+| `::bgm-card` | 条目卡片 | 按条目类型自动匹配形态：动画 / 书籍 / 音乐 / 游戏 / 三次元；音乐类型带 CD 侧封竖条与艺术家署名。`compact: true` 为矮身形态（完整信息、更低高度，适合文章末尾「相关条目」区） |
+| `::bgm-calendar` | 放送日历 | 近 7 天放送安排，今天高亮；可切换「全部 / 仅在看」 |
+| `::bgm-collection` | 收藏列表 | 分类 × 状态的收藏网格，带进度 / 评分遮罩与「加载更多」 |
 
 数据原本来自模块自带的 Worker 节点，走真实 Bangumi API。
 

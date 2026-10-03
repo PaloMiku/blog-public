@@ -2,24 +2,18 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度 & 路线攻略
 
-</template>
+</Fragment>
 
 ## 版本选择
-
 ### PC 版
 
-Steam 高清重制版，国际中文版， <tip tip="别骂了😭，史低有钱一定买">
-
-第三方游玩学习版
-
-</tip>
-
-，已安装补丁。
+Steam 高清重制版，国际中文版， <Tip tip="别骂了😭，史低有钱一定买">第三方游玩学习版</Tip>，已安装补丁。
 
 个人在 Windows 11 和 Linux （Proton）环境运行游玩均通过测试。
 
@@ -27,11 +21,7 @@ Steam 高清重制版，国际中文版， <tip tip="别骂了😭，史低有�
 
 个人使用 PPSSPP 模拟器在 Steamdeck 上进行游玩，环境为 CachyOS Handheld（Arch Linux）
 
-<pic caption="在 Steamdeck 上通过 PPSSPP 模拟器体验《恋爱与选举与巧克力》携带版" src="https://blog-files.101045700.xyz/Galgame/Koichoco-A1.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/Galgame/Koichoco-A1.webp" caption="在 Steamdeck 上通过 PPSSPP 模拟器体验《恋爱与选举与巧克力》携带版" />
 
 ## 个人进度
 
@@ -43,7 +33,7 @@ PC 版除衣更线已全部完成，携带版持续游玩中。
 
 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。
 
-<card-list>
+<CardList>
 
 - **住吉千里 Sumiyoshi Chisato：**
   - 只是感到不可理喻
@@ -95,18 +85,15 @@ PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。
   - 看向猴子二人组
   - **枝川希美 Edakawa Nozomi END**
 
-</card-list>
-</folding>
+</CardList>
+
+</Folding>
 
 ## 简介
 
 ![](https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x78_2d083142-dc83-4332-8b01-5bd808bec069.svg)
 
-<video-embed id="BV1Fu4y1z7bt" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV1Fu4y1z7bt" />
 
 《恋爱与选举与巧克力》（恋と選挙とチョコレート）是由 Sprite 在2010年10月29日发售的恋爱冒险游戏，是 Sprite 创社后与 Fairys 共同制作的首款游戏，并有 PSP 版（携带版）游戏和衍生的动画及漫画等作品。
 
@@ -114,12 +101,13 @@ PC高清重置版（High Resolution）于2020年12月25日发售。高清重置�
 
 官方中文版由 HIKARI FIELD 代理，基于高清重置版制作，于2025年3月28日发行。
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 ![](https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_middle.webp)
 男主角大岛裕树与青梅竹马住吉千里以及一直是好友的木场美冬在拥有超过5000名学生工业学园“私立高藤学园”就读。
@@ -132,39 +120,33 @@ PC高清重置版（High Resolution）于2020年12月25日发售。高清重置�
 
 于是大岛裕树为了食品研究部的未来被迫参加了自治学生会长选举。一场恋爱、选举和巧克力的故事就这样拉开帷幕了。
 
-</folding>
+</Folding>
 
 ## 相关链接
 
-<link-card description="《恋爱与选举与巧克力》游戏官网（日文）" icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp" link="https://products.sprite.net/koichoco" title="游戏官网（日文）">
+<LinkCard icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-2400x1522_v-frms_webp_ec50cb5d-345a-4a00-ab32-509e8e36b6a4_regular.webp" title="游戏官网（日文）" description="《恋爱与选举与巧克力》游戏官网（日文）" link="https://products.sprite.net/koichoco" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="游戏国际中文版 Steam 页面" description="《恋爱与选举与巧克力》游戏国际中文版 Steam 页面" link="https://store.steampowered.com/app/3027600/Love_Elections_and_Chocolate/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《恋爱与选举与巧克力》游戏国际中文版 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/3027600/Love_Elections_and_Chocolate/" title="游戏国际中文版 Steam 页面">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ### 携带版（PSP）
 
@@ -177,29 +159,29 @@ PC高清重置版（High Resolution）于2020年12月25日发售。高清重置�
 
 且 PC 版无法攻略的枝川希美将作为新女主角添加在携带版中。
 
-- Mikuの空间站：[https://share.sotkg.com/drive-cn/PSP/b-koichoco-chs.iso](https://share.sotkg.com/drive-cn/PSP/b-koichoco-chs.iso)
-- PaoPaoChe：[http://zj.qianguw.com:6888/zj/loveelectionchocolatepspcn.zip](http://zj.qianguw.com:6888/zj/loveelectionchocolatepspcn.zip)
+- Mikuの空间站：https://share.sotkg.com/drive-cn/PSP/b-koichoco-chs.iso
+- PaoPaoChe：http://zj.qianguw.com:6888/zj/loveelectionchocolatepspcn.zip
 
 ### TouchGal
 
-<alert>
+ <Alert>
 
 此`PC`版本已在个人`Arch Linux`和`Steamdeck Gamescope`验证正常运行，使用`Proton GE`兼容层。
 
-</alert>
+ </Alert>
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情：[https://www.touchgal.us/984b568c](https://www.touchgal.us/984b568c)
-- PC（Steam 重制版）：[https://pan.touchgal.net/s/Re3XU7](https://pan.touchgal.net/s/Re3XU7)
-- PC（未重制原版）：[https://pan.touchgal.net/s/LZJtZ](https://pan.touchgal.net/s/LZJtZ)
+- 游戏详情：https://www.touchgal.us/984b568c
+- PC（Steam 重制版）：https://pan.touchgal.net/s/Re3XU7
+- PC（未重制原版）：https://pan.touchgal.net/s/LZJtZ
 
 ### 游戏补丁链接
 
-- Nekonyansoft ：[https://patches.nekonyansoft.com/](https://patches.nekonyansoft.com/)
-- SteamGalgame： [https://steamgalgame.com/3027600.html](https://steamgalgame.com/3027600.html)
+- Nekonyansoft ：https://patches.nekonyansoft.com/
+- SteamGalgame： https://steamgalgame.com/3027600.html
 
-</folding>
+</Folding>
 
 ## 额外事项
 

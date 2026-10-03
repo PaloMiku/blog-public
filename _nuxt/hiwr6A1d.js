@@ -1,1 +1,0 @@
-import{i as e}from"./vkjZpJQB.js";async function t(){return e(`content`,{ignoredTags:[`pre`]})}export{t as default};

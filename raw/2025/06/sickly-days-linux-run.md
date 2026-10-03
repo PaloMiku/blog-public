@@ -1,25 +1,20 @@
 # 《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复
 
 > 文章记录了《痴情哥哥与病弱妹妹的乡间生活》Steam版在Linux/SteamDeck因Krkr2引擎兼容失败而无法启动的问题。
-> 修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
+修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
 
-<alert>
+
+<Alert>
 
 本文是为解决游戏的 Steam 版运行问题特化写的文章，如果你是其他版本或其他方式运行可以参照[本文参考的原 Wiki 资料](https://www.vnwiki.xyz/visual-novels/sickly-sister.html)去解决。
 
-</alert>
+</Alert>
 
 ## 前言
 
 最近《痴情哥哥与病弱妹妹的乡间生活》在 HIKARIFIELD 的推动下在 Steam 正式发售了，说实话还是有些意外的。
 
-我个人 <tip tip="喜欢他们作品但还不够了解他们，正所谓“半个粉丝”">
-
-也算妹抱社和其前身 Lose 的半个粉丝
-
-</tip>
-
-了，在之前听说此游戏的相关消息和发售信息后，还是比较喜欢和期待的，但当时获取 DLSite 版本后发现在 Linux 上无法正常游玩，当时个人也不想为此大动干戈使用 Windows ，所以最后干脆就没玩。
+我个人 <Tip tip="喜欢他们作品但还不够了解他们，正所谓“半个粉丝”">也算妹抱社和其前身 Lose 的半个粉丝</Tip>了，在之前听说此游戏的相关消息和发售信息后，还是比较喜欢和期待的，但当时获取 DLSite 版本后发现在 Linux 上无法正常游玩，当时个人也不想为此大动干戈使用 Windows ，所以最后干脆就没玩。
 
 最近看到 Steam 版正式上线了，从 HIKARIFIELD 官网购入了双平台版本支持一下，也觉得都上 Steam 了，应该对 Steamdeck 等 Linux 在内应该有改变和优化了...吧？然后事实证明还是我天真了，打开之后成功赏给了我跟 DLSite 版差不多的报错。
 
@@ -39,11 +34,11 @@
 
 所以有大佬为解决 Wine 下的 Krkr2 的引擎问题而制作了补丁，打上补丁再配上运行配置，基本就可以正常打开了，但事实是后面可能还会遇到报错问题（Proton 环境下），例如上图。
 
-<alert>
+<Alert>
 
 此处存在争议，也有说法是使用 WMP9 （Windows Media Player 9），都可以正常运行游戏，但版本不同貌似会影响游戏内视频播放，我个人是选择 WMP9。
 
-</alert>
+</Alert>
 
 目前可参考的解决办法是安装 Protontricks 后修补 WMP11 （Windows Media Player 11） 后即可。
 
@@ -58,11 +53,7 @@ protontricks 3682050 wmp11
 protontricks 3682050 wmp9
 ```
 
-<link-banner banner="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" description="本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复" link="/2025/05/maitetsu-video-fix" title="《爱上火车》在 Linux 下的视频播放修复">
-
-
-
-</link-banner>
+<LinkBanner banner="https://blog-files.101045700.xyz/MaitetsuVideoFix/Home.webp" title="《爱上火车》在 Linux 下的视频播放修复" description="本文介绍了《爱上火车》系列在 Linux Proton 环境下播放游戏内视频的修复" link="/2025/05/maitetsu-video-fix" />
 
 ### 下载补丁和安装
 

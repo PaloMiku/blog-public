@@ -39,7 +39,7 @@
 
 前面我们就提到过了，有大佬写了 DD 脚本可以快速 DD 安装 FnOS。
 
-脚本 Github 仓库地址：[https://github.com/bin456789/reinstall](https://github.com/bin456789/reinstall)
+脚本 Github 仓库地址：https://github.com/bin456789/reinstall
 
 作为开源且 Star 已经不少的项目来说，安全性应该有一定保证，如果你真的不放心，你也可以 VNC 救援模式挂载自己搓，当然我是不会写这个。一是我真的不会，二是不是所有商家后台都能自己挂载 ISO，虽然你也可以先 VNC 救援系统然后指令下载 FnOS ISO 再自己装，但是还是那句话，我不熟（对不起让你看到废物了我这就走）。
 
@@ -76,19 +76,11 @@ bash reinstall.sh fnos --password PASSWORD
 
 配置完我们能够看到赏心悦目的（可道云说是）Web 桌面，别看截图右边内存占用有点高，我这是用了很长时间装了一堆应用并且还在下载工作给你们截的图片，实际上刚装上开机内存占用还是一个可以接受的范围的，1c1g 的机子都可以凑合。
 
-<pic caption="桌面图片" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Desktop.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Desktop.webp" caption="桌面图片" />
 
 话说如果我装在本地主机上然后接上显示器能看到这个画面就更好了（可惜只有 SSH，这是 WebUI），那就很有发行版的味道了，不过要是捆上实体桌面那可不是 1c1g 或者 8g 硬盘能玩的了。
 
-<pic caption="系统设置图片" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Settings.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Settings.webp" caption="系统设置图片" />
 
 当然我们打开设置页面的时候就更有那味道了，你可以在这里升级系统和快捷管理各种设置，图形化还是很方便的，当然作为 Debian 发行版，你会发现系统的软件包仓库是 Debian 软件包仓库，在 SSH 下我们也可以用 apt 来管理软件包。
 
@@ -98,29 +90,17 @@ FnOS 本身实际上是一款还在公测的 NAS 系统，但通过安装部署�
 
 作为我们 NAS 应该的老本行之一，FnOS 获取资源，刮削搭建影视库的体验怎么样呢？
 
-<pic caption="飞牛影视" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_FnVideo.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_FnVideo.webp" caption="飞牛影视" />
 
 我们可以在软件中心先下载 FnOS 开发的"飞牛影视"，这是我们选择 FnOS 的其中一个关键原因了，它是一个简单可自动刮削的影视库程序，相比 Emby，Jellyfin 等来说，它是开箱即用的。
 
 官方介绍是挂载 NAS，网盘（挂载网盘不是影视提供支持而是 FnOS 文件管理提供支持）文件并自动分类整理和 99% 准确率的自动剐削，用户管理，手机和电视 APP 使用。
 
-<pic caption="影视库" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_01.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_01.webp" caption="影视库" />
 
 当然我实话说确实是还不错的，软件基本很成熟，简单易用，从 TMDB 和 IMDB 刮削影视和动漫数据，并且也可以自动下载和挂载字幕（在线下载字幕的话，动漫字幕缺失的很多其实，自动下载字幕主要还是对影视友好），我是觉得不错的。
 
-<pic caption="下载器" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Downloader.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Downloader.webp" caption="下载器" />
 
 那么接下来谈下载资源，FnOS 自带了下载管理器，应该是使用的 qBit 核心，速度不错，但是不能 API 调用很可惜，很多设置也很残废，所以我们如果要 API 调用下载还是得自己安装 Aria2 或者 qBit Web，在应用中心你也可以安装几款主流的下载器，值得注意的是你要在应用设置里好好设置应用能访问读写的目录，不然多半下载因为写入权限不足报错。
 
@@ -128,45 +108,25 @@ FnOS 本身实际上是一款还在公测的 NAS 系统，但通过安装部署�
 
 对于订阅追番，应用中心同样提供了 Ani Rss 和 AutoBangumi 可选一键安装，还有更多应用，同样别忘了配置好应用可以读写的目录，FnOS 的权限管理还是比较严的，每个应用都有自己的应用空间和应用子用户。
 
-<pic caption="应用中心" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Soft01.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnOS_Soft01.webp" caption="应用中心" />
 
 安装好的应用点击打开会直接打开`http://VPS的IP:应用端口号`的应用页面，如果是 FnConnect 是它的专属子域名 （话说你 PC 端干嘛在不在 Web 桌面嵌套浏览器窗口打开呢？挺破坏沉浸感的），如果是飞牛官方应用是桌面打开内部窗口，第三方应用没法主动绑定域名，而配置域名和 IP 的 SSL 证书也麻烦的一批，这算 FnOS 目前还不成熟的部分，这个可能以后会改但肯定不是优先，毕竟大部分 NAS 都没有公网 IP。
 
 接下来谈谈影视库刮削，基本上对于动漫的自动识别度还行，影视我没下不知道，有些时候还是得自己手动匹配 TMDB 信息。
 
-<pic caption="手动匹配页面" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_02.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_02.webp" caption="手动匹配页面" />
 
 匹配的页面很简单易用，你了解 TMDB 的影视资料结构一眼就能看明白怎么用，而且不用跳过去搜。
 
-<pic caption="桌面图片" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_03.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_03.webp" caption="桌面图片" />
 
 内部的页面基本不用多说，成熟的影视 API 整理的资料基本很全很漂亮，跟 Emby 一样的漂亮好用，不过大概这个还是比 Emby 简单点的。
 
-<pic caption="影视库总设置" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_04.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_04.webp" caption="影视库总设置" />
 
 对于影视库的设置性目前不算很好，如果高定制和成熟确实还是得找 Emby 这种专业的，不过目前的功能对于小规模和个人简单使用够用了。
 
-<pic caption="单个影视库设置" src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_05.webp">
-
-
-
-</pic>
+<Pic src="https://blog-files.101045700.xyz/2025/10/FnOS/FnVideo_05.webp" caption="单个影视库设置" />
 
 对于影视库的日常观影，你可以在 PC Web 页面看，也可以手机安装"飞牛播放器"登录 NAS 看，还可以电视安装"飞牛 TV" 看，多平台快速跨端体验还是可以的。
 

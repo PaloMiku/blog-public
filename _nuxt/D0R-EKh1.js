@@ -1,1 +1,0 @@
-function e(e){let t=e.trim();return Number.parseFloat(t)*(t.endsWith(`ms`)?1:1e3)}var t=(e,t=2)=>({"--delay":`${e.toFixed(t)}s`});export{e as n,t};

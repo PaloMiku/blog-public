@@ -20,23 +20,11 @@
 
 喜欢山楂制品，包括山楂，不管生的熟的或者酸的甜的，全部通吃。
 
-<project-group :items="[{"title":"Zen Browser","description":"Workspace Productivity Browser","icon":"simple-icons:zenbrowser","link":"https://zen-browser.app/"}]" title="浏览器">
+<ProjectGroup title="浏览器" items={[{"title":"Zen Browser","description":"Workspace Productivity Browser","icon":"simple-icons:zenbrowser","link":"https://zen-browser.app/"}]} />
 
+<ProjectGroup title="开发工具" items={[{"title":"VS Code","description":"AI Code Editor","icon":"devicon:vscode","link":"https://code.visualstudio.com/"},{"title":"PyCharm","description":"Python IDE","icon":"devicon:pycharm","link":"https://www.jetbrains.com/pycharm/"},{"title":"DataGrip","description":"Database Editor","icon":"devicon:datagrip","link":"https://www.jetbrains.com/datagrip/"}]} />
 
-
-</project-group>
-
-<project-group :items="[{"title":"VS Code","description":"AI Code Editor","icon":"devicon:vscode","link":"https://code.visualstudio.com/"},{"title":"PyCharm","description":"Python IDE","icon":"devicon:pycharm","link":"https://www.jetbrains.com/pycharm/"},{"title":"DataGrip","description":"Database Editor","icon":"devicon:datagrip","link":"https://www.jetbrains.com/datagrip/"}]" title="开发工具">
-
-
-
-</project-group>
-
-<project-group :items="[{"title":"CachyOS Niri+Noctalia","description":"Honor X16 Ryzen 2024","icon":"https://wiki.cachyos.org/_astro/logo.DVTdAJi6.svg","link":"https://www.fedoraproject.org/kde/"},{"title":"Bazzite GNOME","description":"Steam Deck LCD 2T","icon":"devicon:fedora","link":"https://bazzite.gg/"}]" title="开发环境">
-
-
-
-</project-group>
+<ProjectGroup title="开发环境" items={[{"title":"CachyOS Niri+Noctalia","description":"Honor X16 Ryzen 2024","icon":"https://wiki.cachyos.org/_astro/logo.DVTdAJi6.svg","link":"https://www.fedoraproject.org/kde/"},{"title":"Bazzite GNOME","description":"Steam Deck LCD 2T","icon":"devicon:fedora","link":"https://bazzite.gg/"}]} />
 
 ## 恋爱观？
 
@@ -58,15 +46,11 @@
 
 个人在社交工具上偏QQ，微信多为熟人（现实中认识的人），我的QQ是：2319665062。
 
-邮箱上可以发 Outlook 邮箱（[palomiku@outlook.com](mailto:palomiku@outlook.com)），着急了也可以往我 QQ 邮箱发。
+邮箱上可以发 Outlook 邮箱（palomiku@outlook.com），着急了也可以往我 QQ 邮箱发。
 
 你也可以通过联邦宇宙（Fediverse Misskey）方式与我取得联系！：
 
-<project-group :items="[{"title":"Circlari Fediverse","description":"主用联邦实例","icon":"https://circlari-sharky.s3.bitiful.net/sitelogo_128x128.png","link":"https://circle.tkg3.top/@PaloMiku"},{"title":"鸟白岛 Torishiro","description":"备用防丢，鸟白岛","icon":"https://sa.torishiro.com/misskey/d888c9f4-6edc-4e07-ae70-e38523edc1bc.png","link":"https://torishiro.com/@PaloMiku"}]" title="联邦宇宙">
-
-
-
-</project-group>
+<ProjectGroup title="联邦宇宙" items={[{"title":"Circlari Fediverse","description":"主用联邦实例","icon":"https://circlari-sharky.s3.bitiful.net/sitelogo_128x128.png","link":"https://circle.tkg3.top/@PaloMiku"},{"title":"鸟白岛 Torishiro","description":"备用防丢，鸟白岛","icon":"https://sa.torishiro.com/misskey/d888c9f4-6edc-4e07-ae70-e38523edc1bc.png","link":"https://torishiro.com/@PaloMiku"}]} />
 
 想和我一起玩崩坏星穹铁道嘛，通过UID：101045700（官服）添加我为好友吧。
 
@@ -75,79 +59,25 @@
 这个博主目前还是个可怜巴巴的学生党，如果你愿意的话可以投喂他！
 
 大部分应该都会用到站点维护工作上，也有可能优先解决个人存活问题（比如吃饭），适当投喂鸽子可以减少鸽子咕咕咕的概率，投喂博主也会减少博主咕咕咕的概率（Bushi）
+<Tab tabs={["微信", "支付宝"]}>
 
-<tab :tabs="["微信", "支付宝"]">
-<template v-slot:tab1="">
+<div slot="tab1">
 
 ![](https://pic.imgdb.cn/item/672059a6d29ded1a8cd554b5.png)
 
-</template>
+</div>
 
-<template v-slot:tab2="">
+<div slot="tab2">
 
 等待更新
 
-</template>
-</tab>
+</div>
+
+</Tab>
 
 如果你选择投食，你可以留下你的话，我都会展示在这里，不管数额有多少。（我可能也会列出我的回复）
 
-<table>
-<thead>
-  <tr>
-    <th>
-      赞助者
-    </th>
-    
-    <th>
-      金额
-    </th>
-    
-    <th>
-      时间
-    </th>
-    
-    <th>
-      备注
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      Lfem
-    </td>
-    
-    <td>
-      ￥39
-    </td>
-    
-    <td>
-      2025.08.10
-    </td>
-    
-    <td>
-      至永恒的当下，森林繁花化作无数的诗篇
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      辰灿汐
-    </td>
-    
-    <td>
-      ￥39
-    </td>
-    
-    <td>
-      2025.08.12
-    </td>
-    
-    <td>
-      以自己的一切面对世间
-    </td>
-  </tr>
-</tbody>
-</table>
+| 赞助者 | 金额 | 时间 | 备注 |
+| ----- | ----- | ----- | ----- |
+| Lfem | ￥39 | 2025.08.10 | 至永恒的当下，森林繁花化作无数的诗篇 |
+| 辰灿汐 | ￥39 | 2025.08.12 | 以自己的一切面对世间 |

@@ -14,14 +14,14 @@ Innei 给出的解决方案是使用 Github Action 完成构建，并将构建�
 
 不过，这个方案在我看来有以下局限性：
 
-<card-list>
+<CardList>
 
 - 需要在服务器安装相关依赖：Node.js、PM2、Sharp，但部分用户（比如我）使用的是 1Panel 管理服务器，不希望安装额外依赖
 - 输出目录被固定在服务器的 `root` 目录，不易更改
 - 需要在 Github 仓库存储服务器登录信息，如 SSH 密钥等
 - 项目本身有回滚功能，但一般用户可能不需要，也会占用大量服务器空间
 
-</card-list>
+</CardList>
 
 总之，我并不想折腾这套方案。那么，有没有更好的办法？
 
@@ -51,16 +51,17 @@ Docker 对镜像仓库的管理分为 3 个层级：命名空间（namespace）�
 
 新建一个私有库，并在 `.github/workflows` 目录下新建 yml 工作流文件，填入如下内容：
 
-<alert type="warning">
-<template v-slot:title="">
+<Alert type="warning">
+
+<Fragment slot="title">
 
 请注意新建的仓库权限，一定要为私有仓库！
 
-</template>
+</Fragment>
 
 若为公开仓库则所有人都可下载本镜像。
 
-</alert>
+</Alert>
 
 ```yaml
 name: Docker Build
@@ -217,25 +218,25 @@ jobs:
 ```
 
 这样就可以实现简单的构建并上传 Github Registry 镜像。你需要在仓库的 `secret` 设置中配置以下机密变量：
-
-<card-list>
+<CardList>
 
 - `GH_PAT`：有权限访问 Shiroi 仓库的 Github Access Token
 - `DOCKER_NAMESPACE`：镜像命名空间，全部小写，建议用个人 Github 用户名
 
-</card-list>
+</CardList>
 
-<alert>
-<template v-slot:title="">
+<Alert>
+
+<Fragment slot="title">
 
 注意！
 
-</template>
+</Fragment>
 
 由于 Github Action 的限制，仓库 3 个月无活动时，工作流会被禁用。
 @innei
 
-</alert>
+</Alert>
 
 我们采用 innei 的办法，每次构建结束后上传一个存储哈希值的文件，保持仓库活跃。同时，构建前对仓库哈希值进行对比，避免重复构建。
 

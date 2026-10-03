@@ -1,1 +1,0 @@
-function e(e){return e===`__proto__`}export{e as t};

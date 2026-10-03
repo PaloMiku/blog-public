@@ -6,7 +6,7 @@
 
 最近在 Fediverse 的其他实例（咪社）开了一个自己的“分身”：
 
-账号信息：@[NukiMiku@misskey.site](mailto:NukiMiku@misskey.site)
+账号信息：@NukiMiku@misskey.site
 
 先不解释开这个分身的目的是什么，之前在个人实例一直是使用 Sharkey 作为个人使用程序，借着开分身我也算是重新体验了原汁原味的 Misskey。
 
@@ -27,12 +27,10 @@
 没有直接编辑功能分别是存在好处和坏处的：
 
 好处：
-
 - 与其他程序（Gotosocial，Mastodon）的兼容效果会更好，这些程序也没有直接意义上的“编辑”选项。
 - ~~不会有别人知道你曾经写错了帖子。~~
 
 坏处：
-
 - 对于一些发布时间较久的帖子，你如果发现错误想要修改，你再选择“删除并编辑”就有点突兀了。
 
 总之在这点上个人还是站 Sharkey 这边的，尤其是最近发现自己比较久远帖子有个错误时候（也没有不承认错误“毁尸灭迹”的意思，实际上 Sharkey 会展示这个帖子的历史编辑，当然也可能会略占用更多数据库资源）。
@@ -41,18 +39,19 @@
 
 如果说上面没有直接编辑还能找理由的话， Misskey 有关这个帖子没有单独的“私密化”设置我就有点想不通了。
 
-<alert type="question">
-<template v-slot:title="">
+<Alert type="question">
+
+<Fragment slot="title">
 
 什么是“私密化”？
 
-</template>
+</Fragment>
 
 似乎是在 Misskey 系列中出现的功能，用户可以把“私密化”标签打到帖子上，然后这个帖子就会进入“私密”状态，只有用户自己才能看到这个帖子的内容。
 
 不过实际上可能只有 Misskey 系列程序会遵守“私密化”，聊胜于无吧。
 
-</alert>
+</Alert>
 
 在 Misskey 里只能为某个时间段之前的帖子做出“私密化”，也就是“一私私一片”。
 
@@ -72,7 +71,7 @@
 
 个人不是十分了解这个集成方式，同实例的朋友之前有使用过：
 
-贴文：[https://circle.tkg3.top/notes/a60lb602rznr000m](https://circle.tkg3.top/notes/a60lb602rznr000m)
+贴文：https://circle.tkg3.top/notes/a60lb602rznr000m
 
 ### 兼容 Mastodon API
 
@@ -108,6 +107,6 @@ Sharkey 的风格明显方正，而 Misskey 则是圆润。
 
 ## 后言
 
-也有参考 Sharkey 官方列举差异文档：[https://docs.joinsharkey.org/docs/comparison/misskey](https://docs.joinsharkey.org/docs/comparison/misskey)
+也有参考 Sharkey 官方列举差异文档：https://docs.joinsharkey.org/docs/comparison/misskey
 
 目前个人可能还是更为喜欢 Sharkey 的设计，本文将持续更新 Sharkey 和 Misskey 个人使用对比供犹豫使用什么程序的站长和用户参考！

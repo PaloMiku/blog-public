@@ -15,9 +15,13 @@
 TianliGPT是一个基于GPT-3.5的文字摘要生成工具，你可以将需要提取摘要的文本内容发送给TianliGPT，稍等一会他就可以给你发送一个基于这段文本内容的摘要。
 
 - 实时生成的摘要
+
 - 自动生成，无需人工干预
+
 - 一次生成，再次生成无需消耗key
+
 - 包含文字审核过滤，适用于中国大陆
+
 - 支持中国大陆访问
 
 ## 引入
@@ -34,9 +38,9 @@ TianliGPT是一个基于GPT-3.5的文字摘要生成工具，你可以将需要�
 
 ![](https://file.101045700.xyz/2024/12/6a03b5d58939f9f070c358bc812c7070.webp)
 
-打开Oyiso主题的自定义代码设置，把下方代码填入自定义HTML代码（头部）或者（底部）都可以，替换里面的tianliGPT_key项为你的Key。
+打开Oyiso主题的自定义代码设置，把下方代码填入自定义HTML代码（头部）或者（底部）都可以，替换里面的tianliGPT\_key项为你的Key。
 
-```text
+```
 <link rel="stylesheet" href="https://ai.tianli0.top/static/public/tianli_gpt.min.css"><script>
 let tianliGPT_postSelector = '#postchat_postcontent';
 let tianliGPT_key = '1145141919810'; //填入你的Key

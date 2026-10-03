@@ -2,12 +2,13 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度
 
-</template>
+</Fragment>
 
 ## 版本选择
 
@@ -19,136 +20,30 @@
 
 ## 个人游戏进度
 
-<table>
-<thead>
-  <tr>
-    <th>
-      剧情线路
-    </th>
-    
-    <th>
-      完成情况
-    </th>
-  </tr>
-</thead>
+| 剧情线路 | 完成情况 |
+| --- | --- |
+| 鸣濑 白羽 | 已完成 |
+| 空门 苍 | 已完成 |
+| 久岛 鸥 | 已完成 |
+| 䌷 文德斯 | 已完成 |
+| 野村 美希 | 已完成 |
+| 水织 静久 | 已完成 |
+| 加藤 羽未 | 已全部完成 |
+| 神山 识 | 已完成 |
+| ALKA | 已完成 |
+| Pockets | 已完成 |
 
-<tbody>
-  <tr>
-    <td>
-      鸣濑 白羽
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      空门 苍
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      久岛 鸥
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      䌷 文德斯
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      野村 美希
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      水织 静久
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      加藤 羽未
-    </td>
-    
-    <td>
-      已全部完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      神山 识
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      ALKA
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Pockets
-    </td>
-    
-    <td>
-      已完成
-    </td>
-  </tr>
-</tbody>
-</table>
-</folding>
+</Folding>
 
-> 太阳的光辉照亮了一个又一个那样的日常
-> 不知不觉中，那些回忆已经消失在记忆的彼方
-> 唯一无法忘却的，就只有在那天所感受到的，那份耀眼的光芒
+>太阳的光辉照亮了一个又一个那样的日常
+>不知不觉中，那些回忆已经消失在记忆的彼方
+>唯一无法忘却的，就只有在那天所感受到的，那份耀眼的光芒
 
 ## 简介
 
 ![](https://key.visualarts.gr.jp/summer/common/image/top_logo2.png)
 
-<video-embed id="BV11K4y1C7bF" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV11K4y1C7bF" />
 
 《Summer Pocket》有两个版本，一个是《Summer Pocket》，一个是《Summer Pocket Reflection Blue》，两个版本的区别在于《Summer Pocket Reflection Blue》增加了三个可攻略角色。
 
@@ -158,12 +53,13 @@
 
 2019年12月7日，Key宣布推出追加角色与剧情等的扩充版游戏《Summer Pockets REFLECTION BLUE》，并于2020年6月26日发售。
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 为了整理祖母的遗物，男主角鹰原羽伊里利用暑假来到了鸟白岛。
 
@@ -181,78 +77,67 @@
 
 那时，少年不禁这样想到。
 
-</folding>
+</Folding>
 
 2021年12月29日，VISUAL ARTS于时间特番直播中正式宣布《Summer Pockets》将改编成动画。
 
-<video-embed id="BV1cN4meFE6d" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV1cN4meFE6d" />
 
 动画于2025年4月7日起开始播出，国内发行于哔哩哔哩，每周一 23:00 更新。
 
 ## 相关链接
 
-<link-card description="《Summer Pockets》游戏官网（日文）" icon="https://key.visualarts.gr.jp/summer/common/image/top_1202sp.png" link="https://key.visualarts.gr.jp/summer/" title="游戏官网（日文）">
+<LinkCard icon="https://key.visualarts.gr.jp/summer/common/image/top_1202sp.png" title="游戏官网（日文）" description="《Summer Pockets》游戏官网（日文）" link="https://key.visualarts.gr.jp/summer/" />
 
+<LinkCard icon="https://media.st.dl.eccdnx.com/steamcommunity/public/images/apps/897220/240cbdb0e135abb95c58f49d1eede3566627d081.jpg" title="游戏中文版 Steam 页面" description="《Summer Pockets》游戏中文 Steam 页面" link="https://store.steampowered.com/app/897220/Summer_Pockets/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《Summer Pockets》游戏中文 Steam 页面" icon="https://media.st.dl.eccdnx.com/steamcommunity/public/images/apps/897220/240cbdb0e135abb95c58f49d1eede3566627d081.jpg" link="https://store.steampowered.com/app/897220/Summer_Pockets/" title="游戏中文版 Steam 页面">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ### 真红小站
 
 原失落小站，综合Galgame搜索引擎。
 
-搜索地址：[https://www.shinnku.com/search?q=Summer%20Pockets%20REFLECTION%20BLUE](https://www.shinnku.com/search?q=Summer%20Pockets%20REFLECTION%20BLUE)
+搜索地址：https://www.shinnku.com/search?q=Summer%20Pockets%20REFLECTION%20BLUE
 
 ### TouchGal
 
 解压密码均为`touchgal`，`PC`基于`枫笛汉化组`版本。
-
-<alert>
+ <Alert>
 
 此`PC`版本已在个人`Arch Linux`和`Steamdeck Gamescope`验证正常运行，使用`Proton GE`兼容层。
 
-</alert>
+ </Alert>
 
-- 游戏详情：[https://www.touchgal.us/57cfaca9](https://www.touchgal.us/57cfaca9)
-- PC（Windows exe）：[https://pan.touchgal.net/s/P8hR](https://pan.touchgal.net/s/P8hR)
-- Android：[https://pan.touchgal.net/s/md9Ux](https://pan.touchgal.net/s/md9Ux)
+- 游戏详情：https://www.touchgal.us/57cfaca9
+- PC（Windows exe）：https://pan.touchgal.net/s/P8hR
+- Android：https://pan.touchgal.net/s/md9Ux
 
 ### NekoGal
 
 `PC`游戏版本为`双汉化组版本`。
 
-- PC（Windows exe）：[https://pan.nekogal.top/s/91fL](https://pan.nekogal.top/s/91fL)
-- Android：[https://pan.nekogal.top/s/e2RTG](https://pan.nekogal.top/s/e2RTG)
+- PC（Windows exe）：https://pan.nekogal.top/s/91fL
+- Android：https://pan.nekogal.top/s/e2RTG
 
-</folding>
+</Folding>
 
 ## 额外事项
 

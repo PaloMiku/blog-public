@@ -30,11 +30,11 @@
 
 你可以选择屏幕阅读优化版或者其他版本。
 
-<alert>
+<Alert>
 
 此处使用了[Zstatic CDN](https://www.zstatic.net/)，你可以自由更换为其他`CDNJS`的 CDN，但请注意不要选择被投毒的其他几款 CDN。
 
-</alert>
+</Alert>
 
 ```javascript
 <link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" />

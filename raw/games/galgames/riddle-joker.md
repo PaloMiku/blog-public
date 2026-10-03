@@ -2,12 +2,13 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度
 
-</template>
+</Fragment>
 
 ## 版本选择
 
@@ -21,17 +22,13 @@ Linux （Proton）环境目前仍存在任何情况下都无法正常播放视�
 
 Steam 成就进度 （7/21）
 
-</folding>
+</Folding>
 
 ## 简介
 
 ![](https://hikarifield.co.jp/riddle/images/top/logo.png)
 
-<video-embed id="BV1rg4y1i7Ye" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV1rg4y1i7Ye" />
 
 《RIDDLE JOKER》是由柚子社制作发行的恋爱冒险游戏，为其第 10 部作品，以超能力为主题。角色设计、原画，依然是由当家绘师小舞一和梦璃凛所担任。
 
@@ -41,12 +38,13 @@ Steam 成就进度 （7/21）
 
 该作获 Getchu 2018 年 3 月销量排行榜第一，2018 年全年销量榜第 1。
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 故事发生的主要舞台是一个研究超能力的现代化都市，大量的“星幽使”在此定居并活跃着，以主角以及其义妹潜入星幽使聚集的校园为主要线索，讲述主角与学生们发生的故事。
 
@@ -56,53 +54,47 @@ Steam 成就进度 （7/21）
 
 正当晓以为逃过了被怀疑的风险的时候，发生了绫濑差点被绑架的事件，为了阻止绑架，他不幸被绫濑撞破了自己的特工身份，但也同时知道了绫濑的一个大秘密：她是一个通过垫胸使自己变成完美的巨乳美少女的人。在双方都不想自己的秘密被公之于众的情况下，两人决定达成合作——对外保守对方的秘密。以这个事件为导火索，主角团的命运发生转变，奇妙而有趣的故事开始了。
 
-</folding>
+</Folding>
 
 ## 相关链接
 
-<link-card description="《Riddle Joker》游戏 HIKARI-FIELD 发行商官网（中文）" icon="https://hikarifield.co.jp/riddle/images/top/logo.png" link="https://hikarifield.co.jp/riddle" title="HIKARI-FIELD 发行商游戏官网（中文）">
+<LinkCard icon="https://hikarifield.co.jp/riddle/images/top/logo.png" title="HIKARI-FIELD 发行商游戏官网（中文）" description="《Riddle Joker》游戏 HIKARI-FIELD 发行商官网（中文）" link="https://hikarifield.co.jp/riddle" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="Steam上的 Riddle Joker" description="《Riddle Joker》游戏中文 Steam 页面" link="https://store.steampowered.com/app/1277930/Riddle_Joker" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《Riddle Joker》游戏中文 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/1277930/Riddle_Joker" title="Steam上的 Riddle Joker">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ### TouchGal
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情：[https://www.touchgal.us/39665f84](https://www.touchgal.us/39665f84)
-- PC：[https://pan.touchgal.net/s/x1rSO](https://pan.touchgal.net/s/x1rSO)
+- 游戏详情：https://www.touchgal.us/39665f84
+- PC：https://pan.touchgal.net/s/x1rSO
 
 ### 游戏补丁链接
 
-- 官方 ：[https://appendingpulse.jp/dl/rjp3h7wg/](https://appendingpulse.jp/dl/rjp3h7wg/)
-- SteamGalgame： [https://steamgalgame.com/Riddle_Joker.html](https://steamgalgame.com/Riddle_Joker.html)
+- 官方 ：https://appendingpulse.jp/dl/rjp3h7wg/
+- SteamGalgame： https://steamgalgame.com/Riddle_Joker.html
 
-</folding>
+</Folding>
 
 ## 额外事项
 

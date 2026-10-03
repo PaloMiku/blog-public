@@ -2,12 +2,13 @@
 
 > 
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 个人进度
 
-</template>
+</Fragment>
 
 ## 版本选择
 
@@ -19,17 +20,13 @@ Steam 国际中文版，第三方渠道取得 CDkey 激活，已安装补丁。
 
 Steam 成就进度 100%（8/8），游戏内鉴赏模式完成度 100 %。
 
-</folding>
+</Folding>
 
 ## 简介
 
 ![](https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-300x60_2fd38134-6d20-40f3-a53d-3c190c4729f3.svg)
 
-<video-embed id="BV1Lv411i7f7" type="bilibili">
-
-
-
-</video-embed>
+<VideoEmbed type="bilibili" id="BV1Lv411i7f7" />
 
 《苍之彼方的四重奏 EXTRA1》是 Sprite 制作的一款恋爱冒险游戏，为《苍之彼方的四重奏》系列作品，2017年6月30日在全日本发售。
 
@@ -37,12 +34,13 @@ Steam 成就进度 100%（8/8），游戏内鉴赏模式完成度 100 %。
 
 个人游玩的是2020年11月6日上线的 Steam 国际中文版，由 HIKARI FIELD 发行。
 
-<folding>
-<template v-slot:title="">
+<Folding>
+
+<Fragment slot="title">
 
 剧情简介
 
-</template>
+</Fragment>
 
 所仰慕的前辈――
 
@@ -72,54 +70,48 @@ Steam 成就进度 100%（8/8），游戏内鉴赏模式完成度 100 %。
 
 到底，晶也和真白是否真的能够迎来 HappyEnd 呢？
 
-</folding>
+</Folding>
 
 ## 相关链接
 
-<link-card description="《苍之彼方的四重奏 Extra 1》游戏官网（日文）" icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-800x450_v-fs_webp_f5ec1273-ee37-4c6a-b070-4b693e44c2e8_small.webp" link="https://products.sprite.net/aokana/extra1" title="Extra 1 游戏官网（日文）">
+<LinkCard icon="https://storage.googleapis.com/studio-design-asset-files/projects/p6aoL8DkWR/s-800x450_v-fs_webp_f5ec1273-ee37-4c6a-b070-4b693e44c2e8_small.webp" title="Extra 1 游戏官网（日文）" description="《苍之彼方的四重奏 Extra 1》游戏官网（日文）" link="https://products.sprite.net/aokana/extra1" />
 
+<LinkCard icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" title="Steam上的 苍之彼方的四重奏 EXTRA1" description="《苍之彼方的四重奏》游戏中文 Steam 页面" link="https://store.steampowered.com/app/1340130/_EXTRA1/" />
 
+<Folding>
 
-</link-card>
-
-<link-card description="《苍之彼方的四重奏》游戏中文 Steam 页面" icon="https://blog-files.101045700.xyz/icons/SteamLogo.png" link="https://store.steampowered.com/app/1340130/_EXTRA1/" title="Steam上的 苍之彼方的四重奏 EXTRA1">
-
-
-
-</link-card>
-
-<folding>
-<template v-slot:title="">
+<Fragment slot="title">
 
 游戏资源链接
 
-</template>
+</Fragment>
 
-<alert type="error">
-<template v-slot:title="">
+  <Alert type="error">
 
-获取前注意！
+  <Fragment slot="title">
 
-</template>
+  获取前注意！
 
-有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+  </Fragment>
 
-</alert>
+  有能力请优先支持正版，本站本身不存储任何游戏资源，所有资源均来自网络收集。
+
+  </Alert>
 
 ### TouchGal
 
 若有解压密码，均为`touchgal`。
 
-- 游戏详情：[https://www.touchgal.us/56f61b24](https://www.touchgal.us/56f61b24)
-- PC：[https://pan.touchgal.net/s/g5VFL](https://pan.touchgal.net/s/g5VFL)
-- Android：[https://pan.touchgal.net/s/gGx8CL](https://pan.touchgal.net/s/gGx8CL)
+- 游戏详情：https://www.touchgal.us/56f61b24
+- PC：https://pan.touchgal.net/s/g5VFL
+- Android：https://pan.touchgal.net/s/gGx8CL
 
 ### 游戏补丁链接
 
-- 官方 ：[https://appendingpulse.jp/dl/a97dxnom/](https://appendingpulse.jp/dl/a97dxnom/)
-- SteamGalgame： [https://steamgalgame.com/Aokana_EXTRA1.html](https://steamgalgame.com/Aokana_EXTRA1.html)
+- 官方 ：https://appendingpulse.jp/dl/a97dxnom/
+- SteamGalgame： https://steamgalgame.com/Aokana_EXTRA1.html
 
-</folding>
+</Folding>
 
 ## 额外事项
 

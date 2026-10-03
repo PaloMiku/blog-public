@@ -10,7 +10,7 @@
 
 ## 插件功能
 
-插件位于我个人的插件库 [https://github.com/PaloMiku/noctalia-plugins](https://github.com/PaloMiku/noctalia-plugins) 内，可以在 Noctalia 插件商店里添加自定义插件源来安装和更新。
+插件位于我个人的插件库 https://github.com/PaloMiku/noctalia-plugins 内，可以在 Noctalia 插件商店里添加自定义插件源来安装和更新。
 
 插件功能就是实时获取当前用户正在聚焦的窗口信息，并监听媒体播放状态后合并上报到同一个云函数。
 
@@ -42,10 +42,6 @@
 
 ## 后记
 
-<project-group :items="[{"title":"QT","description":"Cross-platform Application Framework","icon":"devicon:qt","link":"https://www.qt.io/"},{"title":"Rust","description":"Systems Programming Language","icon":"devicon:rust","link":"https://www.rust-lang.org/"}]" title="框架">
-
-
-
-</project-group>
+<ProjectGroup title="框架" items={[{"title":"QT","description":"Cross-platform Application Framework","icon":"devicon:qt","link":"https://www.qt.io/"},{"title":"Rust","description":"Systems Programming Language","icon":"devicon:rust","link":"https://www.rust-lang.org/"}]} />
 
 现在的 AI 真的很强大了，稍微配合文档就能让我这个不怎么懂 QT（QML）的开发者也能写出功能完整的插件来，感觉这次旅程扩展了我的知识树，也和 Agent 做好了配合，后续有机会还想试试其他类型的插件开发。

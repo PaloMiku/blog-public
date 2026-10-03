@@ -14,7 +14,7 @@
 
 ### Github Gist
 
-[https://gist.github.com/PaloMiku/11e5c3e6ccdad906e0dca2aea26228ba](https://gist.github.com/PaloMiku/11e5c3e6ccdad906e0dca2aea26228ba)
+https://gist.github.com/PaloMiku/11e5c3e6ccdad906e0dca2aea26228ba
 
 ### 本站
 
@@ -87,7 +87,7 @@ defineProps<{
 </ol>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .resource-list {
   margin: 0;
   padding: 0;
@@ -215,18 +215,17 @@ defineProps<{
 
 保存组件并启动开发服务器测试。
 
-<tab :tabs="["组件","语法"]">
-<template v-slot:tab1="">
-<resource-list :items="[{"id":1,"title":"示例资源 1","subtitle":"这是一个副标题","summary":"这是资源的简短描述","tags":["标签1","标签2"],"link":"https://example.com/download1","extractPassword":"abc123","downloadPassword":"def456"},{"id":2,"title":"示例资源 2","subtitle":"另一个副标题","summary":"另一个资源的简短描述","tags":["标签3"],"link":"https://example.com/download2"}]">
+<Tab tabs={["组件","语法"]}>
 
+<div slot="tab1">
 
+<ResourceList items={[{"id":1,"title":"示例资源 1","subtitle":"这是一个副标题","summary":"这是资源的简短描述","tags":["标签1","标签2"],"link":"https://example.com/download1","extractPassword":"abc123","downloadPassword":"def456"},{"id":2,"title":"示例资源 2","subtitle":"另一个副标题","summary":"另一个资源的简短描述","tags":["标签3"],"link":"https://example.com/download2"}]} />
 
-</resource-list>
-</template>
+</div>
 
-<template v-slot:tab2="">
+<div slot="tab2">
 
-```mdcwrap expand
+```mdc wrap expand
 ::resource-list
 ---
 items:
@@ -248,7 +247,8 @@ items:
 ::
 ```
 
-</template>
-</tab>
+</div>
+
+</Tab>
 
 成功渲染如上“组件”所示效果即成功应用。

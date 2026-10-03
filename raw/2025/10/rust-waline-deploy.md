@@ -6,7 +6,7 @@
 
 最近逛 Github 也是看到个离谱的东西：waline-mini，上面描述是使用 Rust 实现的高性能 Waline 评论系统，作者是[jQiue](https://github.com/JQiue)。
 
-Github 开源地址：[https://github.com/JQiue/waline-mini](https://github.com/JQiue/waline-mini)
+Github 开源地址：https://github.com/JQiue/waline-mini
 
 说实话给我看懵了，Waline 我是认识的，也是很早期开始发展的 Node.js 评论系统了，在早期因为我的一些个人原因我的大部分站点最终选定的是 Twikoo 作为评论系统。
 

@@ -4,16 +4,17 @@
 
 ## 前言
 
-<alert :card="true" type="warning">
-<template v-slot:title="">
+<Alert type="warning" card={true}>
+
+<Fragment slot="title">
 
 注意！
 
-</template>
+</Fragment>
 
 考虑到目前个人的实际应用场景，本文仅为 Lemmy 的部署教程，个人暂未实际上线可用 Lemmy 公共实例。
 
-</alert>
+</Alert>
 
 最近个人打算补全 Fediverse 各种程序部署和配置教程，若对此类题材有兴趣欢迎持续订阅本博客。你可以通过 Folo 等 RSS 阅读器持续订阅本博客更新！
 
@@ -200,7 +201,6 @@ postfix:
   restart: always
   logging: *default-logging
 ```
-
 #### Lemmy 主配置文件
 
 ##### 基础配置
@@ -226,6 +226,7 @@ postfix:
     tls_type: "none"
   }
 }
+
 ```
 
 `{{ domain }}`和`{{ postgres_password }}`眼熟吧？把你在上面设置好的这俩变量填进去就行。
@@ -239,7 +240,7 @@ postfix:
 也就是上面配置文件中的这一段：
 
 ```yaml
-email: {
+  email: {
     smtp_server: "postfix:25"
     smtp_from_address: "noreply@{{ domain }}"
     tls_type: "none"
@@ -368,6 +369,7 @@ http {
         }
     }
 }
+
 ```
 
 看着这么一大串，实际上你只需要修改一个东西：`{{ nginx_internal_resolver }}`。
@@ -386,7 +388,7 @@ http {
 wget https://raw.githubusercontent.com/LemmyNet/lemmy-ansible/main/examples/customPostgresql.conf
 ```
 
-接下来前往网站：[https://pgtune.leopard.in.ua/](https://pgtune.leopard.in.ua/) ，填写你的设备或服务器配置，生成文件，然后覆盖掉里面类似下面这一段保存即可：
+接下来前往网站：https://pgtune.leopard.in.ua/ ，填写你的设备或服务器配置，生成文件，然后覆盖掉里面类似下面这一段保存即可：
 
 ```yaml
 # DB Version: 15
@@ -447,7 +449,7 @@ docker compose up -d
 error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/palomiku/Fediverse/Lemmy/volumes/postgres" to rootfs at "/var/lib/postgresql/data": change mount propagation through procfd: open o_path procfd: open /var/lib/docker/overlay2/08cdf58059859f223d2c577d44b22a74ef0b5e908620fd89c05fae3e71879e3f/merged/var/lib/postgresql/data: no such file or directory: unknown
 ```
 
-原因是 Docker 在为 Lemmy 的 postgres 容器挂载本地目录 `/home/palomiku/Fediverse/Lemmy/volumes/postgres` 时，发现容器镜像里 **根本不存在挂载点 /var/lib/postgresql/data**，于是 mount 失败，容器启动被中止。
+原因是 Docker 在为 Lemmy 的 postgres 容器挂载本地目录 `/home/palomiku/Fediverse/Lemmy/volumes/postgres` 时，发现容器镜像里 **根本不存在挂载点 `/var/lib/postgresql/data`**，于是 mount 失败，容器启动被中止。
 
 我们回头看看 Lemmy 的 `docker-compose.yml` 编排文件中有关 PostgreSQL 的这一段：
 
@@ -467,7 +469,7 @@ postgres:
   logging: *default-logging
 ```
 
-相关错误：[https://github.com/pgautoupgrade/docker-pgautoupgrade?tab=readme-ov-file#error-message-when-mounting-data-to-varlibpostgresqldata-on-postgres-v18](https://github.com/pgautoupgrade/docker-pgautoupgrade?tab=readme-ov-file#error-message-when-mounting-data-to-varlibpostgresqldata-on-postgres-v18)
+相关错误：https://github.com/pgautoupgrade/docker-pgautoupgrade?tab=readme-ov-file#error-message-when-mounting-data-to-varlibpostgresqldata-on-postgres-v18
 
 想解决也很简单，把宿主机目录改挂到 **真正的父目录** `/var/lib/postgresql`。
 
@@ -477,7 +479,6 @@ postgres:
 volumes:
   - ./volumes/postgres:/var/lib/postgresql
 ```
-
 ### 配置反向代理
 
 这一步实话说是简单又麻烦，你要是不懂，我建议你直接装个服务器面板配置反代或者复制修改以下内容去问 AI：

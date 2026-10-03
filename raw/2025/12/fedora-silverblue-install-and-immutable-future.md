@@ -1,8 +1,9 @@
 # Fedora Silverblue 安装记录和不可变 Linux 个人杂谈
 
 > 本文记录了作者由 Steam Deck 上的 Bazzite 体验延伸，深入探索 Fedora Silverblue 这一原子化不可变发行版的使用心得。文章首先提供了详细的“入坑指南”，涵盖从镜像刻录、系统安装到 Flathub 配置及 GNOME 扩展推荐的全流程，并总结出“优先 Flatpak、次选 Distrobox 容器、最后才用 rpm-ostree 叠加”的软件管理逻辑。
-> 
-> 在技术探讨部分，作者生动地解析了不可变系统的核心优势。不同于传统的 A/B 分区，Silverblue 利用类似 Git 的 ostree 机制实现了版本控制与高效存储。文章指出，不可变系统并非剥夺控制权，而是通过锁定系统核心、解耦应用层，有效剥夺了用户“搞坏系统”的风险。结合 OCI 容器镜像技术，用户甚至可以像写代码一样“定义”自己的操作系统。这种极度稳定且易于维护的形态，极有可能是 Linux 桌面的未来主流。
+
+在技术探讨部分，作者生动地解析了不可变系统的核心优势。不同于传统的 A/B 分区，Silverblue 利用类似 Git 的 ostree 机制实现了版本控制与高效存储。文章指出，不可变系统并非剥夺控制权，而是通过锁定系统核心、解耦应用层，有效剥夺了用户“搞坏系统”的风险。结合 OCI 容器镜像技术，用户甚至可以像写代码一样“定义”自己的操作系统。这种极度稳定且易于维护的形态，极有可能是 Linux 桌面的未来主流。
+
 
 ## 前言
 
@@ -24,17 +25,17 @@ KDE 很好，但对触屏来说个人感觉不如 GNOME 更加开箱即用，更
 
 不可变，原子更新的发行版其实也很多，甚至 NixOS 也可以包括在其中，但我选择 Fedora Silverblue 更多是考虑它的易用性和文档资料以及社群的完善性，结合我个人也算是比较熟悉 Fedora 的用户所以做出的一个综合选择。
 
-首先本文会先介绍 Silverblue 的安装记录等，如果你对个人后面有关不可变系统的个人杂谈更感兴趣可以[点此直接前往](#%E5%8E%9F%E5%AD%90%E5%8C%96%E4%B8%8D%E5%8F%AF%E5%8F%98linux%E7%9A%84%E6%9C%AA%E6%9D%A5%E5%92%8C%E4%B8%AA%E4%BA%BA%E6%9D%82%E8%B0%88)
+首先本文会先介绍 Silverblue 的安装记录等，如果你对个人后面有关不可变系统的个人杂谈更感兴趣可以[点此直接前往](#原子化不可变linux的未来和个人杂谈)
 
 ## 下载和刻录启动盘
 
 获取 Fedora Silverblue 的镜像非常简单，前往 Fedora 官网就能下载，理论上它还可以自动到国内的镜像站下载镜像（当然，理论上是离你最近，但不一定是最快的镜像站😅）
 
-Silverblue 官方（zh-Hans）介绍页：[https://www.fedoraproject.org/zh-Hans/atomic-desktops/silverblue/](https://www.fedoraproject.org/zh-Hans/atomic-desktops/silverblue/)
+Silverblue 官方（zh-Hans）介绍页：https://www.fedoraproject.org/zh-Hans/atomic-desktops/silverblue/
 
 实际上还有基于 KDE Plasma 的 Fedora Kinoite 可以选择，如果你更喜欢 Windows 风格的 KDE 桌面，也可以选择它，和 Silverblue 一样，它也是旗舰发行版，可以获得的支持并不比 Silverblue 少，在下文大部分在 Silverblue 使用的特性等它一样是可以使用的。
 
-Kinoite 官方（zh-Hans）介绍页：[https://www.fedoraproject.org/zh-Hans/atomic-desktops/kinoite/](https://www.fedoraproject.org/zh-Hans/atomic-desktops/kinoite/)
+Kinoite 官方（zh-Hans）介绍页：https://www.fedoraproject.org/zh-Hans/atomic-desktops/kinoite/
 
 在国内的大部分校园镜像站，比如 [北京外国语大学开源软件镜像站（bfsu）](https://mirrors.bfsu.edu.cn/)，[中国科学技术大学开源软件镜像站](https://mirrors.ustc.edu.cn/) 也都可以轻松下载到 Fedora Silverblue 的 ISO 镜像文件。
 
@@ -96,121 +97,14 @@ GNOME 的一些默认逻辑是比较“极简”的，甚至可以说“极简�
 
 列出一些个人比较推荐的扩展，可以按自己的需求选择安装。
 
-<table>
-<thead>
-  <tr>
-    <th>
-      扩展名称
-    </th>
-    
-    <th>
-      个人建议
-    </th>
-    
-    <th>
-      个人介绍
-    </th>
-  </tr>
-</thead>
-
-<tbody>
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/615/appindicator-support/" rel="nofollow">
-        AppIndicator and KStatusNotifierItem Support
-      </a>
-    </td>
-    
-    <td>
-      必装
-    </td>
-    
-    <td>
-      如果你需要应用能够显示托盘图标，那么这个扩展它是必不可少的。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/517/caffeine/" rel="nofollow">
-        Caffeine
-      </a>
-    </td>
-    
-    <td>
-      可选
-    </td>
-    
-    <td>
-      安装后可以在控制中心开关功能，暂时让电脑停止睡眠操作，需要长时间挂机开启屏幕的时候是个好主意。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/2236/night-theme-switcher/" rel="nofollow">
-        Night Theme Switcher
-      </a>
-    </td>
-    
-    <td>
-      可选
-    </td>
-    
-    <td>
-      增加了按时间自动切换主题浅色或深色模式以及切换相关壁纸的功能。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/" rel="nofollow">
-        Gtk4 Desktop Icons NG (DING)
-      </a>
-    </td>
-    
-    <td>
-      可选
-    </td>
-    
-    <td>
-      增加了桌面图标的功能，可以把程序图标或文件放在桌面上。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/779/clipboard-indicator/" rel="nofollow">
-        Clipboard Indicator
-      </a>
-    </td>
-    
-    <td>
-      可选
-    </td>
-    
-    <td>
-      增加了剪贴板历史管理的功能，可以在导航栏快速管理剪贴板的历史，快速复制粘贴。
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      <a href="https://extensions.gnome.org/extension/3193/blur-my-shell/" rel="nofollow">
-        Blur my Shell
-      </a>
-    </td>
-    
-    <td>
-      按需
-    </td>
-    
-    <td>
-      视觉类改进，主要是增加毛玻璃效果，会影响设备性能，一般来说不在乎这个视觉美化可以不要。
-    </td>
-  </tr>
-</tbody>
-</table>
+| 扩展名称                                                                                                             | 个人建议 | 个人介绍                                            |
+| ---------------------------------------------------------------------------------------------------------------- | ---- | ----------------------------------------------- |
+| [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/) | 必装   | 如果你需要应用能够显示托盘图标，那么这个扩展它是必不可少的。                  |
+| [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)                                                 | 可选   | 安装后可以在控制中心开关功能，暂时让电脑停止睡眠操作，需要长时间挂机开启屏幕的时候是个好主意。 |
+| [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)                        | 可选   | 增加了按时间自动切换主题浅色或深色模式以及切换相关壁纸的功能。                 |
+| [Gtk4 Desktop Icons NG (DING)](https://extensions.gnome.org/extension/5263/gtk4-desktop-icons-ng-ding/)          | 可选   | 增加了桌面图标的功能，可以把程序图标或文件放在桌面上。                     |
+| [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)                           | 可选   | 增加了剪贴板历史管理的功能，可以在导航栏快速管理剪贴板的历史，快速复制粘贴。          |
+| [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)                                      | 按需   | 视觉类改进，主要是增加毛玻璃效果，会影响设备性能，一般来说不在乎这个视觉美化可以不要。     |
 
 总之个人推荐的扩展大概就这么几个，建议可以把系统自带的 App Menu 扩展也启用，快速在导航栏启动应用。
 
@@ -239,13 +133,11 @@ rpm-ostree install <package>.rpm
 
 我十分建议你首先安装 Flatseal 这个程序，它可以细分管理 Flatpak 安装的所有程序和进行相关高级设置，非常有用。
 ![](https://dl.flathub.org/media/com/github/tchx84.Flatseal/584b6d86e2e87883119101ce97cfd94f/screenshots/image-1_orig.webp)
-
 #### File Roller
 
 GNOME 的可用的压缩包归档管理器是作为一个外置程序的，需要单独安装，不安装的话你无法预览和管理压缩包里的内容，不过 File Roller 也是比较简单的，如果有进阶的压缩包管理需求可以选择 Peazip 作为压缩包管理器。
 
 ![](https://dl.flathub.org/media/org/gnome/FileRoller/c1c2abe9b7a778fcc7c1722f356db6d2/screenshots/image-1_orig.webp)
-
 #### Distrobox & DistroShelf（可选）
 
 虽然折腾多了可能会让硬盘吐槽，但你也能借助 Distrobox 来建立一个虚拟环境，使用其他发行版的可用应用或者把应用安装在 Fedora 标准容器里，拥有的自定义空间更大一些。
@@ -259,7 +151,6 @@ rpm-ostree install distrobox
 然后在应用商店搜索并安装 DistroShelf 并安装。
 
 ![](https://dl.flathub.org/media/com/ranfdev/DistroShelf/c34593748b95465e2c25338cddee2bee/screenshots/image-1_orig.webp)
-
 ### 音视频
 
 #### VLC
@@ -279,7 +170,6 @@ GTK 编写的，漂亮的音乐播放器，不过如果没有这个整理曲库�
 Amberol 是一个没有宏伟妄想的音乐播放器。如果您只想播放您的本地系统上可用的音乐，那么它就是你正在寻找的音乐播放器。
 
 ![](https://dl.flathub.org/media/io/bassi/Amberol/dc100a9f00e5ad245af203b4810380c4/screenshots/image-1_orig.webp)
-
 ### 应用安装总结
 
 其实我觉得我继续列流水账没什么意义，有什么需求自己在应用商店和网上发掘才是更好的选择，如果你真的有相关疑问也可以在评论区等地方和我聊聊，我会尽我能力解答，但我希望这是结合你在应用商店和互联网搜索之后发出的提问。

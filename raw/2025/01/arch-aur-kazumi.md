@@ -4,7 +4,7 @@
 
 最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。
 
-Github仓库：[https://github.com/Predidit/Kazumi](https://github.com/Predidit/Kazumi)
+Github仓库：https://github.com/Predidit/Kazumi
 
 那听上去还是很有意思的，我属于看番剧喜欢顺带看点弹幕的那种，就像我明明知道不全，知道会删减，但依然还续着B站大会员也多少跟这有些关系。
 
@@ -32,7 +32,7 @@ Kazumi Flathub的安装方式对我这个KDE桌面用户来说并不友好，居
 
 你现在想要在Arch使用我构建的这个包很简单，有yay的情况下直接输入下面命令然后Enter就行了。
 
-```text
+```
 yay -S kazumi
 ```
 
@@ -40,7 +40,7 @@ yay -S kazumi
 
 [我构建的AUR包](https://aur.archlinux.org/packages/kazumi)是以Kazumi的tar.gz为基底做的，它的PKGBUILD文件如下
 
-```text
+```
 # Maintainer: PaloMiku <palomiku@outlook.com>
 pkgname=kazumi
 pkgver=1.5.3
