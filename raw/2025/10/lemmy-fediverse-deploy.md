@@ -1,6 +1,6 @@
 # Lemmy 部署：Rust Fediverse 社区系统
 
-> 本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。
+> Lemmy 是 Fediverse 中类似 Reddit 或贴吧的链接聚合与讨论平台，由 Rust 编写，官方建议通过 Docker 部署且默认内存占用约 150 MB。文章给出安装 Docker、创建项目目录、下载 docker-compose.yml、lemmy.hjson、nginx_internal.conf 和 proxy_params 的步骤，并说明需将配置中的域名与 PostgreSQL 密码替换为实际值。发信部分建议移除默认 postfix 服务，改用外部 SMTP 参数，同时按示例调整 Nginx 内部配置。作者强调域名一旦部署不可更改，并注明本次仅为部署教程，尚未实际运行公共实例。
 
 ## 前言
 

@@ -1,6 +1,6 @@
 # Misskey/Sharkey 工具栏：强大且精心的小功能
 
-> 本文分享了 Misskey/Sharkey 侧边栏小工具的完整功能清单，涵盖便签、RSS、时钟、活动、服务器指标、AiScript 控制台等 30+ 组件，可自由拖拽、调高度、设透明，即刻把桌面版 Fediverse 变成你的个性化信息仪表盘。
+> 文章以 Sharkey 2025.4.2-rc-stelpolva 为基准，逐一梳理 Misskey/Sharkey 侧边栏小工具的各类组件，包括个人资料、服务器信息、便签、通知、时间线、日历、RSS 阅读器、趋势、时钟、活动、照片、投稿窗口、服务器指标、作业队列、按钮、AiScript、小蓝、用户列表、搜索、聊天与联合等。每个组件均给出功能简介、示例截图与可调设置项，如 showHeader、height、transparent、url、refreshIntervalSec、maxEntries、fontSize、timezone、script 等，并标注默认值。结论是这些小组件覆盖信息展示、快捷操作与自定义扩展，配置灵活，能显著增强侧边栏的实用性。
 
 ## 前言
 

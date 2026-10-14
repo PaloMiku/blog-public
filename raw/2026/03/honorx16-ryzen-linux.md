@@ -1,6 +1,6 @@
 # 荣耀 X16 锐龙版（2024）运行 Linux 问题和修复
 
-> 作者 2024 年大一因专业需求与性价比，入手国补后约 2.8k 的荣耀 X16 锐龙版笔记本，前期使用 Windows 系统表现正常，年底安装 CachyOS Linux 后接连出现问题：一是设备睡眠唤醒极慢甚至无法唤醒，源于电脑 BIOS 阉割 S3 睡眠模式仅支持 S0ix，后通过 UAFB 开启 AMD RAID Mode 得以解决；二是 HDMI 外接显示器颜色失真，Linux 系统内色彩范围设置无效，改用 USB-C 接 Steamdeck 扩展坞以 DP 输出后恢复正常。作者据此不建议 Linux 用户选购新款荣耀电脑，因其 BIOS 阉割严重导致问题难解决，老款荣耀 Magicbook 则无此类问题，同时该电脑在 Windows 系统下优化表现良好。
+> 荣耀 X16 锐龙版（2024，R5-7640HS）装上 CachyOS 后出现两类问题：合盖睡眠后唤醒需 8 秒以上甚至睡死，以及 HDMI 外接显示器画面灰白发亮、KDE 中切换 RGB 与 YCbCr 色彩范围均无效。前者源于荣耀 BIOS 阉割了 S3、只剩 Modern Standby，通过在 UAFB 中打开 AMD RAID Mode 恢复正常秒唤醒；后者经排查无果，改用 USB-C 扩展坞走 DisplayPort 输出后色彩正常。作者认为该机 BIOS 精简过多、Linux 下问题难根治，不推荐 Linux 用户购买，但在 Windows 下表现良好。
 
 ## 前言
 

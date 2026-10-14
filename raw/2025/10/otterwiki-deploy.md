@@ -1,6 +1,6 @@
 # OtterWiki 部署：基于 Python 的轻量知识库系统
 
-> 本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。
+> OtterWiki 是一个基于 Python Flask 框架、使用 Markdown 的轻量自托管知识库，内存占用约 100MiB，还自带 Git HTTP 服务器，适合在低配设备上运行。部署流程为：先用 Linuxmirrors 脚本安装 Docker，再安装 Caddy 并配置反向代理，将 wiki.example.com 的请求转发到本地 8080 端口并启用 zstd/gzip 压缩，最后在 otterwiki 目录下编写 docker-compose.yml 启动 redimp/otterwiki:2 镜像并挂载 app-data 数据卷。配置域名解析后即可通过域名访问，首次注册的账户会自动成为管理员。
 
 ## 前言
 

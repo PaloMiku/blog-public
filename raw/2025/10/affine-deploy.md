@@ -1,6 +1,6 @@
 # Affine 部署：自托管类 Notion 知识库系统
 
-> 本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。
+> Affine 是一款可自托管的类 Notion 知识库程序，相较 Outline 其官方文档更清晰，部署也更为简单。官方建议服务器至少 4 核 CPU、2GB 内存与 1.5GB 存储空间，小团队使用 2 核 CPU 也可应付。部署采用 Docker Compose，依次安装 Docker、创建数据目录、下载官方 docker-compose.yml 与 .env 文件，按需修改端口、域名和数据库等环境变量后执行 docker compose up -d 即可启动，通过 3010 端口访问。文章还提醒初始化后不要随意改动环境变量，整体体验表明 Affine 已适合作为团队自托管知识库。
 
 ## 前言
 

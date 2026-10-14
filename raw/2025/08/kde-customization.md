@@ -1,6 +1,6 @@
 # 我的 KDE Plasma 6 美化方案分享
 
-> 本文分享了作者将主力系统换至Fedora 43 KDE后的桌面美化方案：采用上下双面板布局，上方空面板配应用启动器、全局菜单等，下方图标任务管理器作Dock；引入Panel-colorizer插件，为上下面板分别设置ChromeOS透明与Translucent预设；主题选Fedora全局主题+Moe配色+Colloid图标，时钟用Redmi Clock插件，全套均可在KDE商店获取。
+> 作者把主力系统从 CachyOS 换成 Fedora 43 KDE Plasma 版后，重新整理并分享了一套桌面美化方案。方案采用上下双面板布局，上方面板放置应用程序启动器、窗口列表、全局菜单、数字时钟与系统托盘，下方面板用图标任务管理器做成类 Dock 效果；借助 Panel-colorizer 插件分别为上下面板设置透明度和颜色，上面板基于 ChromeOS 预设并禁用 Color，下面板直接用 Translucent 预设。主题方面在全局设置中搭配 Fedora 全局主题、Moe 配色与 Plasma 样式、Breeze 窗口装饰、Colloid 图标、Hoshino Swimsuit 光标和 Redmi Clock 桌面时钟，所有插件与配色均可在 KDE 商店获取。合理布局可兼顾美观与效率。
 
 ## 前言
 

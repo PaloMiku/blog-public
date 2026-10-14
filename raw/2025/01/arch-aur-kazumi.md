@@ -1,6 +1,6 @@
 # 为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包
 
-> 本文介绍了作者为 Flutter 番剧采集器 Kazumi 全新打包并提交 AUR 的全过程；本文记录了从痛点分析、PKGBUILD 编写到 GPG 密钥配置、PR 合并的首次打包细节；本文分享了在 Arch KDE 环境避开 Flathub 臃肿依赖、一键 `yay -S kazumi` 装机的实用方案，方便同好快速享受弹幕追番。
+> 为在 Arch Linux 上安装基于 Flutter 的番剧采集程序 Kazumi，作者遇到官方只提供 Deb、tar.gz 和 Flathub 安装方式、Flathub 会带入整套 GNOME 组件、AUR 中已有的 kazumi-bin 长期未更新的问题，于是决定自行打包。查阅 Arch Wiki 的软件包构建与 AUR 提交资料后编写 PKGBUILD：以 GitHub Releases 的 tar.gz 为源，解压到 /opt/Kazumi，建立 /usr/bin 软链接，并生成 .desktop 文件与图标。构建出的 kazumi 包已提交至 AUR，用户执行 yay -S kazumi 即可安装，该安装方式还通过 PR 合并进了上游仓库。
 
 最近追番的时候看到了一个名为Kazumi的程序，它是一个基于Flutter开发的，可自定义规则的番剧采集程序，支持流媒体在线观看，同时还支持弹幕和实时超分辨率。
 

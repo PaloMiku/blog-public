@@ -1,6 +1,6 @@
 # 更换网站字体为霞鹜文楷屏幕阅读版（LXGW WenKai Screen）
 
-> 本文介绍了如何为网站全局替换开源“霞鹜文楷”字体，记录从选字、CDN引入到CSS调用的完整流程，分享LXGW WenKai Screen版针对屏幕阅读优化的1.7.0样式文件与font-family写法，附赠Zstatic CDN链接与缓存清除技巧，一步到位实现中文楷体美化的同时保障加载速度。
+> 霞鹜文楷是基于 Klee One 补全简繁常用字的开源中文字体，其屏幕阅读版 LXGW WenKai Screen 适合网页显示。更换流程包括在网页 head 中通过 Zstatic CDN 引入 lxgw-wenkai-screen-webfont 的样式文件，然后在站点 CSS 里把 body 的 font-family 设为 LXGW WenKai Screen。完成后动态博客需刷新并清除浏览器缓存，静态博客则要重启热开发服务器、清理本地缓存并重新构建，才能看到新字体生效。
 
 ## 前言
 

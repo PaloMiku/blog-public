@@ -1,6 +1,6 @@
 # 《爱上火车》在 Linux 下的视频播放修复
 
-> 本文介绍了《爱上火车》Linux Proton 环境视频播放修复方案，记录从黑屏卡死到正常播放的排查过程，分享用 Protontricks 补 DirectShow+WMP9 的完整命令与 Flatseal 权限配置，提供 Arch/Flatpak 双安装路径与镜像加速技巧，一站式解决 Steam 中文版动画无法播放痛点，助力 Linux 玩家零切换畅玩 Galgame。
+> 在 Arch Linux + GNOME 环境下用 Proton 9.0 运行 Steam 官方中文版《爱上火车 LastRun!!》时，人物线开场动画无法播放，改用 Proton GE 后反而黑屏卡死。参考 ProtonDB 上用户的建议，改用 Protontricks 为游戏容器安装缺失的 DirectShow 与 WMP9 组件；Flathub 用户还需用 Flatseal 开放文件系统权限，并可将源切换为上海交大或中科大镜像加速下载。修补完成后重启游戏，开场动画恢复正常播放，说明该方法能有效解决同类 Galgame 在 Proton 下视频组件缺失的问题。
 
 <Alert>
 

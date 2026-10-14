@@ -1,6 +1,6 @@
 # Fedora Cosmic desktop Beta 一日游
 
-> Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install "cosmic-desktop" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。
+> 在 Fedora KDE 版上通过 dnf group install 安装 Cosmic desktop Beta 1，并与 KDE 双持在 SDDM 切换登录，实测该桌面已达到基本日用程度但细节仍需打磨。安装方式为从 Fedora 官方仓库装 cosmic-desktop 与 cosmic-desktop-apps，预装 Fedora Cosmic Spin 则仍停留在 Alpha 且英文卡顿。实测 QQ、微信等国内应用无法跟随 125% 缩放，需手动设环境变量强制缩放，且 Wayland 与 XWayland 间不能拖放文件；中文输入 Fcitx5 配环境变量可用，iBus 暂不可用。结论是 Cosmic 处于可用但未完善的 Beta 阶段。
 
 ## 前言
 

@@ -1,6 +1,6 @@
 # 自建一个 Fediverse 实例，我们需要准备什么？
 
-> 本文介绍了自建Fediverse实例的完整准备清单：注册简短易记的域名，优选海外注册商并接入Cloudflare解析；根据程序选配服务器，轻量GotoSocial 1C1G起跳，Mastodon建议4C4G+NVMe与5Mbps上行；用Linux+Docker部署，德机性价比高；媒体文件走海外对象存储，小实例用Cloudflare R2免费额度，大数据量选Hetzner、Wasabi、Backblaze，注意流量防盗刷。
+> 自建 Fediverse 实例需要准备域名、服务器与对象存储三类资源。域名部分介绍了注册商选择与比价网站，推荐 Namesilo、Spaceship、Porkbun、Dynadot 等海外注册商，并建议使用海外 DNS 解析服务。服务器部分按 CPU、内存、硬盘、带宽、操作系统逐项给出配置建议，Misskey 建议 2 核 2G 起步，Mastodon 需更高配置，不建议使用 Windows Server。对象存储部分对比了 Hetzner、Backblaze B2、Cloudflare R2 等服务的 1TB 存储与流量成本，认为小实例用 R2 免费额度最划算。
 
 ## 前言
 

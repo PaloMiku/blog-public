@@ -1,6 +1,6 @@
 # Misskey 部署：新一代联邦星际微博平台
 
-> 本文介绍了如何在单台服务器上全量部署联邦宇宙社交平台 Misskey 及其配套组件。文章从准备阶段开始，建议使用至少 2 核 4G 的服务器，并强调部署后不可更换域名。接着详细说明了安装 Docker、Caddy 反向代理的步骤，包括自动 HTTPS 证书的申请与配置。然后逐步指导获取 Misskey 源码、配置数据库（PostgreSQL 与 Redis）、设置全文搜索（使用 sqlPgroonga）以及调整 Docker Compose 文件。最后，通过构建镜像、初始化数据库并启动容器，完成 Misskey 的部署，用户可通过域名访问初始化页面。
+> 介绍在一台服务器上全量部署 Misskey 及其配套服务的完整流程。部署前需准备至少 2 核 4G 的服务器与域名，并强调因 ActivityPub 协议限制，实例启动后不可更换域名。操作上先用脚本安装 Docker，再用 Caddy 做反向代理并自动签发 HTTPS 证书，随后克隆 Misskey 仓库，复制并修改 default.yml、docker.env 与 compose.yml，配置实例 URL、3000 端口、PostgreSQL 与 Redis 连接。全文搜索引擎选用 sqlPgroonga 以获得更好的中文搜索支持，同时对读写分离、ID 生成算法等进阶选项作了说明。
 
 ## 前言
 

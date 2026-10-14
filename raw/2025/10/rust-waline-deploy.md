@@ -1,6 +1,6 @@
 # Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？
 
-> 本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。
+> Waline-Mini 是用 Rust 重写的 Waline 评论系统，由 jQiue 开发，官方称内存占用仅为 Node.js 版本的 1/25。通过 Zeabur 以 Docker 镜像方式部署，配置 DATABASE_URL、JWT_TOKEN、SITE_NAME、SITE_URL 等环境变量，并用 SQLite 做数据持久化，访问 /ui 注册的首个账号即为管理员。部署完成后台界面与 Waline 还原度接近 100%，实测平均内存占用约 3.48MB，验证了其极低的资源消耗。整体适合希望低成本自托管评论系统的用户尝试。
 
 ## 前言
 

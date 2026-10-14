@@ -1,6 +1,6 @@
 # 为 Clarity 主题增加 ResourceList 资源列表组件
 
-> 本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。
+> 在 Clarity 博客主题（纸鹿修改版）的 /app/components/content/ 目录下新建 ResourceList.vue，即可获得一个资源列表与下载组件，用于替换部分页面组件并预留后续下载需求。组件通过 items 数组接收数据，每项支持 id、标题、副标题、摘要、标签、下载链接以及解压密码和下载密码，模板用 v-for 渲染卡片，有链接时显示可点击的下载按钮，无链接时按钮置灰禁用。样式基于 grid 与 flex 布局，窄屏自动转为纵向排列，配色沿用主题的 CSS 变量。在 Markdown 中用 ::resource-list 指令传入 items 的 YAML 配置即可调用，渲染出示例效果即表示接入成功。
 
 ## 前言
 

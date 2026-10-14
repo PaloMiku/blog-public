@@ -1,6 +1,6 @@
 # GitHub Action 构建 Shiroi Docker 镜像
 
-> 本文介绍了如何利用 GitHub Actions 为 Mix-Space 的闭源前端 Shiroi 构建 Docker 镜像并推送至 GitHub Packages，解决低配服务器本地构建内存不足的问题。本文记录了完整 Workflow 配置，包括定时触发、哈希去重、登录 ghcr.io、构建与推送 latest 镜像等关键步骤，并说明在 1Panel 或命令行拉取私有镜像的方法。本文分享了避免在服务器安装 Node、PM2 等依赖、无需暴露 SSH 密钥即可实现安全拉取与更新的实践经验，适合希望将 Shiroi 容器化部署到个人服务器的用户。
+> Shiroi 是 Mix-Space 的闭源前端，原作者未提供 Docker 镜像，在低于 2G 内存的服务器上直接构建极易爆内存。这里改用 GitHub Action 构建镜像并推送到 GitHub Packages（ghcr.io），既不用在服务器安装 Node.js、PM2、Sharp，也不必把 SSH 密钥存进仓库。工作流通过对比仓库中的哈希文件跳过重复构建，构建后回写哈希值以保持仓库活跃；使用前配置 GH_PAT 与 DOCKER_NAMESPACE 两个 Secret 并开放 Action 写权限。之后在服务器执行 docker login ghcr.io 登录私有仓库，即可用 compose 拉取镜像运行 Shiroi。
 
 ## 前言
 

@@ -1,6 +1,6 @@
 # Docker部署Outline并使用Github作为OAuth服务
 
-> 本文介绍了如何用 Docker Compose 一键部署企业级知识库 Outline，并接入 GitHub OAuth 登录。全文围绕“Minio 对象存储 → GitHub OAuth 注册 → Outline 多容器编排 → Nginx 反向代理”四大步骤展开，记录了生产级环境变量、PostgreSQL/Redis 持久化、S3 上传 ACL、速率限制与中文界面等关键配置细节，分享了本地测试与 HTTPS 外网访问的踩坑经验，为个人或团队快速搭建安全、私有的协作 wiki 提供完整可复制的指南。
+> 记录在服务器上通过 Docker Compose 部署 Outline 知识库，并用 GitHub OAuth 实现登录的完整流程。部署前需准备 Docker、Docker Compose 和域名，服务包含 Outline、PostgreSQL、Redis 与 Minio；流程分为部署 Minio 对象存储、配置 GitHub OAuth、部署 Outline 三部分。Minio 部分给出 docker-compose 与 .env 示例，并说明用 Nginx 反向代理、创建私有 outline bucket；GitHub 部分说明创建 OAuth App、设置回调地址并获取 Client ID/secret。Outline 部分给出多容器编排和环境变量配置，包括数据库、Redis、S3 存储及 OIDC 参数；若使用兼容 S3 的在线对象存储可跳过 Minio。
 
 ## 准备
 

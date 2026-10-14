@@ -1,6 +1,6 @@
 # 为Oyiso主题引入TianliGPT摘要
 
-> 本文介绍了如何为 WordPress Oyiso 主题一键接入 TianliGPT 智能摘要；本文记录了从安装 PostChat 插件、配置 Key，到插入前端代码、关闭对话浮窗的完整流程；让文章页自动生成摘要，无需人工干预，兼容大陆网络，提升阅读体验与 SEO。
+> 记录在 WordPress 的 Oyiso 主题上接入 TianliGPT 摘要功能的过程。做法是先安装 PostChat 插件并在后台填入 Key，只需要摘要时可关闭智能对话；再在主题的自定义代码中插入官方提供的 CSS 与 JS，把 tianliGPT_postSelector 指向文章内容容器、tianliGPT_key 换成自己的 Key，保存后即可生效。最终实现了文章自动生成 AI 摘要，无需人工干预，且再次生成不消耗额度。作者也提到升级版 PostChat 因按月收费暂未采用。
 
 ## 前言
 

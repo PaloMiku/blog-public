@@ -1,6 +1,6 @@
 # 浅谈个人与 Fediverse 的过往历史和现状
 
-> 本文介绍了作者2023年踏入Fediverse的完整历程，从Firefish、纷语驿站到现居Sharkey实例Circlari；本文记录了Misskey、Firefish、Sharkey三大程序的特点与兴衰，并对比Mastodon生态；本文分享了联邦宇宙去中心化、低门槛、跨实例互通的优势，也坦言用户暴涨带来的治理挑战，为新人提供选型与避坑参考。
+> 作者回顾了自己从 2023 年经朋友推荐进入 Fediverse 的经历，先后使用过轻社区项目、纷语驿站、极光星、轻语湾、鸟白岛 Torishiro，最终与朋友联合维护基于 Sharkey 的 Circlari 实例。文章介绍了 Misskey、Firefish、Sharkey 三个基于 ActivityPub 协议的程序的开发背景与现状，指出 Misskey 部署和上手难度低于 Mastodon，Firefish 已于 2025 年 2 月停止维护，Sharkey 以兼容 Mastodon API 为特色。作者把 Fediverse 当作微博客使用并看重其去中心化特性，认为加入门槛低、实例之间可自由互通。结合 FediDB 数据，Mastodon 用户占比约 72.2%、Misskey 约 1.2%，作者对用户快速增长喜忧参半，实例管理中的黑名单也越来越长。
 
 ## 前言
 

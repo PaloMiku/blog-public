@@ -1,6 +1,6 @@
 # Love Love School Days 在 Linux 下游戏汉化补丁安装使用
 
-> 《Love Love School Days》是一款发行于2023年的 Unity 游戏，本文介绍了在 Linux 下安装和使用其汉化补丁的方法。 该补丁基于 BepInEx 和 Reipatcher 制作，适用于使用 Proton 兼容层运行的 Windows 游戏。文章详细说明了通过 Protontricks 配置 DLL 转发以确保补丁正常工作的方法。
+> Love Love School Days 是一款 2023 年发行的 Unity 游戏，Steam 上无官方中文，B 站 UP 主提供了基于 BepInEx 和 Reipatcher 的汉化补丁。在 Fedora 43 与 Bazzite 43 上用 Proton 运行并覆盖补丁后游戏仍为英文，原因是 Proton/Wine 默认不加载游戏目录内的 dll，导致 UnityDoorstop 无法启动 BepInEx。解决办法是用 Protontricks 选中该游戏、进入 Wine 配置程序的“函数库”页，新增 winhttp 函数库顶替并保存退出，之后游戏即显示中文。也可在补丁已安装的前提下直接给 Steam 添加启动参数 WINEDLLOVERRIDES="winhttp=n,b" %command%，效果与前者一致。
 
 ## 前言
 

@@ -1,8 +1,6 @@
 # 《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复
 
-> 文章记录了《痴情哥哥与病弱妹妹的乡间生活》Steam版在Linux/SteamDeck因Krkr2引擎兼容失败而无法启动的问题。
-修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。完成后游戏可正常运行。
-
+> 《痴情哥哥与病弱妹妹的乡间生活》Steam 版在 Linux/Steam Deck 上启动时会报错，原因是 Wine/Proton 对 Krkr2 引擎游戏兼容不佳，直接使用 Wine 运行同样可能崩溃。解决办法是先用 Protontricks 给该游戏安装 WMP11（或 WMP9）修补媒体组件，再从 vnwiki 下载 d2d1.dll 补丁放入游戏根目录，并在 Steam 启动项加入 WINEDLLOVERRIDES="d2d1.dll=n,b" %command%。按此配置后游戏可正常启动运行，作者同时提醒 WMP 版本差异可能影响游戏内视频播放，并把相关经验与《爱上火车》的修复方法互相参照。
 
 <Alert>
 

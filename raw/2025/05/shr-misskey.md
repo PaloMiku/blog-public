@@ -1,6 +1,6 @@
 # 我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足
 
-> 本文记录了作者重新体验 Misskey 后，相较 Sharkey 感受到的不足：缺少直接编辑、单帖私密化、注册审批；并列出 ListenBrainz 集成、Mastodon API 兼容、UI 风格等差异，倾向继续使用 Sharkey。
+> 在 Fediverse 的 misskey.site 实例开分身账号后，重新体验了原版 Misskey，并与长期使用的 Sharkey 逐项对比。Misskey 缺少直接编辑帖子、单帖私密化和注册审批功能，发帖输入框高度也只能部分调整；而 Sharkey 额外提供 ListenBrainz 集成、Mastodon API 兼容、猫耳与猫语独立设置以及更方正的 UI 和字体自定义。作者认为这些差异源于分支定位，并非 Misskey 的缺陷，但个人仍更偏好 Sharkey 的编辑体验与界面风格。
 
 ## 前言
 

@@ -1,6 +1,6 @@
 # 在 CachyOS Handheld 下恢复 Steam Input 中文输入
 
-> 本文介绍了在 CachyOS Handheld 系统上恢复 Steam Input 中文输入的解决方案。主要步骤包括安装 `ibus`、`ibus-pinyin` 和 `ibus-anthy` 输入法组件，修改 `/usr/share/gamescope-session-plus/gamescope-session-plus` 配置文件，并降级 `libxkbcommon` 组件至 1.11.0 版本以解决中文输入显示为数字的问题。
+> 在 CachyOS Handheld（基于 Arch Linux 的 SteamOS 仿制发行版）上，游戏桌面默认缺失输入法支持，导致 Steam Input 中文输入无法使用。解决方式是先用 paru 安装 ibus、ibus-pinyin 与 ibus-anthy，再编辑 /usr/share/gamescope-session-plus/gamescope-session-plus，把 ibus-daemon 的启动参数改为使用 /usr/lib/kimpanel-ibus-panel 面板，重启后在游戏桌面添加中文键盘。若不降级 libxkbcommon，候选词会变成数字，因此需用 downgrade 将 libxkbcommon 回退到 1.11.0 并加入 IgnorePkg，重启即可正常输入中文。
 
 ## 前言
 

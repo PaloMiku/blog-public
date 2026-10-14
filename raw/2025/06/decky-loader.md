@@ -1,6 +1,6 @@
 # Decky Loader——Linux下 Steamdeck 和大屏幕模式的最佳伴侣
 
-> 本文介绍了 Decky Loader 在 Linux/SteamDeck 下的两种快速安装法：官方一键脚本（含中文版）与 OhMyDeck 手动方案，并给出启用开发者模式、CEF 调试、设密码、开终端等关键步骤，手柄玩家即刻升级大屏体验。
+> Decky Loader 是随 Steamdeck 出现的插件商店，通过插件为 Steam 及大屏幕模式添加美化与功能扩展，同时也适用于 Arch Linux 等 Linux 桌面 Steam 玩家。文章先说明适用条件：Linux 系统、手柄用户、基本英语能力与良好的 Github 网络环境，再给出两种安装方式，一是执行官方安装脚本（另附作者汉化的中文脚本），二是配合 SteamOS 手动使用 OhMyDeck 脚本，需依次启用开发者模式与 CEF 远程调试、切换到桌面模式、设置管理员密码、打开 Konsole 终端、禁用系统只读后执行安装命令。安装完成后回到游戏模式，按 Steamdeck 右侧三点按钮即可看到插件商店，作者认为这是 Linux 大屏幕手柄玩家的理想搭配。
 
 <Alert>
 

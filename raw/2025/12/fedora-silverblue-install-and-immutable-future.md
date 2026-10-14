@@ -1,9 +1,6 @@
 # Fedora Silverblue 安装记录和不可变 Linux 个人杂谈
 
-> 本文记录了作者由 Steam Deck 上的 Bazzite 体验延伸，深入探索 Fedora Silverblue 这一原子化不可变发行版的使用心得。文章首先提供了详细的“入坑指南”，涵盖从镜像刻录、系统安装到 Flathub 配置及 GNOME 扩展推荐的全流程，并总结出“优先 Flatpak、次选 Distrobox 容器、最后才用 rpm-ostree 叠加”的软件管理逻辑。
-
-在技术探讨部分，作者生动地解析了不可变系统的核心优势。不同于传统的 A/B 分区，Silverblue 利用类似 Git 的 ostree 机制实现了版本控制与高效存储。文章指出，不可变系统并非剥夺控制权，而是通过锁定系统核心、解耦应用层，有效剥夺了用户“搞坏系统”的风险。结合 OCI 容器镜像技术，用户甚至可以像写代码一样“定义”自己的操作系统。这种极度稳定且易于维护的形态，极有可能是 Linux 桌面的未来主流。
-
+> 从 Steam Deck 换用基于 Fedora Silverblue 的 Bazzite 后，作者重新体验了不可变 Linux，并记录了 Fedora Silverblue 的安装流程：官网或国内镜像站下载 ISO，用 Ventoy、Rufus 或 Fedora Media Writer 制作启动盘，经传统 Anaconda 安装器部署后首次开机执行 rpm-ostree update 并重启。配置上建议启用 Flathub，通过 Flatpak 安装应用，按需添加 GNOME 扩展，必要时才用 rpm-ostree 叠加软件包，并可借助 Distrobox 运行其他发行版应用。作者认为，采用 A/B 分区与只读系统、支持原子更新和回滚的不可变发行版，对不想折腾系统的大众桌面用户更安全合适，正逐渐成为 Linux 桌面的未来主流形态。
 
 ## 前言
 
