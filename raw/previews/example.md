@@ -208,42 +208,6 @@
 
 [^micromark-extension-gfm-footnote]: [README of micromark-extension-gfm-footnote](https://github.com/micromark/micromark-extension-gfm-footnote#use)
 
-### 数学公式
-
-> 由 remark-$\KaTeX$ 驱动，支持 $\TeX$ 和部分 $\LaTeX$ 语法。如果 Markdown 正文需要直接使用 \$ 符号，需要使用 `\$` 转义。
->
-> [支持语法列表](https://katex.org/docs/supported)（[中文版](https://www.luogu.com.cn/paste/hs3jg81l)）
-
-````Component [math-code.ts] source=plugins/math-code.ts
-行内公式 $\text{课程绩点} = \frac{\text{课程分数(成绩)}}{10} - 5$
-
-$$
-\text{学分绩点} = \text{课程学分} \times \text{课程绩点}
-$$
-
-```math
-\text{平均绩点(GPA)} =\frac {\text{学分绩点之和}}{\text{课程学分之和}} = \frac{\sum (\text{课程学分} \times \text{课程绩点})}{\sum \text{课程学分}}
-```
-
-$$
-\raisebox{-2pt}{\colorbox{#4A90A4}{\color{white}{\Large\text{纸}}}}\kern-2pt
-\raisebox{-4pt}{\colorbox{#5BA88C}{\color{white}{\large\text{鹿}}}}\kern-3pt
-\raisebox{-1pt}{\colorbox{#6B8E9F}{\color{white}{\normalsize\text{至}}}}\kern-1pt
-\raisebox{-3pt}{\colorbox{#A8D5E2}{\color{#2C4A52}{\large\text{麓}}}}\kern-2pt
-\raisebox{0pt}{\colorbox{#B8E0D0}{\color{#2C4A52}{\normalsize\text{不}}}}\kern-3pt
-\raisebox{-5pt}{\colorbox{#5A9AA8}{\color{white}{\large\text{知}}}}\kern-1pt
-\raisebox{-2pt}{\colorbox{#C5E0E8}{\color{#2C4A52}{\Large\text{路}}}}
-\quad
-\raisebox{-4pt}{\colorbox{#5BA88C}{\color{white}{\large\text{支}}}}\kern-2pt
-\raisebox{-1pt}{\colorbox{#4A90A4}{\color{white}{\Large\text{炉}}}}\kern-3pt
-\raisebox{-3pt}{\colorbox{#7BC4B5}{\color{white}{\normalsize\text{制}}}}\kern-1pt
-\raisebox{-5pt}{\colorbox{#A8D5E2}{\color{#2C4A52}{\large\text{麓}}}}\kern-2pt
-\raisebox{-2pt}{\colorbox{#C5E0E8}{\color{#2C4A52}{\Large\text{不}}}}\kern-3pt
-\raisebox{0pt}{\colorbox{#6B8E9F}{\color{white}{\normalsize\text{止}}}}\kern-1pt
-\raisebox{-3pt}{\colorbox{#B8E0D0}{\color{#2C4A52}{\large\text{漉}}}}
-$$
-````
-
 ### 许可协议和侧栏插槽
 
 > 由自编写的rehype-meta-slots插件实现，插槽必须是文章的直接子元素，内容已插入到文章末尾 [^copyright] 和目录侧栏。
@@ -274,53 +238,6 @@ metaSlots:
 
 > ⚠️ `content` 里放的是**MDX 源码字符串**，不是 MDC 块语法。它由 `src/lib/meta-slot.ts` 解析成节点树后走真实组件渲染——**不能**用 `set:html` 直接吐出去，否则 `<LinkCard />` 会变成浏览器不认识的未知元素、整个 widget 空白（而页高、计算样式两道门禁都看不见它）。
 > 上面这段就是**本页自己的 frontmatter**，可以逐字对照。
-
-### 乐谱渲染播放
-
-> 用 `<MusicScore abc={…} />` 传入 ABC 记法，必要时可用豆包等 AI 将乐谱识别为 ABC 记法。只在网络状态良好时加载播放能力。
->
-> 编辑器、Cheat Sheet 和语法检查：https://editor.drawthedots.com/
-
-```Component [MusicScore.astro]
-<MusicScore abc={`L:1/8
-Q:1/4=100 "andante moderato"
-M:2/4
-K:D
-"D" FA A>B | AF DD/E/ |1 "G" FF ED | "A" E2 z2 :|2 "G" FF "A" EE | "D" D2 z2 ||`} />
-
-<MusicScore abc={`L:1/8
-Q:1/4=100
-M:2/4
-K:D
-V:1 clef=treble
-V:2 clef=bass
-%%MIDI program 32
-[V:1] z2 z f/g/ | aa a>b | af dd/e/ | ff ee | d2 z2 || FA A>B | AF DD/E/ |
-w: | | | | | 你 爱 我 | 我 爱 你 蜜 雪
-[V:2] z4 | D,[F,A,] .A,[F,A,] | .D,[F,A,] .A,[E,A,] | .G,,[G,D,] .A,,[E,A,] | .D,[F,A,] [D,,D,]2 || .D,,[D,F,] .A,,[D,F,] | .D,,[D,F,] .A,,[D,F,] |
-[V:1] FF ED | E2 z2 | FA A>B | AF DD/E/ | FF EE | D2 z2 | G2 G2 |
-w: 冰 城 甜 蜜 | 蜜 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 | 蜜 | 你 爱
-[V:2] .G,,[B,G,] .D,[B,G,] | .A,,[A,C] .E,[A,C] | .D,,[D,F,] .A,,[D,F,] | .D,,[D,F,] .A,,[D,F,] | .G,,[G,D,] .A,,[E,A,] | .D,,[A,,D,] .[A,,D,]2 | .G,,[B,G,] .D,[B,G,] |
-[V:1] GB z2 | A2 AF | E2 z2 | FA A>B | AF DD/E/ | FF EE | D2 z2 |]
-w: 我 呀 | 我 爱 | 你 | 你 爱 我 | 我 爱 你 蜜 雪 冰 城 甜 蜜 | 蜜
-[V:2] .G,,[B,G,] .D,[B,G,] | .D,,[F,D,] .A,,[F,D,] | .A,,[A,C] .E,[A,C] | .D,,[F,D,] .A,,[F,D,] | .D,,[F,D,] .A,,[F,D,] | .G,,[G,D,] .A,,[E,A,] | .D,.A,, [D,,D,]2 |]`} />
-```
-
-### 图表渲染
-
-> 用 `<Mermaid code={…} />` 传入图表源码，语法参见 [Mermaid 文档](https://mermaid.js.org/intro/syntax-reference.html)。构建期只输出空容器与源码，渲染器由原生 `<script>` 动态 import；图表跟随亮暗色模式重绘，进入视口附近才会加载渲染器。超宽图表可横向滚动，悬停或点击图表可切换为适应宽度。
-
-```Component [Mermaid.astro]
-<Mermaid code={`graph TD
-    A[间断点] --> B[第一类间断点]
-    A --> C[第二类间断点]
-
-    B --> B1[可去间断点]
-    B --> B2[跳跃间断点]
-
-    C --> C1[无穷间断点]
-    C --> C2[振荡间断点]`} />
-```
 
 ## 自定义组件
 
@@ -468,14 +385,6 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 
 语言从 `src/lib/shared/str.ts` 的 `getPromptLanguage` 里根据命令提示符前缀推断，使用 [plain-shiki](https://github.com/KazariEX/plain-shiki) 高亮。和之前的 Markdown 代码块使用相同的高亮语言和高亮主题配置。
 
-### EmojiClock
-
-> 现在几点了？
-
-```Component [EmojiClock.astro]
-<EmojiClock /> (半小时) <EmojiClock rotate={true} /> (5分钟) <EmojiClock datetime="2024-11-09 23:39:30" /> (指定时间)
-```
-
 ### FeedCard 和 FeedGroup
 
 > 用于在友链页面展示链接，由于友链页面的 Markdown 部分要可能会显示这个组件，就放在这个目录下大家都能调用了。去友链页面看看吧。
@@ -564,21 +473,6 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 <Pic src="https://picsum.photos/480/240" caption="说明文字，还支持通过 width 或 height 属性指定尺寸" />
 ```
 
-### Poetry
-
-> 在文章的 type 为 `tech` 或 `story` 时，它有不同的样式。
-
-```Component [Poetry.astro]
-<Poetry title="诗有诗的标题" author="一名作者" footer="可选的落款">
-
-如你所见，
-我,
-是一首——
-*诗*。
-
-</Poetry>
-```
-
 ### Quote
 
 > 在文章的 type 为 `tech` 或 `story` 时，它有不同的样式。
@@ -613,14 +507,6 @@ pyftsubset ./AlimamaFangYuanTi.ttf --text=Header文本 --flavor=woff2
 <ProjectGroup title="开发工具" items={[{"title":"VS Code","description":"IDE","icon":"devicon:vscode","link":"https://code.visualstudio.com/"},{"title":"PyCharm","description":"IDE","icon":"devicon:pycharm","link":"https://www.jetbrains.com/pycharm/"},{"title":"WebStorm","description":"IDE","icon":"devicon:webstorm","link":"https://www.jetbrains.com/webstorm/"}]} />
 
 <ProjectGroup title="框架" items={[{"title":"Vue","description":"渐进式 JavaScript 框架","icon":"devicon:vuejs","link":"https://vuejs.org/"},{"title":"Nuxt","description":"Vue 全栈框架","icon":"devicon:nuxtjs","link":"https://nuxt.com/"},{"title":"React","description":"用于构建用户界面的库","icon":"devicon:react","link":"https://react.dev/"}]} />
-```
-
-### SeriesGroup
-
-> 展示单一系列的整合卡片组件，用于展示一个完整的系列。支持多张封面图的展开显示，卡片上方为图片区域，下方为系列信息。
-
-```Component [SeriesGroup.astro]
-<SeriesGroup title="苍之彼方的四重奏 系列" description="《苍之彼方的四重奏》，《苍之彼方的四重奏 Extra 1》，《苍之彼方的四重奏 Extra 2》" cover={["https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1044620/header_schinese.jpg","https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1340130/header_schinese.jpg","https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2206340/header_schinese.jpg"]} count={3} link="/games/galgames/aokana" />
 ```
 
 ### Tab
@@ -737,22 +623,6 @@ Angular 是一个由 Google 开发的完整前端框架，适合大型应用。
 
 </Tab>
 ````
-
-### Timeline
-
-```Component [Timeline.astro]
-<Timeline items={[
-	{ caption: "前天", body: "看到了小兔" },
-	{ caption: "昨天", body: "是小鹿" },
-	{ caption: "今天", body: "是你。" }
-]} />
-
-<Timeline items={[
-	{ caption: "今日无事", body: "" },
-	{ caption: "今日依旧无事", body: "" },
-	{ caption: "然后——", body: "一件事\n两件事。\n\n*再添一笔*。" }
-]} />
-```
 
 ### Tip
 
