@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.sotkg.com/</id>
   <title>Mikuの极光星</title>
-  <updated>2026-10-15T13:31:02.294+00:00[UTC]</updated>
+  <updated>2026-10-15T14:25:02.201+00:00[UTC]</updated>
   <description>Mikuの鬆的个人博客，分享技术与生活。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。</description>
   <author>
     <name>Mikuの鬆</name>
@@ -121,20 +121,6 @@
     <summary>1Panel 的应用商店以 Docker Compose 编排文件为核心，通过图形化模板实现一键部署，第三方应用仓库只需拉取即可使用。编写第三方程序需要准备 logo.png、根目录声明文件 data.yml、版本目录下的参数 data.yml 与 docker-compose.yml，并可用 1panel app init 初始化模板。声明文件负责定义 key、名称、标签和类型，参数文件的 formFields 负责生成安装表单，其中 envKey 会传入 Compose 环境变量，还可配置外部数据库依赖。掌握这些文件格式与字段含义后，就能制作并安装自定义应用。</summary>
     <category term="技术探索"></category>
     <published>2024-10-17T11:24:26Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2024/12/break-change-2024</id>
-    <title>破坏型迁移：站点反复横跳与稳定工作</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[ <p>作者记录了自己博客的又一次破坏性迁移：域名换到 blog 子域名，评论数据不保留，部分旧文章被删除或重订。原因是长期把时间花在站点架构、域名和服务器调整上。此次迁移后，服务器与域名均已续费到 2026 年 9 月，系统换成 Huawei Cloud EulerOS，因此承诺在此之前不再迁移，站点可保持稳定运行，文章更新仍会缓慢。</p> <a class="view-full" href="https://blog.sotkg.com/2024/12/break-change-2024" target="_blank">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2024/12/break-change-2024"></link>
-    <summary>作者记录了自己博客的又一次破坏性迁移：域名换到 blog 子域名，评论数据不保留，部分旧文章被删除或重订。原因是长期把时间花在站点架构、域名和服务器调整上。此次迁移后，服务器与域名均已续费到 2026 年 9 月，系统换成 Huawei Cloud EulerOS，因此承诺在此之前不再迁移，站点可保持稳定运行，文章更新仍会缓慢。</summary>
-    <category term="日志记录"></category>
-    <published>2024-12-07T10:24:26Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2024/12/oyiso-tianligpt</id>
@@ -317,20 +303,6 @@
     <summary>Affine 是一款可自托管的类 Notion 知识库程序，相较 Outline 其官方文档更清晰，部署也更为简单。官方建议服务器至少 4 核 CPU、2GB 内存与 1.5GB 存储空间，小团队使用 2 核 CPU 也可应付。部署采用 Docker Compose，依次安装 Docker、创建数据目录、下载官方 docker-compose.yml 与 .env 文件，按需修改端口、域名和数据库等环境变量后执行 docker compose up -d 即可启动，通过 3010 端口访问。文章还提醒初始化后不要随意改动环境变量，整体体验表明 Affine 已适合作为团队自托管知识库。</summary>
     <category term="技术探索"></category>
     <published>2025-10-22T21:00:00Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2025/10/clarity-resource-list</id>
-    <title>为 Clarity 主题增加 ResourceList 资源列表组件</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://blog-files.101045700.xyz/2025/10/ResourceList.webp" alt="为 Clarity 主题增加 ResourceList 资源列表组件" /> <p>在 Clarity 博客主题（纸鹿修改版）的 /app/components/content/ 目录下新建 ResourceList.vue，即可获得一个资源列表与下载组件，用于替换部分页面组件并预留后续下载需求。组件通过 items 数组接收数据，每项支持 id、标题、副标题、摘要、标签、下载链接以及解压密码和下载密码，模板用 v-for 渲染卡片，有链接时显示可点击的下载按钮，无链接时按钮置灰禁用。样式基于 grid 与 flex 布局，窄屏自动转为纵向排列，配色沿用主题的 CSS 变量。在 Markdown 中用 ::resource-list 指令传入 items 的 YAML 配置即可调用，渲染出示例效果即表示接入成功。</p> <a class="view-full" href="https://blog.sotkg.com/2025/10/clarity-resource-list" target="_blank">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2025/10/clarity-resource-list"></link>
-    <summary>在 Clarity 博客主题（纸鹿修改版）的 /app/components/content/ 目录下新建 ResourceList.vue，即可获得一个资源列表与下载组件，用于替换部分页面组件并预留后续下载需求。组件通过 items 数组接收数据，每项支持 id、标题、副标题、摘要、标签、下载链接以及解压密码和下载密码，模板用 v-for 渲染卡片，有链接时显示可点击的下载按钮，无链接时按钮置灰禁用。样式基于 grid 与 flex 布局，窄屏自动转为纵向排列，配色沿用主题的 CSS 变量。在 Markdown 中用 ::resource-list 指令传入 items 的 YAML 配置即可调用，渲染出示例效果即表示接入成功。</summary>
-    <category term="站点魔改"></category>
-    <published>2025-10-20T14:00:00Z</published>
   </entry>
   <entry>
     <id>https://blog.sotkg.com/2025/10/fnos-vps-started</id>
@@ -541,19 +513,5 @@
     <summary>荣耀 X16 锐龙版（2024，R5-7640HS）装上 CachyOS 后出现两类问题：合盖睡眠后唤醒需 8 秒以上甚至睡死，以及 HDMI 外接显示器画面灰白发亮、KDE 中切换 RGB 与 YCbCr 色彩范围均无效。前者源于荣耀 BIOS 阉割了 S3、只剩 Modern Standby，通过在 UAFB 中打开 AMD RAID Mode 恢复正常秒唤醒；后者经排查无果，改用 USB-C 扩展坞走 DisplayPort 输出后色彩正常。作者认为该机 BIOS 精简过多、Linux 下问题难根治，不推荐 Linux 用户购买，但在 Windows 下表现良好。</summary>
     <category term="技术探索"></category>
     <published>2026-03-28T06:00:00Z</published>
-  </entry>
-  <entry>
-    <id>https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter</id>
-    <title>用 Codex 写了一个 Noctalia 插件 Process Reporter</title>
-    <author>
-      <name>Mikuの鬆</name>
-    </author>
-    <content type="html">
-      <![CDATA[<img src="https://fastly.jsdelivr.net/gh/PaloMiku/PaloMiku-Noctalia-Plugin@master/process-reporter/screenshot.png" alt="用 Codex 写了一个 Noctalia 插件 Process Reporter" /> <p>作者把主力机换成 Arch+Niri+Noctalia 后，用 GPT 5.3-Codex 的 Agent 能力开发了一个 Noctalia 插件 Process Reporter，用于把当前聚焦窗口信息和媒体播放状态合并上报到博客云函数。插件放在个人插件库 PaloMiku/noctalia-plugins 中，可通过自定义插件源安装更新，上报 JSON 包含窗口 appId、应用名、曲目标题、艺术家、封面与播放状态，并带 token 鉴权和限流防止滥用。经云函数处理后数据呈现在博客组件栏，实现实时在线状态展示。作者认为即使不熟悉 QT/QML 也能借 AI 配合文档写出功能完整的插件。</p> <a class="view-full" href="https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter" target="_blank">点击查看全文</a>]]>
-    </content>
-    <link href="https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter"></link>
-    <summary>作者把主力机换成 Arch+Niri+Noctalia 后，用 GPT 5.3-Codex 的 Agent 能力开发了一个 Noctalia 插件 Process Reporter，用于把当前聚焦窗口信息和媒体播放状态合并上报到博客云函数。插件放在个人插件库 PaloMiku/noctalia-plugins 中，可通过自定义插件源安装更新，上报 JSON 包含窗口 appId、应用名、曲目标题、艺术家、封面与播放状态，并带 token 鉴权和限流防止滥用。经云函数处理后数据呈现在博客组件栏，实现实时在线状态展示。作者认为即使不熟悉 QT/QML 也能借 AI 配合文档写出功能完整的插件。</summary>
-    <category term="技术探索"></category>
-    <published>2026-04-01T06:00:00Z</published>
   </entry>
 </feed>
