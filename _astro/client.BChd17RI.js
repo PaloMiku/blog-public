@@ -1,0 +1,1 @@
+var e={"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#39;`};function t(t){return String(t).replace(/[&<>"']/g,t=>e[t]??t)}function n(e){try{return decodeURIComponent(e)}catch{return e}}export{n,t};
